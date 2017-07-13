@@ -27,12 +27,26 @@ public class ServerDeviceController {
 
         List<ServerDeviceBean> dataList = new ArrayList<>();
 
-        if("rack".equals(servertype)){
+        String devicePrefix = "NE=3460300";
 
-            for(int i=1;i<=5;i++){
+        if(servertype.matches("^(rack|blade|highdensity|storagenode|thirdpartyserver)$")){
+
+            if("blade".equals(servertype)){
+                devicePrefix = "NE=3460300";
+            }else if("rack".equals(servertype)){
+                devicePrefix = "NE=3470300";
+            }else if("highdensity".equals(servertype)){
+                devicePrefix = "NE=3480300";
+            }else if("storagenode".equals(servertype)){
+                devicePrefix = "NE=3490300";
+            }else if("thirdpartyserver".equals(servertype)){
+                devicePrefix = "NE=3500300";
+            }
+
+            for(int i=1;i<=9;i++){
 
                 ServerDeviceBean serverDevice = new ServerDeviceBean();
-                serverDevice.setDn("NE=3460300"+i);
+                serverDevice.setDn(devicePrefix+i);
                 serverDevice.setIpAddress("192.168.10.8"+i);
                 serverDevice.setServerName("RH2288H V3-192.168.10.8"+i);
                 serverDevice.setServerModel("RH2288H V3");
@@ -40,20 +54,22 @@ public class ServerDeviceController {
                 serverDevice.setProductSN("2CA1CA0A1DD21"+i);
                 serverDevice.setUuid("2CA1CA0A-1DD2-11B2-9D5B-0018E1C5D86"+i);
 
-                if(i==1){
-                    List<ChildBladeBean> childBlades = new ArrayList<ChildBladeBean>();
-                    ChildBladeBean childBladeBean = new ChildBladeBean();
+                if("blade".equals(servertype)){
+                    if(i==1){
+                        List<ChildBladeBean> childBlades = new ArrayList<ChildBladeBean>();
+                        ChildBladeBean childBladeBean = new ChildBladeBean();
 
-                    childBladeBean.setIpAddress("192.168.10.82");
-                    childBladeBean.setDn("NE=34603002");
-                    childBlades.add(childBladeBean);
+                        childBladeBean.setIpAddress("192.168.10.82");
+                        childBladeBean.setDn(devicePrefix+"2");
+                        childBlades.add(childBladeBean);
 
-                    ChildBladeBean childBladeBean2 = new ChildBladeBean();
-                    childBladeBean2.setIpAddress("192.168.10.83");
-                    childBladeBean2.setDn("NE=34603003");
-                    childBlades.add(childBladeBean2);
+                        ChildBladeBean childBladeBean2 = new ChildBladeBean();
+                        childBladeBean2.setIpAddress("192.168.10.83");
+                        childBladeBean2.setDn(devicePrefix+"3");
+                        childBlades.add(childBladeBean2);
 
-                    serverDevice.setChildBlades(childBlades);
+                        serverDevice.setChildBlades(childBlades);
+                    }
                 }
 
                 dataList.add(serverDevice);
