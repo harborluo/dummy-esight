@@ -1,6 +1,8 @@
 package com.esight.controller;
 
 import com.esight.controller.bean.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -12,6 +14,9 @@ import java.util.Random;
  */
 @RestController
 public class ServerDeviceController {
+
+    private static final Logger logger = LoggerFactory.getLogger(ServerDeviceController.class);
+
 
     @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device")
     public @ResponseBody
@@ -31,19 +36,24 @@ public class ServerDeviceController {
 
         if("blade".equals(servertype)){
             devicePrefix = "NE=3460300";
-        }else if("rack".equals(servertype)){
+        }
+        else if("rack".equals(servertype)){
             devicePrefix = "NE=3470300";
-        }else if("highdensity".equals(servertype)){
+        }
+        else if("highdensity".equals(servertype)){
             devicePrefix = "NE=3480300";
-        }else if("storagenode".equals(servertype)){
+        }
+        else if("storagenode".equals(servertype)){
             devicePrefix = "NE=3490300";
-        }else if("thirdpartyserver".equals(servertype)){
+        }
+        else if("thirdpartyserver".equals(servertype)){
             devicePrefix = "NE=3500300";
-        }else {
+        }
+        else {
             return response;
         }
 
-//        if(servertype.matches("^(rack|blade|highdensity|storagenode|thirdpartyserver)$")){
+        logger.info("server type is {}, devicePrefix is {}", servertype, devicePrefix);
 
         for(int i=1;i<=9;i++){
 
@@ -190,6 +200,9 @@ public class ServerDeviceController {
         response.setData(dataList);
         response.setSize(1);
         response.setTotalPage(1);
+
+        logger.info("Device name is {}", dn);
+
         return response;
     }
 
