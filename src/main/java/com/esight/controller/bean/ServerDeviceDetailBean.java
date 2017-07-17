@@ -7,6 +7,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
@@ -107,10 +108,12 @@ public class ServerDeviceDetailBean {
 		this.desc = desc;
 	}
 
+	@JsonProperty("MemoryCapacity")
 	public String getMemoryCapacity() {
 		return memoryCapacity;
 	}
 
+	@JsonProperty("MemoryCapacity")
 	public void setMemoryCapacity(String memoryCapacity) {
 		this.memoryCapacity = memoryCapacity;
 	}
@@ -130,45 +133,54 @@ public class ServerDeviceDetailBean {
 	public void setCpuCores(int cpuCores) {
 		this.cpuCores = cpuCores;
 	}
-	
-	
 
+
+	@JsonProperty("CPU")
 	public List<CPUBean> getCPU() {
 		return CPU;
 	}
 
+	@JsonProperty("CPU")
 	public void setCPU(List<CPUBean> cPU) {
 		CPU = cPU;
 	}
 
+	@JsonProperty("Memory")
 	public List<MemoryBean> getMemory() {
 		return Memory;
 	}
 
+	@JsonProperty("Memory")
 	public void setMemory(List<MemoryBean> memory) {
 		Memory = memory;
 	}
 
+	@JsonProperty("Disk")
 	public List<DiskBean> getDisk() {
 		return Disk;
 	}
 
+	@JsonProperty("Disk")
 	public void setDisk(List<DiskBean> disk) {
 		Disk = disk;
 	}
 
+	@JsonProperty("PSU")
 	public List<PSUBean> getPSU() {
 		return PSU;
 	}
 
+	@JsonProperty("PSU")
 	public void setPSU(List<PSUBean> pSU) {
 		PSU = pSU;
 	}
 
+	@JsonProperty("Fan")
 	public List<FanBean> getFan() {
 		return Fan;
 	}
 
+	@JsonProperty("Fan")
 	public void setFan(List<FanBean> fan) {
 		Fan = fan;
 	}
@@ -186,7 +198,8 @@ public class ServerDeviceDetailBean {
 //		return super.toString();
 		
 		try {
-			ObjectWriter ow = new ObjectMapper().writer();//.withDefaultPrettyPrinter()
+			ObjectWriter ow = new ObjectMapper().configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, false).writer();//.withDefaultPrettyPrinter()
+
 			String json = ow.writeValueAsString(this);
 			return json;
 		} catch (JsonProcessingException e) {
