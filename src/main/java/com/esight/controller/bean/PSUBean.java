@@ -20,6 +20,18 @@ public class PSUBean  {
 	
 	private int inputMode;
 
+	private String moId;
+
+	private String uuid;
+
+	private int presentState;
+
+	private String powerProtocol;
+
+	private String ratePower;
+
+	private String model;
+
 	public String getName() {
 		return name;
 	}
@@ -76,5 +88,51 @@ public class PSUBean  {
 		this.inputMode = inputMode;
 	}
 
+	public String getMoId() {
+		return moId;
+	}
 
+	public void setMoId(String moId) {
+		this.moId = moId;
+	}
+
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
+	public int getPresentState() {
+		return presentState;
+	}
+
+	public void setPresentState(int presentState) {
+		this.presentState = presentState;
+	}
+
+	public String getPowerProtocol() {
+		return powerProtocol;
+	}
+
+	public void setPowerProtocol(String powerProtocol) {
+		this.powerProtocol = powerProtocol;
+	}
+
+	public String getRatePower() {
+		return ratePower;
+	}
+
+	public void setRatePower(String ratePower) {
+		this.ratePower = ratePower;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
 }

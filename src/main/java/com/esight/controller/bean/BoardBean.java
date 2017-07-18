@@ -23,6 +23,10 @@ public class BoardBean  {
 	
 	private int healthState;
 
+	private String uuid;
+
+	private String moId;
+
 	public String getName() {
 		return name;
 	}
@@ -95,6 +99,19 @@ public class BoardBean  {
 		this.healthState = healthState;
 	}
 
-	
+	public String getUuid() {
+		return uuid;
+	}
 
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
+	public String getMoId() {
+		return moId;
+	}
+
+	public void setMoId(String moId) {
+		this.moId = moId;
+	}
 }

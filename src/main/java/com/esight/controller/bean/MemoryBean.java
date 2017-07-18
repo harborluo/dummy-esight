@@ -18,6 +18,14 @@ public class MemoryBean  {
 	
 	private int healthState;
 
+	private String moId;
+
+	private String uuid;
+
+	private int presentState;
+
+
+
 	public String getName() {
 		return name;
 	}
@@ -58,5 +66,27 @@ public class MemoryBean  {
 		this.frequency = frequency;
 	}
 
-	
+	public String getMoId() {
+		return moId;
+	}
+
+	public void setMoId(String moId) {
+		this.moId = moId;
+	}
+
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
+
+	public int getPresentState() {
+		return presentState;
+	}
+
+	public void setPresentState(int presentState) {
+		this.presentState = presentState;
+	}
 }

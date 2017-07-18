@@ -31,7 +31,13 @@ public class ServerDeviceDetailBean {
     private int cpuNums;
     
     private int cpuCores;
-    
+
+    private String productSn;
+
+    private String bmcMacAddr;
+
+    private String mode;
+
     @JsonProperty("MemoryCapacity")
     private String memoryCapacity;
     
@@ -49,8 +55,17 @@ public class ServerDeviceDetailBean {
 	
 	@JsonProperty("Fan")
 	private List<FanBean> Fan = new ArrayList<FanBean>();
+
+	@JsonProperty("RAID")
+	private List<RAIDBean> RAID = new ArrayList<>();
+
+	@JsonProperty("NetworkCard")
+	private List<NetworkCardBean> NetworkCard = new ArrayList<>();
+
+	@JsonProperty("PCIE")
+	private List<PCIEBean> PCIE = new ArrayList<>();
 	
-	private List<BoardBean> board = new ArrayList<BoardBean>();
+	private List<BoardBean> board = new ArrayList<>();
 
 	public String getDn() {
 		return dn;
@@ -189,8 +204,62 @@ public class ServerDeviceDetailBean {
 		return board;
 	}
 
+	public String getProductSn() {
+		return productSn;
+	}
+
+	public void setProductSn(String productSn) {
+		this.productSn = productSn;
+	}
+
+	public String getBmcMacAddr() {
+		return bmcMacAddr;
+	}
+
+	public void setBmcMacAddr(String bmcMacAddr) {
+		this.bmcMacAddr = bmcMacAddr;
+	}
+
+	public String getMode() {
+		return mode;
+	}
+
+	public void setMode(String mode) {
+		this.mode = mode;
+	}
+
 	public void setBoard(List<BoardBean> board) {
 		this.board = board;
+	}
+
+	@JsonProperty("RAID")
+	public List<RAIDBean> getRAID() {
+		return RAID;
+	}
+
+	@JsonProperty("RAID")
+	public void setRAID(List<RAIDBean> RAID) {
+		this.RAID = RAID;
+	}
+
+	@JsonProperty("NetworkCard")
+	public List<NetworkCardBean> getNetworkCard() {
+		return NetworkCard;
+	}
+
+	@JsonProperty("NetworkCard")
+	public void setNetworkCard(List<NetworkCardBean> networkCard) {
+		NetworkCard = networkCard;
+	}
+
+	@JsonProperty("PCIE")
+	public List<PCIEBean> getPCIE() {
+		return PCIE;
+	}
+
+	@JsonProperty("PCIE")
+	public void setPCIE(List<PCIEBean> PCIE) {
+		this.PCIE = PCIE;
 	}
 
 	@Override

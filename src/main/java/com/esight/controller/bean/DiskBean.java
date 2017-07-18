@@ -14,6 +14,10 @@ public class DiskBean  {
 	
 	private int healthState;
 
+	private String moId;
+
+	private String uuid;
+
 	public String getName() {
 		return name;
 	}
@@ -38,5 +42,19 @@ public class DiskBean  {
 		this.healthState = healthState;
 	}
 
+	public String getMoId() {
+		return moId;
+	}
 
+	public void setMoId(String moId) {
+		this.moId = moId;
+	}
+
+	public String getUuid() {
+		return uuid;
+	}
+
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 }

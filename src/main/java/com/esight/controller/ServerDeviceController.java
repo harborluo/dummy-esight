@@ -114,6 +114,9 @@ public class ServerDeviceController {
         serverDevice.setCpuNums(2);
         serverDevice.setMemoryCapacity("32768MB");
 
+        serverDevice.setBmcMacAddr("f0:98:38:b1:e0:a0");
+        serverDevice.setProductSn("2CA1CA0A1DD211");
+
         //memory
         List<MemoryBean> memoryBeanList = new ArrayList<>();
         for(int idx=1;idx<=4;idx++){
@@ -123,6 +126,10 @@ public class ServerDeviceController {
             memoryBean.setHealthState(getRandomSate());
             memoryBean.setManufacture("Samsung");
             memoryBean.setName("Memory-"+idx);
+
+            memoryBean.setMoId(i+""+idx);
+            memoryBean.setPresentState(0);
+            memoryBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82memory0"+idx);
 
             memoryBeanList.add(memoryBean);
         }
@@ -139,6 +146,9 @@ public class ServerDeviceController {
             boardBean.setManuTime("2016-12-30 13:57:00");
             boardBean.setType("0");
 
+            boardBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82");
+            boardBean.setMoId(""+idx);
+
             boardBeanList.add(boardBean);
         }
         serverDevice.setBoard(boardBeanList);
@@ -152,6 +162,11 @@ public class ServerDeviceController {
             cpuBean.setFrequency("3400 MHz");
             cpuBean.setHealthState(getRandomSate());
             cpuBean.setModel("Genuine Intel(R) CPU @ 3.40GHz");
+
+            cpuBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82cpuCPU1mainboard");
+            cpuBean.setPresentState(1);
+            cpuBean.setMoId(idx+"");
+
             cpuBeanList.add(cpuBean);
         }
         serverDevice.setCPU(cpuBeanList);
@@ -163,6 +178,10 @@ public class ServerDeviceController {
             diskBean.setName("HardDisk-"+i+idx);
             diskBean.setHealthState(getRandomSate());
             diskBean.setLocation(""+i+idx);
+
+            diskBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82diskHardDisk-1"+idx);
+            diskBean.setMoId(""+idx);
+
             diskBeanList.add(diskBean);
         }
         serverDevice.setDisk(diskBeanList);
@@ -177,6 +196,14 @@ public class ServerDeviceController {
             psuBean.setName("PS"+i+idx);
             psuBean.setManufacture("HUAWE");
             psuBean.setVersion("DC: 107  PFC: 107");
+
+            psuBean.setUuid("RackServer2CA1CA0A1DD211powerPS1");
+            psuBean.setPresentState(1);
+            psuBean.setPowerProtocol("0");
+            psuBean.setRatePower("750.0 W");
+            psuBean.setModel("HUAWE 750W PLATINUM PS");
+            psuBean.setMoId(""+idx);
+
             psuBeanList.add(psuBean);
         }
         serverDevice.setPSU(psuBeanList);
@@ -191,9 +218,57 @@ public class ServerDeviceController {
             fanBean.setRotate("3720");
             fanBean.setRotatePercent("255");
 
+            fanBean.setMoId(""+idx);
+            fanBean.setUuid("RackServer2CA1CA0A1DD211fanFan1 Front");
+            fanBean.setPresentState(1);
+
             fanBeanList.add(fanBean);
         }
         serverDevice.setFan(fanBeanList);
+
+        //RAID
+        List<RAIDBean> RAIDList = new ArrayList<>();
+        for(int idx=1;idx<=4;idx++){
+            RAIDBean bean = new RAIDBean();
+            bean.setMoId(""+idx);
+            bean.setHealthState(getRandomSate());
+            bean.setRaidType("LSI SAS3108");
+            bean.setInterfaceType("255");
+            bean.setBbuType("N/A");
+            bean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82raid"+idx);
+
+            RAIDList.add(bean);
+        }
+        serverDevice.setRAID(RAIDList);
+
+        //NetworkCard
+        List<NetworkCardBean> NetworkCardList = new ArrayList<>();
+        for(int idx=1;idx<=4;idx++){
+            NetworkCardBean bean = new NetworkCardBean();
+            bean.setNetWorkCardName("NIC"+idx);
+            bean.setMacAdress("18-DE-D7-81-AF-CC");
+            bean.setMoId(""+idx);
+            bean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82networkNIC"+idx);
+
+            NetworkCardList.add(bean);
+        }
+        serverDevice.setNetworkCard(NetworkCardList);
+
+        //PCIE
+        List<PCIEBean> PCIEList = new ArrayList<>();
+        for(int idx=1;idx<=4;idx++){
+            PCIEBean bean = new PCIEBean();
+            bean.setName("pcie"+idx);
+            bean.setMoId(""+idx);
+            bean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H pcie"+idx);
+            bean.setPciecardManufacturer("Huawei");
+            bean.setPcieSsdCardHealthStatus(getRandomSate());
+            bean.setPcieSsdCardLifeLeft("2 Month");
+
+            PCIEList.add(bean);
+        }
+        serverDevice.setPCIE(PCIEList);
+
 
         List<ServerDeviceDetailBean> dataList = new ArrayList<>();
         dataList.add(serverDevice);
