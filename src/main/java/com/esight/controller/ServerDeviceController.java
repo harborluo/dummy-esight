@@ -230,6 +230,7 @@ public class ServerDeviceController {
         List<RAIDBean> RAIDList = new ArrayList<>();
         for(int idx=1;idx<=4;idx++){
             RAIDBean bean = new RAIDBean();
+            bean.setName("RAID-"+idx);
             bean.setMoId(""+idx);
             bean.setHealthState(getRandomSate());
             bean.setRaidType("LSI SAS3108");
