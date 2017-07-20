@@ -145,6 +145,7 @@ public class ServerDeviceController {
             boardBean.setSn("022HLVCNGC011388");
             boardBean.setManuTime("2016-12-30 13:57:00");
             boardBean.setType("0");
+            boardBean.setPartNumber("J4300-2FEL-S-AC-TAA"+idx);
 
             boardBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82");
             boardBean.setMoId(""+idx);
