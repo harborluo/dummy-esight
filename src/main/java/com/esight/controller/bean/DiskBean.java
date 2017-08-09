@@ -1,8 +1,6 @@
 package com.esight.controller.bean;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+
 
 
 
@@ -17,6 +15,8 @@ public class DiskBean  {
 	private String moId;
 
 	private String uuid;
+
+	private int presentState=1;
 
 	public String getName() {
 		return name;
@@ -56,5 +56,13 @@ public class DiskBean  {
 
 	public void setUuid(String uuid) {
 		this.uuid = uuid;
+	}
+
+	public int getPresentState() {
+		return presentState;
+	}
+
+	public void setPresentState(int presentState) {
+		this.presentState = presentState;
 	}
 }

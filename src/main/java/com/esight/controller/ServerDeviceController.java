@@ -130,6 +130,7 @@ public class ServerDeviceController {
             memoryBean.setMoId(i+""+idx);
             memoryBean.setPresentState(0);
             memoryBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82memory0"+idx);
+            memoryBean.setPresentState(1);
 
             memoryBeanList.add(memoryBean);
         }
@@ -179,6 +180,7 @@ public class ServerDeviceController {
             diskBean.setName("HardDisk-"+i+idx);
             diskBean.setHealthState(getRandomSate());
             diskBean.setLocation(""+i+idx);
+            diskBean.setHealthState(1);
 
             diskBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82diskHardDisk-1"+idx);
             diskBean.setMoId(""+idx);

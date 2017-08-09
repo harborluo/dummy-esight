@@ -22,9 +22,7 @@ public class MemoryBean  {
 
 	private String uuid;
 
-	private int presentState;
-
-
+	private int presentState=1;
 
 	public String getName() {
 		return name;
