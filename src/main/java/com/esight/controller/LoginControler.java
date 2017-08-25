@@ -1,5 +1,7 @@
 package com.esight.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.MessageDigest;
@@ -15,6 +17,7 @@ import java.util.UUID;
 @RestController
 public class LoginControler {
 
+    private static final Logger logger = LoggerFactory.getLogger(LoginControler.class);
 
     private String hashMD5 (String source){
 
@@ -42,10 +45,14 @@ public class LoginControler {
 
     @RequestMapping(method= RequestMethod.PUT,path = "/rest/openapi/sm/session")
     public @ResponseBody
-    ESightResponseObject login(@RequestHeader(value="userid", required=false, defaultValue="userid") String userid,
-                                  @RequestHeader(value="value", required=false, defaultValue="value") String value) {
+    ESightResponseObject login(@RequestParam(value="userid", required=false, defaultValue="openApiUser") String userid,
+                                  @RequestParam(value="value", required=false, defaultValue="Simple.0") String value) {
         ESightResponseObject responseObject = new ESightResponseObject();
+
+        logger.info("user/password is {}/{}",userid,value);
+
         if("openApiUser".equals(userid)&&"Simple.0".equals(value)){
+//        if(2>1){
 
             String openid = UUID.randomUUID().toString();
 
@@ -57,11 +64,18 @@ public class LoginControler {
 
             responseObject.setDescription("login successfully.");
             responseObject.setCode(0);
+
+            logger.info("login successfully.");
+
         }else{
             responseObject.setData("");
             responseObject.setDescription("login failed.");
             responseObject.setCode(-1);
+            logger.info("login failed.");
         }
+
+
+
         return responseObject;
     }
 
@@ -77,6 +91,9 @@ public class LoginControler {
             openidSet.remove(openid);
             responseObject.setCode(0);
             responseObject.setDescription("Operation success.");
+
+            logger.info("openid {} destroyed", openid);
+
         }else{
             responseObject.setCode(1);
             responseObject.setDescription("openID is wrong.");
