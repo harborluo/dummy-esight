@@ -87,14 +87,14 @@ public class LoginControler {
         ESightResponseObject responseObject = new ESightResponseObject();
         responseObject.setData(null);
 
-        if(openidSet.contains(openid) && openidSet.contains(id)){
+        if (openidSet.contains(openid) && openidSet.contains(id)) {
             openidSet.remove(openid);
             responseObject.setCode(0);
             responseObject.setDescription("Operation success.");
 
             logger.info("openid {} destroyed", openid);
 
-        }else{
+        } else {
             responseObject.setCode(1);
             responseObject.setDescription("openID is wrong.");
         }

@@ -1,19 +1,15 @@
 package com.esight.controller.bean;
 
-
-
-
-
 public class CPUBean  {
-	
+
 	private String name;
-	
+
 	private int healthState;
-	
+
 	private String frequency;
-	
+
 	private String manufacture;
-	
+
 	private String model;
 
 	private String moId;

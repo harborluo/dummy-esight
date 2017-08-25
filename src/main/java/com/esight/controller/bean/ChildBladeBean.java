@@ -1,7 +1,7 @@
 package com.esight.controller.bean;
 
 public class ChildBladeBean {
-	
+
 	private String dn;
 	
 	private String ipAddress;

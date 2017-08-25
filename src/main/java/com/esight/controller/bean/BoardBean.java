@@ -1,26 +1,29 @@
 package com.esight.controller.bean;
 
+/**
+ *
+ */
 public class BoardBean  {
-	
+
 	private String name;
-	
+
 	/**
-	 0：主板
-	 1：交换板
+	 *   0：主板
+	 *  1：交换板
 	 * @return
 	 */
 	private String type;
-	
+
 	private String sn;
-	
+
 	private String partNumber;
-	
+
 	private String manufacture;
-	
+
 	private String manuTime;
-	
+
 	private String productSn;
-	
+
 	private int healthState;
 
 	private String uuid;
@@ -35,7 +38,6 @@ public class BoardBean  {
 		this.name = name;
 	}
 
-	
 	public String getType() {
 		return type;
 	}
@@ -86,9 +88,9 @@ public class BoardBean  {
 
 	/**
 	   0   ：正常
-	  -1   ：离线
-	  -2   ：未知
-	   其他：故障
+	  -1   ：离线
+	  -2   ：未知
+
 	 * @return
 	 */
 	public int getHealthState() {

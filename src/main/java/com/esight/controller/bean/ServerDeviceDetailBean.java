@@ -264,10 +264,9 @@ public class ServerDeviceDetailBean {
 
 	@Override
 	public String toString() {
-//		return super.toString();
-		
 		try {
-			ObjectWriter ow = new ObjectMapper().configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, false).writer();//.withDefaultPrettyPrinter()
+			ObjectWriter ow = new ObjectMapper().configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, false).writer();
+			//.withDefaultPrettyPrinter()
 
 			String json = ow.writeValueAsString(this);
 			return json;
@@ -277,5 +276,4 @@ public class ServerDeviceDetailBean {
 		return null;
 	}
 
-	
 }
