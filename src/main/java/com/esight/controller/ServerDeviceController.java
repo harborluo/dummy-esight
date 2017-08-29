@@ -145,7 +145,7 @@ public class ServerDeviceController {
             boardBean.setManufacture("Huawei");
             boardBean.setSn("022HLVCNGC011388");
             boardBean.setManuTime("2016-12-30 13:57:00");
-            boardBean.setType("0");
+            boardBean.setType(rand(new String[]{"0","1"}));
             boardBean.setPartNumber("J4300-2FEL-S-AC-TAA"+idx);
 
             boardBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82");
@@ -180,7 +180,6 @@ public class ServerDeviceController {
             diskBean.setName("HardDisk-"+i+idx);
             diskBean.setHealthState(getRandomSate());
             diskBean.setLocation(""+i+idx);
-            diskBean.setHealthState(1);
 
             diskBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82diskHardDisk-1"+idx);
             diskBean.setMoId(""+idx);
@@ -194,7 +193,7 @@ public class ServerDeviceController {
         for(int idx=1;idx<=2;idx++){
             PSUBean psuBean = new PSUBean();
             psuBean.setHealthState(getRandomSate());
-            psuBean.setInputMode(1);
+            psuBean.setInputMode(rand(new Integer[]{1,2,3}));
             psuBean.setInputPower("138.0 W");
             psuBean.setName("PS"+i+idx);
             psuBean.setManufacture("HUAWE");
@@ -202,7 +201,7 @@ public class ServerDeviceController {
 
             psuBean.setUuid("RackServer2CA1CA0A1DD211powerPS1");
             psuBean.setPresentState(1);
-            psuBean.setPowerProtocol("0");
+            psuBean.setPowerProtocol(rand(new String[]{"0","1"}));
             psuBean.setRatePower("750.0 W");
             psuBean.setModel("HUAWE 750W PLATINUM PS");
             psuBean.setMoId(""+idx);
@@ -217,9 +216,9 @@ public class ServerDeviceController {
             FanBean fanBean = new FanBean();
             fanBean.setName("Fan_"+i+idx);
             fanBean.setHealthState(getRandomSate());
-            fanBean.setControlModel("0");
+            fanBean.setControlModel(rand(new String[]{"0","1"}));
             fanBean.setRotate("3720");
-            fanBean.setRotatePercent("255");
+            fanBean.setRotatePercent(rand(new String[]{"10","20","30","255"}));
 
             fanBean.setMoId(""+idx);
             fanBean.setUuid("RackServer2CA1CA0A1DD211fanFan1 Front");
@@ -237,7 +236,7 @@ public class ServerDeviceController {
             bean.setMoId(""+idx);
             bean.setHealthState(getRandomSate());
             bean.setRaidType("LSI SAS3108");
-            bean.setInterfaceType("255");
+            bean.setInterfaceType(rand(new String[]{"1","2","3","4","5","5","255","unknown"}));
             bean.setBbuType("N/A");
             bean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82raid"+idx);
 
@@ -286,8 +285,11 @@ public class ServerDeviceController {
     }
 
     private int getRandomSate(){
-        int states[] = {0,-1,-2};
-        return states[new  Random().nextInt(3)];
+        return rand(new Integer[]{0,-1,-2});
+    }
+
+    private <T> T rand(final T[] array){
+        return array[new  Random().nextInt(array.length)];
     }
 
 }
