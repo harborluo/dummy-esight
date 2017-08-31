@@ -1,5 +1,6 @@
 package com.esight.controller;
 
+import com.esight.com.esight.json.DummyJson;
 import com.esight.controller.bean.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -89,8 +90,11 @@ public class ServerDeviceController {
 
 //        }
 
-
         response.setData(dataList);
+
+        if("blade".equals(servertype)) {
+            response.setData(DummyJson.getInstance().getData());
+        }
 
         return response;
     }
@@ -105,7 +109,14 @@ public class ServerDeviceController {
         int i = Integer.parseInt(dn.substring(dn.length()-1,dn.length()));
 
         serverDevice.setDn(dn);
-        serverDevice.setIpAddress("192.168.10.8"+i);
+
+
+        serverDevice.setIpAddress(DummyJson.getInstance().getIP(dn));
+
+        if(serverDevice.getIpAddress()==null) {
+            serverDevice.setIpAddress("192.168.10.8" + i);
+        }
+
         serverDevice.setName("RH2288H V3-192.168.10.8"+i);
         serverDevice.setType("RH2288H V3");
         serverDevice.setUuid("2CA1CA0A-1DD2-11B2-9D5B-0018E1C5D86"+i);
@@ -291,5 +302,7 @@ public class ServerDeviceController {
     private <T> T rand(final T[] array){
         return array[new  Random().nextInt(array.length)];
     }
+
+
 
 }

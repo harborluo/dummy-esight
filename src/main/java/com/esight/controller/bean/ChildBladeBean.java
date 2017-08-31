@@ -22,4 +22,13 @@ public class ChildBladeBean {
 		this.ipAddress = ipAddress;
 	}
 
+	public ChildBladeBean(){
+
+	}
+
+	public ChildBladeBean(String dn, String ipAddress) {
+		this.dn = dn;
+		this.ipAddress = ipAddress;
+	}
+
 }

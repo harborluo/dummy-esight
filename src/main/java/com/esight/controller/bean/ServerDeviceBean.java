@@ -19,7 +19,17 @@ public class ServerDeviceBean {
 	private String uuid;
 	private String status;
 	private String description;
-    private List<ChildBladeBean> childBlades = new ArrayList<ChildBladeBean>();
+	private String version;
+
+	public String getVersion() {
+		return version;
+	}
+
+	public void setVersion(String version) {
+		this.version = version;
+	}
+
+	private List<ChildBladeBean> childBlades = new ArrayList<ChildBladeBean>();
 
 	public String getDn() {
 		return dn;
