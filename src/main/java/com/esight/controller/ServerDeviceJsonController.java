@@ -31,8 +31,7 @@ public class ServerDeviceJsonController {
                                       @RequestParam(value="size", required=false, defaultValue="100") int size,
                                       @RequestHeader(value="openid", defaultValue="openid") String openid) {
 
-        logger.info("Querying server list of type {}",servertype);
-
+        logger.info("Querying server list of type = {}",servertype);
 
         return readJson(servertype+".json");
     }
@@ -42,7 +41,7 @@ public class ServerDeviceJsonController {
     String detail(@RequestParam(value="dn", required=false, defaultValue="dn") String dn,
                                           @RequestHeader(value="openid", defaultValue="openid") String openid) {
 
-        logger.info("Querying server detail with dn= {}",dn);
+        logger.info("Querying server detail with dn = {}",dn);
 
         return readJson(dn+".json");
     }
