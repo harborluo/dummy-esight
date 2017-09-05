@@ -19,7 +19,7 @@ public class ServerDeviceController {
     private static final Logger logger = LoggerFactory.getLogger(ServerDeviceController.class);
 
 
-    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device")
+    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device2")
     public @ResponseBody
     ResponseServerDeviceListBean list(@RequestParam(value="servertype", required=false, defaultValue="servertype") String servertype,
                                       @RequestParam(value="start", required=false, defaultValue="1") int start,
@@ -99,7 +99,7 @@ public class ServerDeviceController {
         return response;
     }
 
-    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device/detail")
+    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device/detail2")
     public @ResponseBody
     ResponseServerDeviceDetailBean detail(@RequestParam(value="dn", required=false, defaultValue="dn") String dn,
                                           @RequestHeader(value="openid", defaultValue="openid") String openid) {
@@ -130,7 +130,7 @@ public class ServerDeviceController {
 
         //memory
         List<MemoryBean> memoryBeanList = new ArrayList<>();
-        for(int idx=1;idx<=4;idx++){
+        for(int idx=1;idx<=2;idx++){
             MemoryBean memoryBean = new MemoryBean();
             memoryBean.setCapacity("8192 MB");
             memoryBean.setFrequency("2133 MHz");
@@ -139,12 +139,37 @@ public class ServerDeviceController {
             memoryBean.setName("Memory-"+idx);
 
             memoryBean.setMoId(i+""+idx);
-            memoryBean.setPresentState(0);
             memoryBean.setUuid("RackServer2CA1CA0A1DD211motherboardRH2288H V3-192.168.10.82memory0"+idx);
             memoryBean.setPresentState(1);
 
             memoryBeanList.add(memoryBean);
         }
+        /**
+         {
+         "name": "DIMM000",
+         "capacity": "8192 MB",
+         "manufacture": "Samsung",
+         "frequency": "2133 MHz",
+         "healthState": 0,
+         "moId": "48466",
+         "uuid": "ChassisServer2102300742N0E3000156motherboardblade4memoryDIMM0000",
+         "presentState": 1
+         },
+         {
+         "name": "DIMM100",
+         "capacity": "8192 MB",
+         "manufacture": "Samsung",
+         "frequency": "2133 MHz",
+         "healthState": 0,
+         "moId": "48435",
+         "uuid": "ChassisServer2102300742N0E3000156motherboardblade4memoryDIMM10012",
+         "presentState": 1
+         }
+         */
+
+
+
+
         serverDevice.setMemory(memoryBeanList);
 
         //board
@@ -168,7 +193,7 @@ public class ServerDeviceController {
 
         //cpu
         List<CPUBean> cpuBeanList = new ArrayList<>();
-        for(int idx=1;idx<=3;idx++){
+        for(int idx=1;idx<=2;idx++){
             CPUBean cpuBean = new CPUBean();
             cpuBean.setName("CPU"+i+idx);
             cpuBean.setManufacture("Intel(R) Corporation");
@@ -186,7 +211,7 @@ public class ServerDeviceController {
 
         //disk
         List<DiskBean> diskBeanList = new ArrayList<>();
-        for(int idx=1;idx<=3;idx++){
+        for(int idx=1;idx<=2;idx++){
             DiskBean diskBean = new DiskBean();
             diskBean.setName("HardDisk-"+i+idx);
             diskBean.setHealthState(getRandomSate());
@@ -223,7 +248,7 @@ public class ServerDeviceController {
 
         //fan
         List<FanBean> fanBeanList = new ArrayList<>();
-        for(int idx=1;idx<=4;idx++){
+        for(int idx=1;idx<=2;idx++){
             FanBean fanBean = new FanBean();
             fanBean.setName("Fan_"+i+idx);
             fanBean.setHealthState(getRandomSate());
@@ -241,7 +266,7 @@ public class ServerDeviceController {
 
         //RAID
         List<RAIDBean> RAIDList = new ArrayList<>();
-        for(int idx=1;idx<=4;idx++){
+        for(int idx=1;idx<=2;idx++){
             RAIDBean bean = new RAIDBean();
             bean.setName("RAID-"+idx);
             bean.setMoId(""+idx);
@@ -257,7 +282,7 @@ public class ServerDeviceController {
 
         //NetworkCard
         List<NetworkCardBean> NetworkCardList = new ArrayList<>();
-        for(int idx=1;idx<=4;idx++){
+        for(int idx=1;idx<=2;idx++){
             NetworkCardBean bean = new NetworkCardBean();
             bean.setNetWorkCardName("NIC"+idx);
             bean.setMacAdress("18-DE-D7-81-AF-CC");

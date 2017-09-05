@@ -1,0 +1,629 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603438",
+      "ipAddress": "172.100.10.11",
+      "name": "RH2288 V3-172.100.10.11",
+      "type": "RH2288 V3",
+      "uuid": "7EE0E582-866E-11E7-A8D4-0018AC640A0B",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:0a:0b",
+      "productSn": "2102310YQE10E2288901",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 16,
+      "MemoryCapacity": "16384MB",
+      "CPU": [
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2400 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz",
+          "moId": "44549",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11cpuCPU1mainboard",
+          "presentState": "1"
+        },
+        {
+          "name": "CPU2",
+          "healthState": 0,
+          "frequency": "2400 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz",
+          "moId": "44509",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11cpuCPU2mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44501",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44513",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44514",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44515",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44516",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44517",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44518",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44519",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44536",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44537",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44538",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44539",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44540",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "44541",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "44535",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memoryDIMM0000",
+          "presentState": "1"
+        },
+        {
+          "name": "DIMM100",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "44507",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11memoryDIMM1008",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk0",
+          "healthState": 0,
+          "location": "1",
+          "presentState": "1",
+          "moId": "44512",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskDisk0HDD Plane"
+        },
+        {
+          "name": "DiskD",
+          "healthState": 0,
+          "location": "28",
+          "presentState": "1",
+          "moId": "44525",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskDiskDHDD Plane"
+        },
+        {
+          "name": "HardDisk-10",
+          "healthState": -1,
+          "location": "10",
+          "presentState": "0",
+          "moId": "44543",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-10"
+        },
+        {
+          "name": "HardDisk-11",
+          "healthState": -1,
+          "location": "11",
+          "presentState": "0",
+          "moId": "44520",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-11"
+        },
+        {
+          "name": "HardDisk-12",
+          "healthState": -1,
+          "location": "12",
+          "presentState": "0",
+          "moId": "44542",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-12"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "44522",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "44544",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "44521",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "44547",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "44526",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "44545",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "44524",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "44534",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "44503",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-20"
+        },
+        {
+          "name": "HardDisk-21",
+          "healthState": -1,
+          "location": "21",
+          "presentState": "0",
+          "moId": "44499",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-21"
+        },
+        {
+          "name": "HardDisk-22",
+          "healthState": -1,
+          "location": "22",
+          "presentState": "0",
+          "moId": "44500",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-22"
+        },
+        {
+          "name": "HardDisk-23",
+          "healthState": -1,
+          "location": "23",
+          "presentState": "0",
+          "moId": "44506",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-23"
+        },
+        {
+          "name": "HardDisk-24",
+          "healthState": -1,
+          "location": "24",
+          "presentState": "0",
+          "moId": "44504",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-24"
+        },
+        {
+          "name": "HardDisk-25",
+          "healthState": -1,
+          "location": "25",
+          "presentState": "0",
+          "moId": "44505",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-25"
+        },
+        {
+          "name": "HardDisk-26",
+          "healthState": -1,
+          "location": "26",
+          "presentState": "0",
+          "moId": "44508",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-26"
+        },
+        {
+          "name": "HardDisk-27",
+          "healthState": -1,
+          "location": "27",
+          "presentState": "0",
+          "moId": "44510",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-27"
+        },
+        {
+          "name": "HardDisk-29",
+          "healthState": -1,
+          "location": "29",
+          "presentState": "0",
+          "moId": "44511",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-29"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "44554",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-30",
+          "healthState": -1,
+          "location": "30",
+          "presentState": "0",
+          "moId": "44523",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-30"
+        },
+        {
+          "name": "HardDisk-31",
+          "healthState": -1,
+          "location": "31",
+          "presentState": "0",
+          "moId": "44546",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-31"
+        },
+        {
+          "name": "HardDisk-32",
+          "healthState": -1,
+          "location": "32",
+          "presentState": "0",
+          "moId": "44527",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-32"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "44530",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "44552",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "44529",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "44550",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "44528",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-8"
+        },
+        {
+          "name": "HardDisk-9",
+          "healthState": -1,
+          "location": "9",
+          "presentState": "0",
+          "moId": "44548",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11diskHardDisk-9"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "66.0 W",
+          "manufacture": "LTEON",
+          "version": "20",
+          "inputMode": 1,
+          "moId": "44563",
+          "uuid": "RackServer2102310YQE10E2288901powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "750.0 W",
+          "model": "LTEON 750W PLATINUM PS"
+        },
+        {
+          "name": "PS2",
+          "healthState": 0,
+          "inputPower": "48.0 W",
+          "manufacture": "LTEON",
+          "version": "20",
+          "inputMode": 1,
+          "moId": "44564",
+          "uuid": "RackServer2102310YQE10E2288901powerPS2chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "750.0 W",
+          "model": "LTEON 750W PLATINUM PS"
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "2640",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44580",
+          "uuid": "RackServer2102310YQE10E2288901fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44569",
+          "uuid": "RackServer2102310YQE10E2288901fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "2520",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44559",
+          "uuid": "RackServer2102310YQE10E2288901fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44575",
+          "uuid": "RackServer2102310YQE10E2288901fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "2520",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44556",
+          "uuid": "RackServer2102310YQE10E2288901fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44581",
+          "uuid": "RackServer2102310YQE10E2288901fanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "2520",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44555",
+          "uuid": "RackServer2102310YQE10E2288901fanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "44486",
+          "uuid": "RackServer2102310YQE10E2288901fanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": 0,
+          "type": "0",
+          "sn": "022JRV10EC000002",
+          "partNumber": "03022JRV",
+          "manufacture": "Huawei",
+          "manuTime": "2017-08-31 00:05:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "41576",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "N/A",
+          "healthState": -1,
+          "raidType": "LSI SAS3008",
+          "interfaceType": "255",
+          "bbuType": "N/A",
+          "moId": "44502",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11raid1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "9C-37-F4-93-50-70",
+          "moId": "44553",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "9C-37-F4-93-50-71",
+          "moId": "44532",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC2"
+        },
+        {
+          "netWorkCardName": "NIC3",
+          "macAdress": "9C-37-F4-93-50-72",
+          "moId": "44551",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC3"
+        },
+        {
+          "netWorkCardName": "NIC4",
+          "macAdress": "9C-37-F4-93-50-73",
+          "moId": "44531",
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC4"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

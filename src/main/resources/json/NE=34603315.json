@@ -1,0 +1,373 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603315",
+      "ipAddress": "172.100.10.45",
+      "name": "RH2288A V2-172.100.10.45",
+      "type": "RH2288A V2",
+      "uuid": "2BB662AE-1DD2-11B2-B489-0018C0A8101E",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:0a:2d",
+      "productSn": "RH2288AV2-1038",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 0,
+      "MemoryCapacity": "8192MB",
+      "CPU": [
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2200 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Genuine Intel(R) CPU  @ 2.20GHz",
+          "moId": "68732",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45cpuCPU1mainboard",
+          "presentState": "1"
+        },
+        {
+          "name": "CPU2",
+          "healthState": 0,
+          "frequency": "2200 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Genuine Intel(R) CPU  @ 2.20GHz",
+          "moId": "68750",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45cpuCPU2mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68749",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68752",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68753",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68754",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68755",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68756",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "4096 MB",
+          "manufacture": "Hynix",
+          "frequency": "1333 MHz",
+          "moId": "68751",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memoryDIMM0000",
+          "presentState": "1"
+        },
+        {
+          "name": "DIMM100",
+          "healthState": 0,
+          "capacity": "4096 MB",
+          "manufacture": "Hynix",
+          "frequency": "1333 MHz",
+          "moId": "68735",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45memoryDIMM1004",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk11",
+          "healthState": 0,
+          "location": "12",
+          "presentState": "1",
+          "moId": "68729",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskDisk11HDD Plane"
+        },
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "68734",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-1"
+        },
+        {
+          "name": "HardDisk-10",
+          "healthState": -1,
+          "location": "10",
+          "presentState": "0",
+          "moId": "68748",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-10"
+        },
+        {
+          "name": "HardDisk-11",
+          "healthState": -1,
+          "location": "11",
+          "presentState": "0",
+          "moId": "68746",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-11"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "68743",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "68740",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "68733",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "68738",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "68736",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "68741",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "68744",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "68742",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "68747",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-8"
+        },
+        {
+          "name": "HardDisk-9",
+          "healthState": -1,
+          "location": "9",
+          "presentState": "0",
+          "moId": "68745",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45diskHardDisk-9"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "114.0 W",
+          "manufacture": "LTEON",
+          "version": "20",
+          "inputMode": 1,
+          "moId": "68728",
+          "uuid": "RackServerRH2288AV2-1038powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "750.0 W",
+          "model": "LTEON POWER SUPPLY"
+        },
+        {
+          "name": "PSU-2",
+          "healthState": -1,
+          "inputPower": "0.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "68758",
+          "uuid": "RackServerRH2288AV2-1038powerPSU-2",
+          "presentState": "0",
+          "powerProtocol": "",
+          "ratePower": "0.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68786",
+          "uuid": "RackServerRH2288AV2-1038fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68773",
+          "uuid": "RackServerRH2288AV2-1038fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "6000",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68777",
+          "uuid": "RackServerRH2288AV2-1038fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "6000",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68780",
+          "uuid": "RackServerRH2288AV2-1038fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "6000",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68775",
+          "uuid": "RackServerRH2288AV2-1038fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "6000",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68724",
+          "uuid": "RackServerRH2288AV2-1038fanFan3 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": 0,
+          "type": "0",
+          "sn": "RH2288AV2-1038Board",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "1996-01-01 00:00:00",
+          "presentState": "1",
+          "assertTag": "123",
+          "moId": "2037",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "N/A",
+          "healthState": -1,
+          "raidType": "LSI SAS2308",
+          "interfaceType": "255",
+          "bbuType": "N/A",
+          "moId": "68731",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45raid1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "00-25-69-08-79-30",
+          "moId": "68739",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "00-25-69-08-79-31",
+          "moId": "68737",
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC2"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

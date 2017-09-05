@@ -1,0 +1,302 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603447",
+      "ipAddress": "172.100.20.34",
+      "name": "XH620 V3-172.100.20.34",
+      "type": "XH620 V3",
+      "uuid": "2C1EB0D4-1DD2-11B2-8D19-0018E1C5D866",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:14:22",
+      "productSn": "test1111-4",
+      "desc": "",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "68676",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2300 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+          "moId": "68675",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68668",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68669",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68671",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68672",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68673",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68674",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68677",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68679",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68681",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68682",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68683",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68684",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68687",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68688",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68689",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "16384 MB",
+          "manufacture": "Micron",
+          "frequency": "2133 MHz",
+          "moId": "68670",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "68690",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-1"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "68692",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "68691",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "68693",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "68695",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "68694",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "68680",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "68678",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3diskHardDisk-8"
+        }
+      ],
+      "board": [
+        {
+          "name": "BC21HGSB",
+          "healthState": 0,
+          "type": "0",
+          "sn": "022YQECNG3000549",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "2016-03-22 08:26:00",
+          "presentState": "1",
+          "assertTag": "test1234-4",
+          "moId": "46123",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3"
+        }
+      ],
+      "RAID": [
+
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "FC-E3-3C-B6-0A-04",
+          "moId": "68686",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "FC-E3-3C-B6-0A-05",
+          "moId": "68685",
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC2"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

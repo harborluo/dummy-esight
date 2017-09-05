@@ -1,0 +1,136 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603438",
+      "ipAddress": "172.100.10.11",
+      "serverName": "RH2288 V3-172.100.10.11",
+      "serverModel": "RH2288 V3",
+      "productSN": "2102310YQE10E2288901",
+      "location": "abc123#%abc123#%abc123#%abc123#%abc123#%abc123#%abc123#%abc123#%",
+      "uuid": "7EE0E582-866E-11E7-A8D4-0018AC640A0B",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "",
+      "version": "2.56",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603411",
+      "ipAddress": "172.100.10.59",
+      "serverName": "RH2288 V3-172.100.10.59",
+      "serverModel": "RH2288 V3",
+      "productSN": "huawei",
+      "location": "",
+      "uuid": "6F025310-86B1-11E7-AFEC-226149032013",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "",
+      "version": "2.43",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603409",
+      "ipAddress": "172.100.10.51",
+      "serverName": "RH2288H V3-172.100.10.51",
+      "serverModel": "RH2288H V3",
+      "productSN": "333",
+      "location": "",
+      "uuid": "30CD1FDA-1DD2-11B2-A667-0018E1C5D866",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "",
+      "version": "2.46",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603332",
+      "ipAddress": "172.100.10.38",
+      "serverName": "5288 V3-172.100.10.38",
+      "serverModel": "5288 V3",
+      "productSN": "2102311GEW11E5528801",
+      "location": "",
+      "uuid": "0EC182A8-0625-11E7-8CDF-0018AC640A26",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "sfdafadaf",
+      "version": "2.45",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603315",
+      "ipAddress": "172.100.10.45",
+      "serverName": "RH2288A V2-172.100.10.45",
+      "serverModel": "RH2288A V2",
+      "productSN": "RH2288AV2-1038",
+      "location": "",
+      "uuid": "2BB662AE-1DD2-11B2-B489-0018C0A8101E",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "",
+      "version": "2.52",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603313",
+      "ipAddress": "172.100.10.89",
+      "serverName": "RH2288 V3-172.100.10.89",
+      "serverModel": "RH2288 V3",
+      "productSN": "2102311EFA10GC000024",
+      "location": "",
+      "uuid": "337102D8-1DD2-11B2-990A-0018E1C5D866",
+      "manufacturer": "Huawei",
+      "status": -3,
+      "description": "",
+      "version": "2.56",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603311",
+      "ipAddress": "172.100.15.21",
+      "serverName": "RH2288 V3-172.100.15.21",
+      "serverModel": "RH2288 V3",
+      "productSN": "2102311NQP10H2000002",
+      "location": "",
+      "uuid": "D6B17D64-EADB-11E6-ABBA-883FD34849A9",
+      "manufacturer": "Huawei",
+      "status": -3,
+      "description": "",
+      "version": "2.56",
+      "childBlades": [
+
+      ]
+    },
+    {
+      "dn": "NE=34603309",
+      "ipAddress": "172.100.10.12",
+      "serverName": "RH2288 V3-172.100.10.12",
+      "serverModel": "RH2288 V3",
+      "productSN": "2102310YQE10E2288902",
+      "location": "",
+      "uuid": "50E890C6-83DF-11E7-A2D3-0018AC640A0C",
+      "manufacturer": "Huawei",
+      "status": 0,
+      "description": "",
+      "version": "2.56",
+      "childBlades": [
+
+      ]
+    }
+  ],
+  "size": 8,
+  "totalPage": 1,
+  "description": "Succeeded in querying the server list."
+}

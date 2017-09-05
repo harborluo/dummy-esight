@@ -1,0 +1,51 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603317",
+      "ipAddress": "172.100.100.1",
+      "serverName": "E9000-172.100.100.1",
+      "serverModel": "E9000",
+      "manufacturer": "Huawei Technologies Co., Ltd.",
+      "status": 0,
+      "productSN": "2102300742N0E3000156",
+      "location": "A03",
+      "uuid": "",
+      "description": "",
+      "version": "6.52",
+      "childBlades": [
+        {
+          "ipAddress": "172.100.102.16",
+          "dn": "NE=34603353",
+          "name": "172.100.100.1-blade_16",
+          "version": "2.56",
+          "location": "A03-16"
+        },
+        {
+          "ipAddress": "172.100.102.5",
+          "dn": "NE=34603442",
+          "name": "172.100.100.1-blade_5",
+          "version": "2.56",
+          "location": "A03-5"
+        },
+        {
+          "ipAddress": "172.100.102.6",
+          "dn": "NE=34603325",
+          "name": "172.100.100.1-blade_6",
+          "version": "2.56",
+          "location": "A03-6"
+        },
+        {
+          "ipAddress": "172.100.102.4",
+          "dn": "NE=34603323",
+          "name": "172.100.100.1-blade_4",
+          "version": "2.56",
+          "location": "A03-4"
+        }
+      ]
+    }
+  ],
+  "size": 1,
+  "totalPage": 1,
+  "description": "Succeeded in querying the server list."
+}

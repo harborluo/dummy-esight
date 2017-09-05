@@ -1,0 +1,116 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603360",
+      "ipAddress": "172.100.30.21",
+      "name": "XH310 V3-172.100.30.21",
+      "type": "XH310 V3",
+      "uuid": "326B33EA-1DD2-11B2-9466-0018E1C5D866",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:1e:15",
+      "productSn": "2102300724N0F4000898-1",
+      "desc": "",
+      "CPU": [
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "3600 MHz",
+          "manufacture": "Intel",
+          "model": "Intel(R) Xeon(R) CPU E3-1271 v3 @ 3.60GHz",
+          "moId": "68429",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68422",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68424",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68426",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Hynix/Hyundai",
+          "frequency": "1600 MHz",
+          "moId": "68423",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "68427",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3diskHardDisk-1"
+        }
+      ],
+      "board": [
+        {
+          "name": "BC21DUSA0",
+          "healthState": 0,
+          "type": "0",
+          "sn": "031NCW10F5000018",
+          "partNumber": "03031NCW",
+          "manufacture": "Huawei",
+          "manuTime": "2015-05-11 13:51:00",
+          "presentState": "1",
+          "assertTag": "-1",
+          "moId": "10501",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3"
+        }
+      ],
+      "RAID": [
+
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "7C-A2-3E-E1-FB-E9",
+          "moId": "68425",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "7C-A2-3E-E1-FB-EA",
+          "moId": "68428",
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC2"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

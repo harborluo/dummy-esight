@@ -1,0 +1,72 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603356",
+      "ipAddress": "172.100.20.31",
+      "serverName": "X6800-172.100.20.31",
+      "serverModel": "X6800",
+      "status": 0,
+      "productSN": "test1111",
+      "location": "",
+      "uuid": "",
+      "description": "",
+      "version": "2.56",
+      "childBlades": [
+        {
+          "ipAddress": "172.100.20.31",
+          "dn": "NE=34603347",
+          "location": "",
+          "name": "XH620 V3-172.100.20.31",
+          "type": "XH620 V3",
+          "State": 0,
+          "version": "2.56"
+        },
+        {
+          "ipAddress": "172.100.20.32",
+          "dn": "NE=34603357",
+          "location": "",
+          "name": "XH620 V3-172.100.20.32",
+          "type": "XH620 V3",
+          "State": 0,
+          "version": "2.53"
+        },
+        {
+          "ipAddress": "172.100.20.34",
+          "dn": "NE=34603447",
+          "location": "",
+          "name": "XH620 V3-172.100.20.34",
+          "type": "XH620 V3",
+          "State": 0,
+          "version": "2.50"
+        }
+      ]
+    },
+    {
+      "dn": "NE=34603359",
+      "ipAddress": "172.100.30.21",
+      "serverName": "X6000-172.100.30.21",
+      "serverModel": "X6000",
+      "status": 0,
+      "productSN": "2102300724N0F4000898",
+      "location": "",
+      "uuid": "",
+      "description": "",
+      "version": "2.28",
+      "childBlades": [
+        {
+          "ipAddress": "172.100.30.21",
+          "dn": "NE=34603360",
+          "location": "",
+          "name": "XH310 V3-172.100.30.21",
+          "type": "XH310 V3",
+          "State": 0,
+          "version": "2.28"
+        }
+      ]
+    }
+  ],
+  "size": 2,
+  "totalPage": 1,
+  "description": "Succeeded in querying the server list."
+}

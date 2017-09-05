@@ -1,0 +1,725 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603332",
+      "ipAddress": "172.100.10.38",
+      "name": "5288 V3-172.100.10.38",
+      "type": "5288 V3",
+      "uuid": "0EC182A8-0625-11E7-8CDF-0018AC640A26",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:0a:26",
+      "productSn": "2102311GEW11E5528801",
+      "desc": "sfdafadaf",
+      "cpuNums": 2,
+      "cpuCores": 12,
+      "MemoryCapacity": "16384MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "67648",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "1800 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2650L v3 @ 1.80GHz",
+          "moId": "67650",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67591",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67592",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67593",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67594",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67595",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67596",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67597",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67600",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67602",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67620",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67621",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67622",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67623",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67624",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "67625",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "16384 MB",
+          "manufacture": "Micron",
+          "frequency": "2133 MHz",
+          "moId": "67619",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "67634",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-1"
+        },
+        {
+          "name": "HardDisk-10",
+          "healthState": -1,
+          "location": "10",
+          "presentState": "0",
+          "moId": "67645",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-10"
+        },
+        {
+          "name": "HardDisk-11",
+          "healthState": -1,
+          "location": "11",
+          "presentState": "0",
+          "moId": "67608",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-11"
+        },
+        {
+          "name": "HardDisk-12",
+          "healthState": -1,
+          "location": "12",
+          "presentState": "0",
+          "moId": "67644",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-12"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "67607",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "67642",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "67605",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "67603",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "67601",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "67599",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "67598",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "67632",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "67589",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-20"
+        },
+        {
+          "name": "HardDisk-21",
+          "healthState": -1,
+          "location": "21",
+          "presentState": "0",
+          "moId": "67588",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-21"
+        },
+        {
+          "name": "HardDisk-22",
+          "healthState": -1,
+          "location": "22",
+          "presentState": "0",
+          "moId": "67655",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-22"
+        },
+        {
+          "name": "HardDisk-23",
+          "healthState": -1,
+          "location": "23",
+          "presentState": "0",
+          "moId": "67618",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-23"
+        },
+        {
+          "name": "HardDisk-24",
+          "healthState": -1,
+          "location": "24",
+          "presentState": "0",
+          "moId": "67654",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-24"
+        },
+        {
+          "name": "HardDisk-25",
+          "healthState": -1,
+          "location": "25",
+          "presentState": "0",
+          "moId": "67617",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-25"
+        },
+        {
+          "name": "HardDisk-26",
+          "healthState": -1,
+          "location": "26",
+          "presentState": "0",
+          "moId": "67653",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-26"
+        },
+        {
+          "name": "HardDisk-27",
+          "healthState": -1,
+          "location": "27",
+          "presentState": "0",
+          "moId": "67615",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-27"
+        },
+        {
+          "name": "HardDisk-28",
+          "healthState": -1,
+          "location": "28",
+          "presentState": "0",
+          "moId": "67651",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-28"
+        },
+        {
+          "name": "HardDisk-29",
+          "healthState": -1,
+          "location": "29",
+          "presentState": "0",
+          "moId": "67614",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-29"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "67638",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-30",
+          "healthState": -1,
+          "location": "30",
+          "presentState": "0",
+          "moId": "67639",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-30"
+        },
+        {
+          "name": "HardDisk-31",
+          "healthState": -1,
+          "location": "31",
+          "presentState": "0",
+          "moId": "67637",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-31"
+        },
+        {
+          "name": "HardDisk-32",
+          "healthState": -1,
+          "location": "32",
+          "presentState": "0",
+          "moId": "67635",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-32"
+        },
+        {
+          "name": "HardDisk-33",
+          "healthState": -1,
+          "location": "33",
+          "presentState": "0",
+          "moId": "67633",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-33"
+        },
+        {
+          "name": "HardDisk-34",
+          "healthState": -1,
+          "location": "34",
+          "presentState": "0",
+          "moId": "67631",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-34"
+        },
+        {
+          "name": "HardDisk-35",
+          "healthState": -1,
+          "location": "35",
+          "presentState": "0",
+          "moId": "67630",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-35"
+        },
+        {
+          "name": "HardDisk-36",
+          "healthState": -1,
+          "location": "36",
+          "presentState": "0",
+          "moId": "67629",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-36"
+        },
+        {
+          "name": "HardDisk-37",
+          "healthState": -1,
+          "location": "37",
+          "presentState": "0",
+          "moId": "67628",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-37"
+        },
+        {
+          "name": "HardDisk-38",
+          "healthState": -1,
+          "location": "38",
+          "presentState": "0",
+          "moId": "67627",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-38"
+        },
+        {
+          "name": "HardDisk-39",
+          "healthState": -1,
+          "location": "39",
+          "presentState": "0",
+          "moId": "67626",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-39"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "67636",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-40",
+          "healthState": -1,
+          "location": "40",
+          "presentState": "0",
+          "moId": "67616",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-40"
+        },
+        {
+          "name": "HardDisk-41",
+          "healthState": -1,
+          "location": "41",
+          "presentState": "0",
+          "moId": "67652",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-41"
+        },
+        {
+          "name": "HardDisk-42",
+          "healthState": -1,
+          "location": "42",
+          "presentState": "0",
+          "moId": "67613",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-42"
+        },
+        {
+          "name": "HardDisk-43",
+          "healthState": -1,
+          "location": "43",
+          "presentState": "0",
+          "moId": "67649",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-43"
+        },
+        {
+          "name": "HardDisk-44",
+          "healthState": -1,
+          "location": "44",
+          "presentState": "0",
+          "moId": "67612",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-44"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "67640",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "67641",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "67604",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "67643",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-8"
+        },
+        {
+          "name": "HardDisk-9",
+          "healthState": -1,
+          "location": "9",
+          "presentState": "0",
+          "moId": "67606",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38diskHardDisk-9"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "108.0 W",
+          "manufacture": "LTEON",
+          "version": "N/A",
+          "inputMode": 1,
+          "moId": "67660",
+          "uuid": "RackServer2102311GEW11E5528801powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "460.0 W",
+          "model": "LTEON 460W SERVER PS"
+        },
+        {
+          "name": "PSU-2",
+          "healthState": -1,
+          "inputPower": "0.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "67571",
+          "uuid": "RackServer2102311GEW11E5528801powerPSU-2",
+          "presentState": "0",
+          "powerProtocol": "",
+          "ratePower": "0.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67666",
+          "uuid": "RackServer2102311GEW11E5528801fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67662",
+          "uuid": "RackServer2102311GEW11E5528801fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67664",
+          "uuid": "RackServer2102311GEW11E5528801fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67657",
+          "uuid": "RackServer2102311GEW11E5528801fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67677",
+          "uuid": "RackServer2102311GEW11E5528801fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67663",
+          "uuid": "RackServer2102311GEW11E5528801fanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67680",
+          "uuid": "RackServer2102311GEW11E5528801fanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "6120",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "67667",
+          "uuid": "RackServer2102311GEW11E5528801fanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "BC11HGSE",
+          "healthState": 0,
+          "type": "0",
+          "sn": "022BJK10G5528801",
+          "partNumber": "03022BJK",
+          "manufacture": "Huawei",
+          "manuTime": "2016-12-24 16:55:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "3177",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "N/A",
+          "healthState": -1,
+          "raidType": "LSI SAS3008",
+          "interfaceType": "255",
+          "bbuType": "",
+          "moId": "67611",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38raidnull"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "9C-37-F4-03-06-B8",
+          "moId": "67647",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "9C-37-F4-03-06-B9",
+          "moId": "67610",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC2"
+        },
+        {
+          "netWorkCardName": "NIC3",
+          "macAdress": "9C-37-F4-03-06-BA",
+          "moId": "67646",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC3"
+        },
+        {
+          "netWorkCardName": "NIC4",
+          "macAdress": "9C-37-F4-03-06-BB",
+          "moId": "67609",
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC4"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

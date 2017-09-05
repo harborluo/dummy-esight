@@ -65,7 +65,7 @@ public class LoginControler {
             responseObject.setDescription("login successfully.");
             responseObject.setCode(0);
 
-            logger.info("login successfully.");
+            logger.info("login successfully, openid = {}.", openid);
 
         }else{
             responseObject.setData("");

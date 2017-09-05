@@ -1,0 +1,617 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603313",
+      "ipAddress": "172.100.10.89",
+      "name": "RH2288 V3-172.100.10.89",
+      "type": "RH2288 V3",
+      "uuid": "337102D8-1DD2-11B2-990A-0018E1C5D866",
+      "status": -3,
+      "bmcMacAddr": "00:18:ac:64:0a:59",
+      "productSn": "2102311EFA10GC000024",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 6,
+      "MemoryCapacity": "8192MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "68202",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2400 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+          "moId": "68175",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68158",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68160",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68162",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68163",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68164",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68165",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68167",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68168",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68170",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68184",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68185",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68186",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68191",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68192",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68193",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "68176",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk0",
+          "healthState": 0,
+          "location": "1",
+          "presentState": "1",
+          "moId": "68154",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskDisk0HDD Plane"
+        },
+        {
+          "name": "Disk1",
+          "healthState": 0,
+          "location": "2",
+          "presentState": "1",
+          "moId": "68194",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskDisk1HDD Plane"
+        },
+        {
+          "name": "HardDisk-10",
+          "healthState": -1,
+          "location": "10",
+          "presentState": "0",
+          "moId": "68178",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-10"
+        },
+        {
+          "name": "HardDisk-11",
+          "healthState": -1,
+          "location": "11",
+          "presentState": "0",
+          "moId": "68195",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-11"
+        },
+        {
+          "name": "HardDisk-12",
+          "healthState": -1,
+          "location": "12",
+          "presentState": "0",
+          "moId": "68183",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-12"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "68203",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "68182",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "68201",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "68181",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "68197",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "68179",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "68205",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "68159",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-20"
+        },
+        {
+          "name": "HardDisk-21",
+          "healthState": -1,
+          "location": "21",
+          "presentState": "0",
+          "moId": "68161",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-21"
+        },
+        {
+          "name": "HardDisk-22",
+          "healthState": -1,
+          "location": "22",
+          "presentState": "0",
+          "moId": "68157",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-22"
+        },
+        {
+          "name": "HardDisk-23",
+          "healthState": -1,
+          "location": "23",
+          "presentState": "0",
+          "moId": "68155",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-23"
+        },
+        {
+          "name": "HardDisk-24",
+          "healthState": -1,
+          "location": "24",
+          "presentState": "0",
+          "moId": "68156",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-24"
+        },
+        {
+          "name": "HardDisk-25",
+          "healthState": -1,
+          "location": "25",
+          "presentState": "0",
+          "moId": "68173",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-25"
+        },
+        {
+          "name": "HardDisk-26",
+          "healthState": -1,
+          "location": "26",
+          "presentState": "0",
+          "moId": "68174",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-26"
+        },
+        {
+          "name": "HardDisk-27",
+          "healthState": -1,
+          "location": "27",
+          "presentState": "0",
+          "moId": "68171",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-27"
+        },
+        {
+          "name": "HardDisk-28",
+          "healthState": -1,
+          "location": "28",
+          "presentState": "0",
+          "moId": "68172",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-28"
+        },
+        {
+          "name": "HardDisk-29",
+          "healthState": -1,
+          "location": "29",
+          "presentState": "0",
+          "moId": "68169",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-29"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "68204",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-30",
+          "healthState": -1,
+          "location": "30",
+          "presentState": "0",
+          "moId": "68198",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-30"
+        },
+        {
+          "name": "HardDisk-31",
+          "healthState": -1,
+          "location": "31",
+          "presentState": "0",
+          "moId": "68189",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-31"
+        },
+        {
+          "name": "HardDisk-32",
+          "healthState": -1,
+          "location": "32",
+          "presentState": "0",
+          "moId": "68207",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-32"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "68188",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "68206",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "68187",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "68199",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "68180",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-8"
+        },
+        {
+          "name": "HardDisk-9",
+          "healthState": -1,
+          "location": "9",
+          "presentState": "0",
+          "moId": "68196",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89diskHardDisk-9"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "90.0 W",
+          "manufacture": "LTEON",
+          "version": "20",
+          "inputMode": 1,
+          "moId": "68150",
+          "uuid": "RackServer2102311EFA10GC000024powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "460.0 W",
+          "model": "LTEON 460W SERVER PS"
+        },
+        {
+          "name": "PSU-2",
+          "healthState": -1,
+          "inputPower": "0.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "68129",
+          "uuid": "RackServer2102311EFA10GC000024powerPSU-2",
+          "presentState": "0",
+          "powerProtocol": "",
+          "ratePower": "0.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68144",
+          "uuid": "RackServer2102311EFA10GC000024fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68210",
+          "uuid": "RackServer2102311EFA10GC000024fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68149",
+          "uuid": "RackServer2102311EFA10GC000024fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68208",
+          "uuid": "RackServer2102311EFA10GC000024fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "4200",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68137",
+          "uuid": "RackServer2102311EFA10GC000024fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "4200",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68222",
+          "uuid": "RackServer2102311EFA10GC000024fanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "4200",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68141",
+          "uuid": "RackServer2102311EFA10GC000024fanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "4200",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "68217",
+          "uuid": "RackServer2102311EFA10GC000024fanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "BC11HGSB",
+          "healthState": -3,
+          "type": "0",
+          "sn": "022JRV6TGC003119",
+          "partNumber": "03022JRV",
+          "manufacture": "Huawei",
+          "manuTime": "2016-12-17 18:21:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "828",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "N/A",
+          "healthState": -1,
+          "raidType": "LSI SAS3008",
+          "interfaceType": "255",
+          "bbuType": "N/A",
+          "moId": "68190",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89raid1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "48-7B-6B-F2-54-C7",
+          "moId": "68166",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "48-7B-6B-F2-54-C8",
+          "moId": "68177",
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC2"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

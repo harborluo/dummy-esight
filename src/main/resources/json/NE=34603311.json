@@ -1,0 +1,536 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603311",
+      "ipAddress": "172.100.15.21",
+      "name": "RH2288 V3-172.100.15.21",
+      "type": "RH2288 V3",
+      "uuid": "D6B17D64-EADB-11E6-ABBA-883FD34849A9",
+      "status": -3,
+      "bmcMacAddr": "00:18:ac:64:0f:15",
+      "productSn": "2102311NQP10H2000002",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 12,
+      "MemoryCapacity": "16384MB",
+      "CPU": [
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "1900 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2609 v3 @ 1.90GHz",
+          "moId": "69760",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21cpuCPU1mainboard",
+          "presentState": "1"
+        },
+        {
+          "name": "CPU2",
+          "healthState": 0,
+          "frequency": "1900 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2609 v3 @ 1.90GHz",
+          "moId": "69779",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21cpuCPU2mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69767",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69769",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69772",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69774",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69775",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69777",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69778",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69781",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69783",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69784",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69785",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69786",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69787",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69788",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "69780",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memoryDIMM0000",
+          "presentState": "1"
+        },
+        {
+          "name": "DIMM100",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "69748",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21memoryDIMM1008",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk0",
+          "healthState": -3,
+          "location": "1",
+          "presentState": "1",
+          "moId": "69737",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk0HDD Plane"
+        },
+        {
+          "name": "Disk1",
+          "healthState": 0,
+          "location": "2",
+          "presentState": "1",
+          "moId": "69749",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk1HDD Plane"
+        },
+        {
+          "name": "Disk10",
+          "healthState": 0,
+          "location": "11",
+          "presentState": "1",
+          "moId": "69792",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk10HDD Plane"
+        },
+        {
+          "name": "Disk11",
+          "healthState": 0,
+          "location": "12",
+          "presentState": "1",
+          "moId": "69766",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk11HDD Plane"
+        },
+        {
+          "name": "Disk2",
+          "healthState": 0,
+          "location": "3",
+          "presentState": "1",
+          "moId": "69765",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk2HDD Plane"
+        },
+        {
+          "name": "Disk3",
+          "healthState": 0,
+          "location": "4",
+          "presentState": "1",
+          "moId": "69738",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk3HDD Plane"
+        },
+        {
+          "name": "Disk4",
+          "healthState": 0,
+          "location": "5",
+          "presentState": "1",
+          "moId": "69746",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk4HDD Plane"
+        },
+        {
+          "name": "Disk7",
+          "healthState": 0,
+          "location": "8",
+          "presentState": "1",
+          "moId": "69758",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk7HDD Plane"
+        },
+        {
+          "name": "Disk8",
+          "healthState": -3,
+          "location": "9",
+          "presentState": "1",
+          "moId": "69742",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk8HDD Plane"
+        },
+        {
+          "name": "Disk9",
+          "healthState": 0,
+          "location": "10",
+          "presentState": "1",
+          "moId": "69789",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskDisk9HDD Plane"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "69757",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "69763",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "69764",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "69759",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "69761",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "69790",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "69745",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "69744",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-20"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "69753",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "69750",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21diskHardDisk-7"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "216.0 W",
+          "manufacture": "LTEON",
+          "version": "20",
+          "inputMode": 1,
+          "moId": "69709",
+          "uuid": "RackServer2102311NQP10H2000002powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "460.0 W",
+          "model": "LTEON 460W SERVER PS"
+        },
+        {
+          "name": "PSU-2",
+          "healthState": -1,
+          "inputPower": "0.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "69730",
+          "uuid": "RackServer2102311NQP10H2000002powerPSU-2",
+          "presentState": "0",
+          "powerProtocol": "",
+          "ratePower": "0.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "3840",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69719",
+          "uuid": "RackServer2102311NQP10H2000002fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "3840",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69708",
+          "uuid": "RackServer2102311NQP10H2000002fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "3840",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69718",
+          "uuid": "RackServer2102311NQP10H2000002fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "3720",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69703",
+          "uuid": "RackServer2102311NQP10H2000002fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "3720",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69734",
+          "uuid": "RackServer2102311NQP10H2000002fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "3720",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69721",
+          "uuid": "RackServer2102311NQP10H2000002fanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "3720",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69794",
+          "uuid": "RackServer2102311NQP10H2000002fanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "3720",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69705",
+          "uuid": "RackServer2102311NQP10H2000002fanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "RH2288 V3",
+          "healthState": -3,
+          "type": "0",
+          "sn": "2102311NQP10H2000002",
+          "partNumber": "03022JRV",
+          "manufacture": "Huawei",
+          "manuTime": "2017-02-04 21:03:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "826",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "SAS3108",
+          "healthState": 1,
+          "raidType": "LSI SAS3108",
+          "interfaceType": "6",
+          "bbuType": "N/A",
+          "moId": "69747",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21raid1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "18-DE-D7-8A-4C-93",
+          "moId": "69782",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "18-DE-D7-8A-4C-94",
+          "moId": "69743",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC2"
+        }
+      ],
+      "PCIE": [
+        {
+          "name": "SLOT4",
+          "pcieSsdCardHealthStatus": 0,
+          "pcieSsdCardLifeLeft": "",
+          "pciecardManufacturer": "QLogic Corp.",
+          "moId": "69740",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21pciecardSLOT4"
+        },
+        {
+          "name": "SLOT5",
+          "pcieSsdCardHealthStatus": 0,
+          "pcieSsdCardLifeLeft": "",
+          "pciecardManufacturer": "Intel Corporation",
+          "moId": "69741",
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21pciecardSLOT5"
+        }
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

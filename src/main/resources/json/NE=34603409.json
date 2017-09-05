@@ -1,0 +1,613 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603409",
+      "ipAddress": "172.100.10.51",
+      "name": "RH2288H V3-172.100.10.51",
+      "type": "RH2288H V3",
+      "uuid": "30CD1FDA-1DD2-11B2-A667-0018E1C5D866",
+      "status": 0,
+      "bmcMacAddr": "00:18:ac:64:0a:33",
+      "productSn": "333",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 6,
+      "MemoryCapacity": "8192MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "69209",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2400 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+          "moId": "69172",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69163",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory022",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69164",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory021",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69165",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory020",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69168",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory023",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69198",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69199",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69200",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69201",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69202",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69203",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69204",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69205",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69206",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69208",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69210",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69212",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory019",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69213",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory018",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69215",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory017",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69216",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory016",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69217",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69218",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69219",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69220",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "69214",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk0",
+          "healthState": 0,
+          "location": "1",
+          "presentState": "1",
+          "moId": "69186",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk0HDD Plane"
+        },
+        {
+          "name": "Disk1",
+          "healthState": 0,
+          "location": "2",
+          "presentState": "1",
+          "moId": "69195",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk1HDD Plane"
+        },
+        {
+          "name": "Disk10",
+          "healthState": 0,
+          "location": "11",
+          "presentState": "1",
+          "moId": "69211",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk10HDD Plane"
+        },
+        {
+          "name": "Disk11",
+          "healthState": 0,
+          "location": "12",
+          "presentState": "1",
+          "moId": "69175",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk11HDD Plane"
+        },
+        {
+          "name": "Disk2",
+          "healthState": 0,
+          "location": "3",
+          "presentState": "1",
+          "moId": "69169",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk2HDD Plane"
+        },
+        {
+          "name": "Disk3",
+          "healthState": 0,
+          "location": "4",
+          "presentState": "1",
+          "moId": "69187",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk3HDD Plane"
+        },
+        {
+          "name": "Disk4",
+          "healthState": 0,
+          "location": "5",
+          "presentState": "1",
+          "moId": "69196",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk4HDD Plane"
+        },
+        {
+          "name": "Disk5",
+          "healthState": 0,
+          "location": "6",
+          "presentState": "1",
+          "moId": "69174",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk5HDD Plane"
+        },
+        {
+          "name": "Disk6",
+          "healthState": 0,
+          "location": "7",
+          "presentState": "1",
+          "moId": "69183",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk6HDD Plane"
+        },
+        {
+          "name": "Disk7",
+          "healthState": 0,
+          "location": "8",
+          "presentState": "1",
+          "moId": "69197",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk7HDD Plane"
+        },
+        {
+          "name": "Disk8",
+          "healthState": 0,
+          "location": "9",
+          "presentState": "1",
+          "moId": "69167",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk8HDD Plane"
+        },
+        {
+          "name": "Disk9",
+          "healthState": 0,
+          "location": "10",
+          "presentState": "1",
+          "moId": "69188",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskDisk9HDD Plane"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "69193",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "69225",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "69191",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "69223",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "69190",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "69221",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "69189",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "69176",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51diskHardDisk-20"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "78.0 W",
+          "manufacture": "HUAWE",
+          "version": "DC: 107  PFC: cb71",
+          "inputMode": 1,
+          "moId": "69230",
+          "uuid": "RackServer333powerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "750.0 W",
+          "model": "HUAWE 750W PLATINUM PS"
+        },
+        {
+          "name": "PS2",
+          "healthState": 0,
+          "inputPower": "84.0 W",
+          "manufacture": "HUAWE",
+          "version": "DC: 107  PFC: cba4",
+          "inputMode": 1,
+          "moId": "69231",
+          "uuid": "RackServer333powerPS2chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "750.0 W",
+          "model": "HUAWE 750W PLATINUM PS"
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "2640",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69229",
+          "uuid": "RackServer333fanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69161",
+          "uuid": "RackServer333fanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "2640",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69228",
+          "uuid": "RackServer333fanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69232",
+          "uuid": "RackServer333fanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "2520",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69162",
+          "uuid": "RackServer333fanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69227",
+          "uuid": "RackServer333fanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "2520",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69233",
+          "uuid": "RackServer333fanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "2160",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "69234",
+          "uuid": "RackServer333fanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": 0,
+          "type": "0",
+          "sn": "022HLVCNF8002272",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "1996-01-01 00:00:00",
+          "presentState": "1",
+          "assertTag": "abc",
+          "moId": "28640",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "SAS3108",
+          "healthState": 1,
+          "raidType": "LSI SAS3108",
+          "interfaceType": "6",
+          "bbuType": "N/A",
+          "moId": "69170",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51raid1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "2C-9D-1E-F1-B3-B3",
+          "moId": "69194",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "2C-9D-1E-F1-B3-B4",
+          "moId": "69226",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC2"
+        },
+        {
+          "netWorkCardName": "NIC3",
+          "macAdress": "2C-9D-1E-F1-B3-B5",
+          "moId": "69192",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC3"
+        },
+        {
+          "netWorkCardName": "NIC4",
+          "macAdress": "2C-9D-1E-F1-B3-B6",
+          "moId": "69222",
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC4"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

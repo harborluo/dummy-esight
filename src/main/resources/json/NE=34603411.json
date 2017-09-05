@@ -1,0 +1,513 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603411",
+      "ipAddress": "172.100.10.59",
+      "name": "RH2288 V3-172.100.10.59",
+      "type": "RH2288 V3",
+      "uuid": "6F025310-86B1-11E7-AFEC-226149032013",
+      "status": 0,
+      "bmcMacAddr": "22:61:49:03:20:13",
+      "productSn": "huawei",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 6,
+      "MemoryCapacity": "8192MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "66435",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2400 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+          "moId": "66430",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66432",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66433",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66437",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66439",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66441",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66442",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66443",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66444",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66449",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66450",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66452",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory014",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66454",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66462",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66463",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "66465",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "66434",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "Disk0",
+          "healthState": 0,
+          "location": "1",
+          "presentState": "1",
+          "moId": "66436",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskDisk0HDD Plane"
+        },
+        {
+          "name": "Disk5",
+          "healthState": 0,
+          "location": "6",
+          "presentState": "1",
+          "moId": "66431",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskDisk5HDD Plane"
+        },
+        {
+          "name": "HardDisk-10",
+          "healthState": -1,
+          "location": "10",
+          "presentState": "0",
+          "moId": "66453",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-10"
+        },
+        {
+          "name": "HardDisk-11",
+          "healthState": -1,
+          "location": "11",
+          "presentState": "0",
+          "moId": "66451",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-11"
+        },
+        {
+          "name": "HardDisk-12",
+          "healthState": -1,
+          "location": "12",
+          "presentState": "0",
+          "moId": "66448",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-12"
+        },
+        {
+          "name": "HardDisk-13",
+          "healthState": -1,
+          "location": "13",
+          "presentState": "0",
+          "moId": "66447",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-13"
+        },
+        {
+          "name": "HardDisk-14",
+          "healthState": -1,
+          "location": "14",
+          "presentState": "0",
+          "moId": "66446",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-14"
+        },
+        {
+          "name": "HardDisk-15",
+          "healthState": -1,
+          "location": "15",
+          "presentState": "0",
+          "moId": "66445",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-15"
+        },
+        {
+          "name": "HardDisk-16",
+          "healthState": -1,
+          "location": "16",
+          "presentState": "0",
+          "moId": "66461",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-16"
+        },
+        {
+          "name": "HardDisk-17",
+          "healthState": -1,
+          "location": "17",
+          "presentState": "0",
+          "moId": "66460",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-17"
+        },
+        {
+          "name": "HardDisk-18",
+          "healthState": -1,
+          "location": "18",
+          "presentState": "0",
+          "moId": "66459",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-18"
+        },
+        {
+          "name": "HardDisk-19",
+          "healthState": -1,
+          "location": "19",
+          "presentState": "0",
+          "moId": "66458",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-19"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "66464",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-20",
+          "healthState": -1,
+          "location": "20",
+          "presentState": "0",
+          "moId": "66429",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-20"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "66467",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "66466",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "66468",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "66455",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "66457",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-8"
+        },
+        {
+          "name": "HardDisk-9",
+          "healthState": -1,
+          "location": "9",
+          "presentState": "0",
+          "moId": "66456",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59diskHardDisk-9"
+        }
+      ],
+      "PSU": [
+        {
+          "name": "PS1",
+          "healthState": 0,
+          "inputPower": "78.0 W",
+          "manufacture": "AET",
+          "version": "N/A",
+          "inputMode": 1,
+          "moId": "66424",
+          "uuid": "RackServerhuaweipowerPS1chassis",
+          "presentState": "1",
+          "powerProtocol": "0",
+          "ratePower": "460.0 W",
+          "model": "ARTESYN 460W GOLD PS"
+        },
+        {
+          "name": "PSU-2",
+          "healthState": -1,
+          "inputPower": "0.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "66422",
+          "uuid": "RackServerhuaweipowerPSU-2",
+          "presentState": "0",
+          "powerProtocol": "",
+          "ratePower": "0.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66416",
+          "uuid": "RackServerhuaweifanFan1 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan1 Rear",
+          "healthState": 0,
+          "rotate": "3480",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66478",
+          "uuid": "RackServerhuaweifanFan1 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66417",
+          "uuid": "RackServerhuaweifanFan2 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2 Rear",
+          "healthState": 0,
+          "rotate": "3480",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66479",
+          "uuid": "RackServerhuaweifanFan2 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66408",
+          "uuid": "RackServerhuaweifanFan3 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3 Rear",
+          "healthState": 0,
+          "rotate": "3480",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66472",
+          "uuid": "RackServerhuaweifanFan3 Rearchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Front",
+          "healthState": 0,
+          "rotate": "4080",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66469",
+          "uuid": "RackServerhuaweifanFan4 Frontchassis",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4 Rear",
+          "healthState": 0,
+          "rotate": "3480",
+          "rotatePercent": "255",
+          "controlModel": "0",
+          "moId": "66409",
+          "uuid": "RackServerhuaweifanFan4 Rearchassis",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": 0,
+          "type": "0",
+          "sn": "",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "1996-01-01 00:00:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "28642",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59"
+        }
+      ],
+      "RAID": [
+
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "08-C0-21-0B-C8-E7",
+          "moId": "66440",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC1"
+        },
+        {
+          "netWorkCardName": "NIC2",
+          "macAdress": "08-C0-21-0B-C8-E8",
+          "moId": "66438",
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC2"
+        }
+      ],
+      "PCIE": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}
