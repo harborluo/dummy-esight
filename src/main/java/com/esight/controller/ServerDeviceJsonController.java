@@ -6,6 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ResourceLoader;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -37,6 +39,7 @@ public class ServerDeviceJsonController {
     }
 
     @RequestMapping(method= RequestMethod.GET, path = "/rest/openapi/server/device/detail")
+    //@ResponseStatus(HttpStatus.NOT_FOUND)
     public @ResponseBody
     String detail(@RequestParam(value="dn", required=false, defaultValue="dn") String dn,
                                           @RequestHeader(value="openid", defaultValue="openid") String openid) {
@@ -46,7 +49,7 @@ public class ServerDeviceJsonController {
         return readJson(dn+".json");
     }
 
-private String readJson(String fileName){
+    private String readJson(String fileName){
         final StringBuilder out = new StringBuilder();
         try {
             InputStream inputStream  = resourceLoader.getResource("classpath:json/" + fileName).getInputStream();
@@ -67,6 +70,6 @@ private String readJson(String fileName){
             out.append("file not found!");
         }
     return out.toString();
-}
+    }
 
 }

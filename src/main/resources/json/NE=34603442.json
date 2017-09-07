@@ -1,1 +1,501 @@
-{"code":0,"data":[{"dn":"NE=34603442","ipAddress":"172.100.102.5","name":"blade5","type":"blade","mode":"CH242 V3 DDR4","uuid":"30083116-1DD2-11B2-B1DB-001823E5F68B","status":-3,"realTimePower":"6","productSn":"","desc":"","cpuNums":2,"cpuCores":0,"MemoryCapacity":"0MB","CPU":[{"name":"0","healthState":-1,"frequency":"0","manufacture":"0","model":"0","moId":"68835","uuid":"ChassisServer2102300742N0E3000156motherboardblade5cpu00","presentState":"0"},{"name":"CPU1","healthState":-2,"frequency":"0","manufacture":"0","model":"0","moId":"68876","uuid":"ChassisServer2102300742N0E3000156motherboardblade5cpuCPU1mainboard","presentState":"-2"}],"Memory":[{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68867","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory029","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68869","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory024","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68870","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory023","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68871","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory022","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68872","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory09","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68873","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory021","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68874","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory028","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68875","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory027","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68877","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory026","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68878","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory025","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68879","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory04","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68880","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory03","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68881","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory02","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68882","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory01","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68883","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory08","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68884","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory020","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68885","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory07","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68886","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory06","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68888","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory05","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68898","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory031","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68899","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory030","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68832","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory00","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68837","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory019","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68838","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory018","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68843","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory013","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68846","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory012","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68848","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory011","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68851","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory010","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68853","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory017","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68855","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory016","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68857","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory015","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"68859","uuid":"ChassisServer2102300742N0E3000156motherboardblade5memory014","presentState":"0"}],"Disk":[{"name":"HardDisk-1","healthState":-1,"location":"1","presentState":"0","moId":"68826","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-1"},{"name":"HardDisk-2","healthState":-1,"location":"2","presentState":"0","moId":"68824","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-2"},{"name":"HardDisk-3","healthState":-1,"location":"3","presentState":"0","moId":"68822","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-3"},{"name":"HardDisk-4","healthState":-1,"location":"4","presentState":"0","moId":"68820","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-4"},{"name":"HardDisk-5","healthState":-1,"location":"5","presentState":"0","moId":"68818","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-5"},{"name":"HardDisk-6","healthState":-1,"location":"6","presentState":"0","moId":"68815","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-6"},{"name":"HardDisk-7","healthState":-1,"location":"7","presentState":"0","moId":"68812","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-7"},{"name":"HardDisk-8","healthState":-1,"location":"8","presentState":"0","moId":"68810","uuid":"ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-8"}],"board":[{"name":"","healthState":-3,"type":"0","sn":"ray1598662115","partNumber":"","manufacture":"Huawei","manuTime":"1996/01/01 Mon 00:00:00","presentState":"1","assertTag":"","moId":"44669","uuid":"ChassisServer2102300742N0E3000156motherboardblade5"}],"RAID":[{"name":"","raidType":"","interfaceType":"","bbuType":"","moId":"68849","uuid":"ChassisServer2102300742N0E3000156motherboardblade5raidnullblade5"}],"Mezz":[{"name":"","mezzHealthStatus":-3,"presentState":1,"mezzInfo":"4*10G Port CNA Mezzanine Card","mezzLocation":"MEZZ1","mezzMac":"0;0#88:3F:D3:9F:90:6D;0#88:3F:D3:9F:90:71;0#88:3F:D3:9F:90:75;0#88:3F:D3:9F:90:79;","moId":"68807","uuid":"ChassisServer2102300742N0E3000156motherboardblade5mezz0MZ512MEZZ1"},{"name":"","mezzHealthStatus":-1,"presentState":0,"mezzInfo":"UNKNOW","mezzLocation":"UNKNOW","mezzMac":"1075904512;","moId":"68865","uuid":"ChassisServer2102300742N0E3000156motherboardblade5mezz2UNKNOWUNKNOW"},{"name":"","mezzHealthStatus":-1,"presentState":0,"mezzInfo":"UNKNOW","mezzLocation":"UNKNOW","mezzMac":"1075904512;","moId":"68866","uuid":"ChassisServer2102300742N0E3000156motherboardblade5mezz1UNKNOWUNKNOW"},{"name":"","mezzHealthStatus":-1,"presentState":0,"mezzInfo":"UNKNOW","mezzLocation":"UNKNOW","mezzMac":"1075904512;","moId":"68868","uuid":"ChassisServer2102300742N0E3000156motherboardblade5mezz3UNKNOWUNKNOW"}],"NetworkCard":[]}],"description":"Succeeded in querying server details."}
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603442",
+      "ipAddress": "172.100.102.5",
+      "name": "blade5",
+      "type": "blade",
+      "mode": "CH242 V3 DDR4",
+      "uuid": "30083116-1DD2-11B2-B1DB-001823E5F68B",
+      "status": -3,
+      "realTimePower": "6",
+      "productSn": "",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 0,
+      "MemoryCapacity": "0MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "68835",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": -2,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "68876",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5cpuCPU1mainboard",
+          "presentState": "-2"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68867",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory029",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68869",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory024",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68870",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory023",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68871",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory022",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68872",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory09",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68873",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory021",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68874",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory028",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68875",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory027",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68877",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory026",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68878",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory025",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68879",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68880",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68881",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68882",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68883",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory08",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68884",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory020",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68885",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68886",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68888",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68898",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory031",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68899",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory030",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68832",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory00",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68837",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory019",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68838",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory018",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68843",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory013",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68846",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory012",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68848",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory011",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68851",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory010",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68853",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory017",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68855",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory016",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68857",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory015",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "68859",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5memory014",
+          "presentState": "0"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "68826",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-1"
+        },
+        {
+          "name": "HardDisk-2",
+          "healthState": -1,
+          "location": "2",
+          "presentState": "0",
+          "moId": "68824",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-2"
+        },
+        {
+          "name": "HardDisk-3",
+          "healthState": -1,
+          "location": "3",
+          "presentState": "0",
+          "moId": "68822",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-3"
+        },
+        {
+          "name": "HardDisk-4",
+          "healthState": -1,
+          "location": "4",
+          "presentState": "0",
+          "moId": "68820",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-4"
+        },
+        {
+          "name": "HardDisk-5",
+          "healthState": -1,
+          "location": "5",
+          "presentState": "0",
+          "moId": "68818",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-5"
+        },
+        {
+          "name": "HardDisk-6",
+          "healthState": -1,
+          "location": "6",
+          "presentState": "0",
+          "moId": "68815",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-6"
+        },
+        {
+          "name": "HardDisk-7",
+          "healthState": -1,
+          "location": "7",
+          "presentState": "0",
+          "moId": "68812",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-7"
+        },
+        {
+          "name": "HardDisk-8",
+          "healthState": -1,
+          "location": "8",
+          "presentState": "0",
+          "moId": "68810",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5diskHardDisk-8"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": -3,
+          "type": "0",
+          "sn": "ray1598662115",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "1996/01/01 Mon 00:00:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "44669",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "",
+          "raidType": "",
+          "interfaceType": "",
+          "bbuType": "",
+          "moId": "68849",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5raidnullblade5"
+        }
+      ],
+      "Mezz": [
+        {
+          "name": "",
+          "mezzHealthStatus": -3,
+          "presentState": 1,
+          "mezzInfo": "4*10G Port CNA Mezzanine Card",
+          "mezzLocation": "MEZZ1",
+          "mezzMac": "0;0#88:3F:D3:9F:90:6D;0#88:3F:D3:9F:90:71;0#88:3F:D3:9F:90:75;0#88:3F:D3:9F:90:79;",
+          "moId": "68807",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz0MZ512MEZZ1"
+        },
+        {
+          "name": "",
+          "mezzHealthStatus": -1,
+          "presentState": 0,
+          "mezzInfo": "UNKNOW",
+          "mezzLocation": "UNKNOW",
+          "mezzMac": "1075904512;",
+          "moId": "68865",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz2UNKNOWUNKNOW"
+        },
+        {
+          "name": "",
+          "mezzHealthStatus": -1,
+          "presentState": 0,
+          "mezzInfo": "UNKNOW",
+          "mezzLocation": "UNKNOW",
+          "mezzMac": "1075904512;",
+          "moId": "68866",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz1UNKNOWUNKNOW"
+        },
+        {
+          "name": "",
+          "mezzHealthStatus": -1,
+          "presentState": 0,
+          "mezzInfo": "UNKNOW",
+          "mezzLocation": "UNKNOW",
+          "mezzMac": "1075904512;",
+          "moId": "68868",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz3UNKNOWUNKNOW"
+        }
+      ],
+      "NetworkCard": [
+
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

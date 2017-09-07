@@ -1,1 +1,190 @@
-{"code":0,"data":[{"dn":"NE=34603353","ipAddress":"172.100.102.16","name":"blade16","type":"blade","mode":"CH140 V3","uuid":"316107B8-1DD2-11B2-8BC5-001823E5F68B","status":-3,"realTimePower":"48","productSn":"","desc":"","cpuNums":2,"cpuCores":10,"MemoryCapacity":"8192MB","CPU":[{"name":"0","healthState":-1,"frequency":"0","manufacture":"0","model":"0","moId":"69057","uuid":"ChassisServer2102300742N0E3000156motherboardblade16cpu00","presentState":"0"},{"name":"CPU1","healthState":0,"frequency":"2300 MHz","manufacture":"Intel(R) Corporation","model":"Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz","moId":"69075","uuid":"ChassisServer2102300742N0E3000156motherboardblade16cpuCPU1mainboard","presentState":"1"}],"Memory":[{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69088","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory02","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69090","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory01","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69091","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory06","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69092","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory05","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69093","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory04","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69094","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory03","presentState":"0"},{"name":"--","healthState":-1,"capacity":"0","manufacture":"0","frequency":"0","moId":"69098","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memory07","presentState":"0"},{"name":"DIMM000","healthState":0,"capacity":"8192 MB","manufacture":"Samsung","frequency":"2133 MHz","moId":"69089","uuid":"ChassisServer2102300742N0E3000156motherboardblade16memoryDIMM0000","presentState":"1"}],"Disk":[{"name":"HardDisk-1","healthState":-1,"location":"1","presentState":"0","moId":"69076","uuid":"ChassisServer2102300742N0E3000156motherboardblade16diskHardDisk-1"}],"board":[{"name":"","healthState":-3,"type":"0","sn":"2102311NQP10H2000016","partNumber":"","manufacture":"Huawei","manuTime":"1996/01/01 Mon 00:00:00","presentState":"1","assertTag":"","moId":"9084","uuid":"ChassisServer2102300742N0E3000156motherboardblade16"}],"RAID":[{"name":"","raidType":"","interfaceType":"","bbuType":"","moId":"69065","uuid":"ChassisServer2102300742N0E3000156motherboardblade16raidnullblade16"}],"Mezz":[{"name":"","mezzHealthStatus":-1,"presentState":0,"mezzInfo":"UNKNOW","mezzLocation":"UNKNOW","mezzMac":"1075904512;","moId":"69066","uuid":"ChassisServer2102300742N0E3000156motherboardblade16mezz1UNKNOWUNKNOW"},{"name":"","mezzHealthStatus":-3,"presentState":1,"mezzInfo":"4*10G Port CNA Mezzanine Card","mezzLocation":"MEZZ1","mezzMac":"1075904513;","moId":"69087","uuid":"ChassisServer2102300742N0E3000156motherboardblade16mezz0MZ512MEZZ1"}],"NetworkCard":[{"netWorkCardName":"NIC1","macAdress":"--","moId":"9119","uuid":"ChassisServer2102300742N0E3000156motherboardblade16networkNIC1"}]}],"description":"Succeeded in querying server details."}
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603353",
+      "ipAddress": "172.100.102.16",
+      "name": "blade16",
+      "type": "blade",
+      "mode": "CH140 V3",
+      "uuid": "316107B8-1DD2-11B2-8BC5-001823E5F68B",
+      "status": -3,
+      "realTimePower": "48",
+      "productSn": "",
+      "desc": "",
+      "cpuNums": 2,
+      "cpuCores": 10,
+      "MemoryCapacity": "8192MB",
+      "CPU": [
+        {
+          "name": "0",
+          "healthState": -1,
+          "frequency": "0",
+          "manufacture": "0",
+          "model": "0",
+          "moId": "69057",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16cpu00",
+          "presentState": "0"
+        },
+        {
+          "name": "CPU1",
+          "healthState": 0,
+          "frequency": "2300 MHz",
+          "manufacture": "Intel(R) Corporation",
+          "model": "Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz",
+          "moId": "69075",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16cpuCPU1mainboard",
+          "presentState": "1"
+        }
+      ],
+      "Memory": [
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69088",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory02",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69090",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory01",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69091",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory06",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69092",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory05",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69093",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory04",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69094",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory03",
+          "presentState": "0"
+        },
+        {
+          "name": "--",
+          "healthState": -1,
+          "capacity": "0",
+          "manufacture": "0",
+          "frequency": "0",
+          "moId": "69098",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memory07",
+          "presentState": "0"
+        },
+        {
+          "name": "DIMM000",
+          "healthState": 0,
+          "capacity": "8192 MB",
+          "manufacture": "Samsung",
+          "frequency": "2133 MHz",
+          "moId": "69089",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16memoryDIMM0000",
+          "presentState": "1"
+        }
+      ],
+      "Disk": [
+        {
+          "name": "HardDisk-1",
+          "healthState": -1,
+          "location": "1",
+          "presentState": "0",
+          "moId": "69076",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16diskHardDisk-1"
+        }
+      ],
+      "board": [
+        {
+          "name": "",
+          "healthState": -3,
+          "type": "0",
+          "sn": "2102311NQP10H2000016",
+          "partNumber": "",
+          "manufacture": "Huawei",
+          "manuTime": "1996/01/01 Mon 00:00:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "9084",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16"
+        }
+      ],
+      "RAID": [
+        {
+          "name": "",
+          "raidType": "",
+          "interfaceType": "",
+          "bbuType": "",
+          "moId": "69065",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16raidnullblade16"
+        }
+      ],
+      "Mezz": [
+        {
+          "name": "",
+          "mezzHealthStatus": -1,
+          "presentState": 0,
+          "mezzInfo": "UNKNOW",
+          "mezzLocation": "UNKNOW",
+          "mezzMac": "1075904512;",
+          "moId": "69066",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16mezz1UNKNOWUNKNOW"
+        },
+        {
+          "name": "",
+          "mezzHealthStatus": -3,
+          "presentState": 1,
+          "mezzInfo": "4*10G Port CNA Mezzanine Card",
+          "mezzLocation": "MEZZ1",
+          "mezzMac": "1075904513;",
+          "moId": "69087",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16mezz0MZ512MEZZ1"
+        }
+      ],
+      "NetworkCard": [
+        {
+          "netWorkCardName": "NIC1",
+          "macAdress": "--",
+          "moId": "9119",
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade16networkNIC1"
+        }
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}
