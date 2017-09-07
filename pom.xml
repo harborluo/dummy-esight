@@ -68,7 +68,7 @@
                     </resources>
                 </configuration>
             </plugin>
-
+<!--
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-checkstyle-plugin</artifactId>
@@ -90,10 +90,10 @@
 					</execution>
 				</executions>
 			</plugin>
-
+-->
 		</plugins>
 	</build>
-
+<!--
 	<reporting>
 		<outputDirectory>target/report</outputDirectory>
 		<plugins>
@@ -109,6 +109,6 @@
 			</plugin>
 		</plugins>
 	</reporting>
-
+-->
 
 </project>
