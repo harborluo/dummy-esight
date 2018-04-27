@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "data": [{
+    "dn": "KunLun123456c",
+    "ipAddress": "192.168.2.15",
+    "serverName": "KunLun-192.168.2.15",
+    "serverModel": "9008",
+    "productSN": "11111111111111111",
+    "location": "",
+    "description": "",
+    "uuid": "RackServer20171204GLRJP",
+    "status": "-3",
+    "manufacturer": "Huawei",
+    "version": "2.43",
+    "childBlades": []
+  }],
+  "size": 220,
+  "totalPage": 1,
+  "description": "Succeeded in querying the server list."
+}

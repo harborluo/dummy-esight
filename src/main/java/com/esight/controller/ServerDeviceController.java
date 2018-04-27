@@ -19,7 +19,7 @@ public class ServerDeviceController {
     private static final Logger logger = LoggerFactory.getLogger(ServerDeviceController.class);
 
 
-    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device2")
+    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device_backup")
     public @ResponseBody
     ResponseServerDeviceListBean list(@RequestParam(value="servertype", required=false, defaultValue="servertype") String servertype,
                                       @RequestParam(value="start", required=false, defaultValue="1") int start,
@@ -50,6 +50,7 @@ public class ServerDeviceController {
         else if("thirdpartyserver".equals(servertype)){
             devicePrefix = "NE=3500300";
         }
+
         else {
             return response;
         }
@@ -99,7 +100,7 @@ public class ServerDeviceController {
         return response;
     }
 
-    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device/detail2")
+    @RequestMapping(method= RequestMethod.GET,path = "/rest/openapi/server/device/detail_backup")
     public @ResponseBody
     ResponseServerDeviceDetailBean detail(@RequestParam(value="dn", required=false, defaultValue="dn") String dn,
                                           @RequestHeader(value="openid", defaultValue="openid") String openid) {
@@ -176,6 +177,7 @@ public class ServerDeviceController {
         List<BoardBean> boardBeanList = new ArrayList<>();
         for(int idx=1;idx<=2;idx++){
             BoardBean boardBean = new BoardBean();
+            boardBean.setIpAddress("0.0.0."+i);
             boardBean.setName("BC11HGSA"+idx);
             boardBean.setHealthState(getRandomSate());
             boardBean.setManufacture("Huawei");

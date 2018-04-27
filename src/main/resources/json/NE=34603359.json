@@ -1,0 +1,308 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "dn": "NE=34603359",
+      "ipAddress": "192.168.112.159",
+      "name": "E9000-192.168.112.159",
+      "type": "E9000",
+      "uuid": "ChassisServerSSN-192.168.112.159",
+      "status": 0,
+      "macAddr": "TB-S",
+      "realTimePower": "1",
+      "productSn": "SSN-192.168.112.159",
+      "desc": "",
+      "PSU": [
+        {
+          "name": "PSU1",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47501",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU1",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        },
+        {
+          "name": "PSU2",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47500",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU2",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        },
+        {
+          "name": "PSU3",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47499",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU3",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        },
+        {
+          "name": "PSU4",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47660",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU4",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        },
+        {
+          "name": "PSU5",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47659",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU5",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        },
+        {
+          "name": "PSU6",
+          "healthState": 0,
+          "inputPower": "2.0 W",
+          "manufacture": "",
+          "version": "",
+          "inputMode": 1,
+          "moId": "47624",
+          "uuid": "ChassisServerSSN-192.168.112.145powerPSU6",
+          "presentState": "1",
+          "powerProtocol": "",
+          "ratePower": "3000.0 W",
+          "model": ""
+        }
+      ],
+      "Fan": [
+        {
+          "name": "Fan1",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47502",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan1",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan10",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47623",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan10",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan11",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47621",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan11",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan12",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47622",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan12",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan13",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47585",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan13",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan14",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47620",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan14",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan2",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47503",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan2",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan3",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47510",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan3",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan4",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47507",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan4",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan5",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47508",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan5",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan6",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47513",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan6",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan7",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47514",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan7",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan8",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47511",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan8",
+          "presentState": "1"
+        },
+        {
+          "name": "Fan9",
+          "healthState": 0,
+          "rotate": -1,
+          "rotatePercent": 74,
+          "controlModel": "0",
+          "moId": "47512",
+          "uuid": "ChassisServerSSN-192.168.112.145fanFan9",
+          "presentState": "1"
+        }
+      ],
+      "board": [
+        {
+          "dn": "NE=34604014",
+          "ipAddress": "0.0.0.1",
+          "name": "switch module1",
+          "healthState": 0,
+          "type": "1",
+          "sn": "swi1fruProductSerialNumber",
+          "partNumber": "0",
+          "manufacture": "Huawei Technologies Co. Ltd.",
+          "manuTime": "2013-08-07 02:55:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "47509",
+          "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module1"
+        },
+        {
+          "dn": "NE=34604016",
+          "ipAddress": "0.0.0.2",
+          "name": "switch module2",
+          "healthState": 0,
+          "type": "1",
+          "sn": "swi2fruProductSerialNumber",
+          "partNumber": "0",
+          "manufacture": "Huawei Technologies Co. Ltd.",
+          "manuTime": "2013-08-07 02:55:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "47506",
+          "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module2"
+        },
+        {
+          "dn": "NE=34604011",
+          "ipAddress": "0.0.0.3",
+          "name": "switch module3",
+          "healthState": 0,
+          "type": "1",
+          "sn": "swi3fruProductSerialNumber",
+          "partNumber": "0",
+          "manufacture": "Huawei Technologies Co. Ltd.",
+          "manuTime": "2013-08-07 02:55:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "47505",
+          "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module3"
+        },
+        {
+          "dn": "NE=34603525",
+          "ipAddress": "0.0.0.0",
+          "name": "switch module4",
+          "healthState": 0,
+          "type": "1",
+          "sn": "swi4fruProductSerialNumber",
+          "partNumber": "0",
+          "manufacture": "Huawei Technologies Co. Ltd.",
+          "manuTime": "2013-08-07 02:55:00",
+          "presentState": "1",
+          "assertTag": "",
+          "moId": "47504",
+          "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module4"
+        }
+      ]
+    }
+  ],
+  "description": "Succeeded in querying server details."
+}

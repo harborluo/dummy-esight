@@ -30,6 +30,8 @@ public class BoardBean  {
 
 	private String moId;
 
+	private String ipAddress;
+
 	public String getName() {
 		return name;
 	}
@@ -115,5 +117,13 @@ public class BoardBean  {
 
 	public void setMoId(String moId) {
 		this.moId = moId;
+	}
+
+	public String getIpAddress() {
+		return ipAddress;
+	}
+
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
 	}
 }

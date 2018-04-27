@@ -1,0 +1,624 @@
+{
+  "code": 0,
+  "data": [{
+    "dn": "KunLun123456c",
+    "ipAddress": "192.168.2.15",
+    "name": "KunLun-192.168.2.15",
+    "type": "9008",
+    "uuid": "RackServer20171204GLRJP",
+    "status": -3,
+    "macAddr": "",
+    "realTimePower": "",
+    "productSn": "",
+    "desc": "",
+    "Disk": [{
+
+      "name": "HDD1",
+
+      "healthState": 0,
+
+      "location": "2",
+
+      "presentState": "1",
+
+      "moId": "5971",
+
+      "uuid": "RackServer20171204GLRJPdiskHDD111"
+
+    },
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "3",
+
+        "presentState": "0",
+
+        "moId": "5999",
+
+        "uuid": "RackServer20171204GLRJPdiskNA12"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "9",
+
+        "presentState": "0",
+
+        "moId": "5955",
+
+        "uuid": "RackServer20171204GLRJPdiskNA18"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "11",
+
+        "presentState": "0",
+
+        "moId": "5968",
+
+        "uuid": "RackServer20171204GLRJPdiskNA110"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "1",
+
+        "presentState": "0",
+
+        "moId": "6003",
+
+        "uuid": "RackServer20171204GLRJPdiskNA10"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "8",
+
+        "presentState": "0",
+
+        "moId": "5956",
+
+        "uuid": "RackServer20171204GLRJPdiskNA17"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "12",
+
+        "presentState": "0",
+
+        "moId": "5969",
+
+        "uuid": "RackServer20171204GLRJPdiskNA111"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "7",
+
+        "presentState": "0",
+
+        "moId": "5957",
+
+        "uuid": "RackServer20171204GLRJPdiskNA16"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "6",
+
+        "presentState": "0",
+
+        "moId": "5958",
+
+        "uuid": "RackServer20171204GLRJPdiskNA15"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "4",
+
+        "presentState": "0",
+
+        "moId": "5997",
+
+        "uuid": "RackServer20171204GLRJPdiskNA13"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "10",
+
+        "presentState": "0",
+
+        "moId": "5954",
+
+        "uuid": "RackServer20171204GLRJPdiskNA19"
+
+      },
+
+      {
+
+        "name": "NA",
+
+        "healthState": -1,
+
+        "location": "5",
+
+        "presentState": "0",
+
+        "moId": "5959",
+
+        "uuid": "RackServer20171204GLRJPdiskNA14"
+
+      }
+
+    ],
+    "PSU": [{
+      "name": "PFM1",
+
+      "healthState": 0,
+
+      "inputPower": "0 W",
+
+      "manufacture": "",
+
+      "version": "",
+
+      "inputMode": 1,
+
+      "moId": "6007",
+
+      "uuid": "RackServer20171204GLRJPpowerPFM15",
+
+      "presentState": "1",
+
+      "powerProtocol": "",
+
+      "ratePower": "0 W",
+
+      "model": ""
+
+    },
+
+      {
+
+        "name": "PFM2",
+
+        "healthState": -3,
+
+        "inputPower": "0 W",
+
+        "manufacture": "",
+
+        "version": "",
+
+        "inputMode": 1,
+
+        "moId": "5990",
+
+        "uuid": "RackServer20171204GLRJPpowerPFM25",
+
+        "presentState": "1",
+
+        "powerProtocol": "",
+
+        "ratePower": "0 W",
+
+        "model": ""
+
+      },
+
+      {
+
+        "name": "PSU-3",
+
+        "healthState": -1,
+
+        "inputPower": "0 W",
+
+        "manufacture": "",
+
+        "version": "",
+
+        "inputMode": 1,
+
+        "moId": "5963",
+
+        "uuid": "RackServer20171204GLRJPpowerPSU-31",
+
+        "presentState": "0",
+
+        "powerProtocol": "",
+
+        "ratePower": "0 W",
+
+        "model": ""
+
+      },
+
+      {
+
+        "name": "PSU-4",
+
+        "healthState": -1,
+
+        "inputPower": "0 W",
+
+        "manufacture": "",
+
+        "version": "",
+
+        "inputMode": 1,
+
+        "moId": "5952",
+
+        "uuid": "RackServer20171204GLRJPpowerPSU-41",
+
+        "presentState": "0",
+
+        "powerProtocol": "",
+
+        "ratePower": "0 W",
+
+        "model": ""
+
+      },
+
+      {
+
+        "name": "PSU2",
+
+        "healthState": 0,
+
+        "inputPower": "0 W",
+
+        "manufacture": "",
+
+        "version": "",
+
+        "inputMode": 1,
+
+        "moId": "5966",
+
+        "uuid": "RackServer20171204GLRJPpowerPSU21",
+
+        "presentState": "1",
+
+        "powerProtocol": "",
+
+        "ratePower": "0 W",
+
+        "model": ""
+
+      },
+
+      {
+
+        "name": "PSU4",
+
+        "healthState": -3,
+
+        "inputPower": "0 W",
+
+        "manufacture": "",
+
+        "version": "",
+
+        "inputMode": 1,
+
+        "moId": "6002",
+
+        "uuid": "RackServer20171204GLRJPpowerPSU41",
+
+        "presentState": "1",
+
+        "powerProtocol": "",
+
+        "ratePower": "0 W",
+
+        "model": ""
+
+      }
+
+    ],
+    "Fan": [{
+
+      "name": "Fan1",
+
+      "healthState": 0,
+
+      "rotate": "",
+
+      "rotatePercent": "",
+
+      "controlModel": "0",
+
+      "moId": "5991",
+
+      "uuid": "RackServer20171204GLRJPfanFan11",
+
+      "presentState": "1"
+
+    },
+
+      {
+
+        "name": "Fan2",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5964",
+
+        "uuid": "RackServer20171204GLRJPfanFan21",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan3",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5953",
+
+        "uuid": "RackServer20171204GLRJPfanFan31",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan4",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5993",
+
+        "uuid": "RackServer20171204GLRJPfanFan41",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan5",
+
+        "healthState": -1,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5989",
+
+        "uuid": "RackServer20171204GLRJPfanFan51",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan6",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5965",
+
+        "uuid": "RackServer20171204GLRJPfanFan61",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan7",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5962",
+
+        "uuid": "RackServer20171204GLRJPfanFan71",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "Fan8",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "6006",
+
+        "uuid": "RackServer20171204GLRJPfanFan81",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "PFM1-Fan Module 1",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5988",
+
+        "uuid": "RackServer20171204GLRJPfanPFM1-Fan Module 15",
+
+        "presentState": "1"
+
+      },
+
+      {
+
+        "name": "PFM2-Fan Module 2",
+
+        "healthState": 0,
+
+        "rotate": "",
+
+        "rotatePercent": "",
+
+        "controlModel": "0",
+
+        "moId": "5967",
+
+        "uuid": "RackServer20171204GLRJPfanPFM2-Fan Module 25",
+
+        "presentState": "1"
+
+      }
+
+    ],
+    "board": [{
+
+      "name": "",
+
+      "healthState": -3,
+
+      "type": "0",
+
+      "sn": "",
+
+      "partNumber": "",
+
+      "manufacture": "",
+
+      "manuTime": "",
+
+      "presentState": "1",
+
+      "assertTag": "",
+
+      "moId": "5949",
+
+      "uuid": "RackServer20171204GLRJPmotherboard9008-192.168.2.15"
+
+    }
+
+    ],
+    "RAID": [{
+
+      "name": "BC01ESMQ",
+
+      "healthState": 0,
+
+      "raidType": "LSI SAS3108",
+
+      "interfaceType": "",
+
+      "bbuType": "",
+
+      "moId": "5970",
+
+      "uuid": "RackServer20171204GLRJPraidCard1"
+
+    }
+
+    ],
+    "PCIE": []
+  }],
+  "description": "Succeeded in querying server details."
+}
