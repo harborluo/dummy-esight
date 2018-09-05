@@ -2,7 +2,8 @@ package com.esight.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.MessageDigest;
@@ -22,10 +23,10 @@ public class LoginControler {
 
     private static final Logger logger = LoggerFactory.getLogger(LoginControler.class);
 
-    //@Value("${esight.account.user}")
+    @Value("${esight.account.user}")
     private String user;
 
-    //@Value("${esight.account.pass}")
+    @Value("${esight.account.pass}")
     private String pass;
 
     private String hashMD5 (String source){
@@ -60,8 +61,8 @@ public class LoginControler {
 
         logger.info("user/password is {}/{}",userid,value);
 
-        if("openApiUser".equals(userid)&&"Simple.0".equals(value)){
-//        if(user.equals(userid)&&pass.equals(value)){
+//        if("openApiUser".equals(userid)&&"Simple.0".equals(value)){
+        if(user.equals(userid)&&pass.equals(value)){
 //        if(2>1){
 
             String openid = UUID.randomUUID().toString();
