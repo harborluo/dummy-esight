@@ -15,27 +15,27 @@ public class DriveController extends BaseController {
 
 	private static final Logger logger = LoggerFactory.getLogger(DriveController.class);
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{node_id}}/Storage/Drive", produces="application/json")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
                 @PathVariable(value="nodeId", required=true) String nodeId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
-        logger.info("call /redfish/v1/rich/Nodes/{{node_id}}/Storage/Drive with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
+        logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
         logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("nodes/node-"+nodeId+"-drive.json");
     }
 	
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/Drive/{driveId}", produces="application/json")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId}", produces="application/json")
     public @ResponseBody
     String getNodeDetail(@PathVariable(value="nodeId", required=false) String nodeid,
     		@PathVariable(value="driveId", required=false) String driveId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/Drive/{driveId} with with param {} {}", nodeid, driveId);
+		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with with param {} {}", nodeid, driveId);
         logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/drive-"+driveId+".json");
