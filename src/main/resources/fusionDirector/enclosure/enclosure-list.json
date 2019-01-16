@@ -1,0 +1,18 @@
+{
+  "@odata.id": "/redfish/v1/rich/Enclosures",
+  "Members@odata.count": 100,
+  "Top": 10,
+  "Skip": 0,
+  "Members": [
+    {
+      "@odata.id": "/redfish/v1/rich/Enclosure/01234567-1111-1111-1111-0123456789ab",
+      "Name": "My Enclosure",
+      "Type": "E9000",
+      "State": "Ready",
+      "StateReason": "AutoChange",
+      "Health": "OK",
+      "EnclosureProfileUsageState": "Consistent",
+      "EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab"
+    }
+  ]
+}
