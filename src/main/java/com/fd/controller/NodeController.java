@@ -17,7 +17,7 @@ public class NodeController extends BaseController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(NodeController.class);
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -30,7 +30,7 @@ public class NodeController extends BaseController {
     }
 	
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}", produces="application/json")
     public @ResponseBody
     String getNodeDetail(@PathVariable(value="nodeId", required=false) String nodeid,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {

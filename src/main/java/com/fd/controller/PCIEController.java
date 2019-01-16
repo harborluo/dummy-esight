@@ -15,7 +15,7 @@ public class PCIEController extends BaseController {
 
 	private static final Logger logger = LoggerFactory.getLogger(PCIEController.class);
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/PCIe")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/PCIe", produces="application/json")
     public @ResponseBody
     String list(
 //    		@RequestParam(value="$skip", required=false, defaultValue="0") int start,
@@ -30,7 +30,7 @@ public class PCIEController extends BaseController {
     }
 	
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/PCIe/{pcieId}")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/PCIe/{pcieId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
     		@PathVariable(value="pcieId", required=false) String pcieId,

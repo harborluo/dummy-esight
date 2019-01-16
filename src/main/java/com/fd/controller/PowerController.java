@@ -14,7 +14,7 @@ public class PowerController extends BaseController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(NodeController.class);
 
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Power")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Power", produces="application/json")
     public @ResponseBody
     String list(@PathVariable(value="nodeId", required=true) String nodeId ,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {

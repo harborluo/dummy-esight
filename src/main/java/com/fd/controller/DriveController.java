@@ -15,7 +15,7 @@ public class DriveController extends BaseController {
 
 	private static final Logger logger = LoggerFactory.getLogger(DriveController.class);
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{node_id}}/Storage/Drive")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{node_id}}/Storage/Drive", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -29,7 +29,7 @@ public class DriveController extends BaseController {
     }
 	
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/Drive/{driveId}")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/Drive/{driveId}", produces="application/json")
     public @ResponseBody
     String getNodeDetail(@PathVariable(value="nodeId", required=false) String nodeid,
     		@PathVariable(value="driveId", required=false) String driveId,

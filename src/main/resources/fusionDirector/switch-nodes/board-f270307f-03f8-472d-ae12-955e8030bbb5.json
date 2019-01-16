@@ -1,0 +1,19 @@
+{
+  "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+  "@odata.id": "/redfish/v1/rich/Switchs/22465bab-32c2-4ef0-b6c7-9492bce1f4f0/Board/f270307f-03f8-472d-ae12-955e8030bbb5",
+  "@odata.type": "#NodePoolService.v1_2_0.SwitchBoardInfo",
+  "DeviceID": "f270307f-03f8-472d-ae12-955e8030bbb5",
+  "Id": "chassisMainboard",
+  "Name": "chassisMainboard",
+  "CardNo": 2,
+  "DeviceLocator": "Mainboard",
+  "DeviceType": "MainBoard",
+  "Manufacturer": "Huawei",
+  "SerialNumber": "023JVF10G9000053",
+  "BoardName": "IT11XCUK",
+  "BoardId": "0x001c",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  }
+}

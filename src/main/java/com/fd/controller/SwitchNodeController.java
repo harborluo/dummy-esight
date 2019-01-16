@@ -10,35 +10,34 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class RaidCardController extends BaseController {
+import com.esight.controller.ServerDeviceController;
 
-	private static final Logger logger = LoggerFactory.getLogger(RaidCardController.class);
+@RestController
+public class SwitchNodeController extends BaseController {
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard", produces="application/json")
+	private static final Logger logger = LoggerFactory.getLogger(SwitchNodeController.class);
+	
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/SwitchNodes", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
-                @PathVariable(value="nodeId", required=true) String nodeId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
-        logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
+        logger.info("call /redfish/v1/rich/SwitchNodes $skip = {}, $top = {}", start, size);
         logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("nodes/node-"+nodeId+"-raidCard.json");
+        return readJson("switch-nodes/switch-node-list.json");
     }
 	
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId}", produces="application/json")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/SwitchNodes/{nodeId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
-    		@PathVariable(value="raidId", required=false) String raidId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with with param {} {}", nodeid, raidId);
+		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with with param {}", nodeid);
         logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/raidCard-"+raidId+".json");
+		return readJson("switch-nodes/switch-node-"+nodeid+".json");
 	}
-	
+		
 }
