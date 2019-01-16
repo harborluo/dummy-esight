@@ -17,13 +17,13 @@
       "CPU": [
         {
           "name": "0",
-          "healthState": -1,
+          "healthState": 8,
           "frequency": "0",
           "manufacture": "0",
           "model": "0",
           "moId": "69657",
           "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12cpu00",
-          "presentState": "0"
+          "presentState": "1"
         },
         {
           "name": "CPU1",
@@ -599,25 +599,33 @@
           "netWorkCardName": "NIC1",
           "macAdress": "18-C5-8A-15-C0-D6",
           "moId": "69644",
-          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC1"
+          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "18-C5-8A-15-C0-D7",
           "moId": "69681",
-          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC2"
+          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC2",
+          "portName":"Port2",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC3",
           "macAdress": "18-C5-8A-15-C0-D8",
           "moId": "69646",
-          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC3"
+          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC3",
+          "portName":"Port3",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC4",
           "macAdress": "18-C5-8A-15-C0-D9",
           "moId": "69686",
-          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC4"
+          "uuid": "RackServer2102310YQE10E2288902motherboardRH2288 V3-172.100.10.12networkNIC4",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

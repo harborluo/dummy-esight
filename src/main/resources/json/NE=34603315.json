@@ -355,13 +355,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "00-25-69-08-79-30",
           "moId": "68739",
-          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC1"
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "00-25-69-08-79-31",
           "moId": "68737",
-          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC2"
+          "uuid": "RackServerRH2288AV2-1038motherboardRH2288A V2-172.100.10.45networkNIC2",
+          "portName":"Port2",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

@@ -284,13 +284,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "FC-E3-3C-B6-0A-04",
           "moId": "68686",
-          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC1"
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "FC-E3-3C-B6-0A-05",
           "moId": "68685",
-          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC2"
+          "uuid": "RackServer022YQECNG3000549motherboardXH620 V3networkNIC2",
+          "portName":"Port5",
+          "linkStatus":"Down"
         }
       ],
       "PCIE": [

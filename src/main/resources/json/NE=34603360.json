@@ -98,13 +98,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "7C-A2-3E-E1-FB-E9",
           "moId": "68425",
-          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC1"
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "7C-A2-3E-E1-FB-EA",
           "moId": "68428",
-          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC2"
+          "uuid": "RackServer031NCW10F5000018motherboardXH310 V3networkNIC2",
+          "portName":"Port5",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

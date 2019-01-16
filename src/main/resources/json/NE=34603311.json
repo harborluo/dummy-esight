@@ -503,13 +503,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "18-DE-D7-8A-4C-93",
           "moId": "69782",
-          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC1"
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "18-DE-D7-8A-4C-94",
           "moId": "69743",
-          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC2"
+          "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21networkNIC2",
+          "portName":"Port2",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

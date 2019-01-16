@@ -599,13 +599,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "48-7B-6B-F2-54-C7",
           "moId": "68166",
-          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC1"
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "48-7B-6B-F2-54-C8",
           "moId": "68177",
-          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC2"
+          "uuid": "RackServer2102311EFA10GC000024motherboardRH2288 V3-172.100.10.89networkNIC2",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

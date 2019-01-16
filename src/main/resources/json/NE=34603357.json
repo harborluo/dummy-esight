@@ -268,25 +268,33 @@
           "netWorkCardName": "NIC1",
           "macAdress": "A4-DC-BE-10-08-16",
           "moId": "68231",
-          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC1"
+          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "A4-DC-BE-10-08-17",
           "moId": "68228",
-          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC2"
+          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC2",
+          "portName":"Port3",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC3",
           "macAdress": "A4-DC-BE-10-08-18",
           "moId": "68229",
-          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC3"
+          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC3",
+          "portName":"Port3",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC4",
           "macAdress": "A4-DC-BE-10-08-19",
           "moId": "68230",
-          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC4"
+          "uuid": "RackServer022YQECNG3000645motherboardXH620 V3networkNIC4",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

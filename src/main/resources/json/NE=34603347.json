@@ -284,13 +284,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "68-8F-84-F0-03-21",
           "moId": "46242",
-          "uuid": "RackServermotherboardXH620 V3networkNIC1"
+          "uuid": "RackServermotherboardXH620 V3networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "68-8F-84-F0-03-22",
           "moId": "46241",
-          "uuid": "RackServermotherboardXH620 V3networkNIC2"
+          "uuid": "RackServermotherboardXH620 V3networkNIC2",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

@@ -495,13 +495,17 @@
           "netWorkCardName": "NIC1",
           "macAdress": "08-C0-21-0B-C8-E7",
           "moId": "66440",
-          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC1"
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "08-C0-21-0B-C8-E8",
           "moId": "66438",
-          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC2"
+          "uuid": "RackServerhuaweimotherboardRH2288 V3-172.100.10.59networkNIC2",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

@@ -695,25 +695,33 @@
           "netWorkCardName": "NIC1",
           "macAdress": "9C-37-F4-03-06-B8",
           "moId": "67647",
-          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC1"
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "9C-37-F4-03-06-B9",
           "moId": "67610",
-          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC2"
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC2",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC3",
           "macAdress": "9C-37-F4-03-06-BA",
           "moId": "67646",
-          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC3"
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC3",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC4",
           "macAdress": "9C-37-F4-03-06-BB",
           "moId": "67609",
-          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC4"
+          "uuid": "RackServer2102311GEW11E5528801motherboard5288 V3-172.100.10.38networkNIC4",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

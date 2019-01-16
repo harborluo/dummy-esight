@@ -414,7 +414,9 @@
           "netWorkCardName": "NIC1",
           "macAdress": "--",
           "moId": "2234",
-          "uuid": "ChassisServer2102300742N0E3000156motherboardblade6networkNIC1"
+          "uuid": "ChassisServer2102300742N0E3000156motherboardblade6networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ]
     }

@@ -55,9 +55,12 @@ public class LoginControler {
 
     @RequestMapping(method= RequestMethod.PUT,path = "/rest/openapi/sm/session")
     public @ResponseBody
-    ESightResponseObject login(@RequestParam(value="userid", required=false, defaultValue="openApiUser") String userid,
-                                  @RequestParam(value="value", required=false, defaultValue="Simple.0") String value) {
+    ESightResponseObject login(@RequestParam(value="userid", required=false, defaultValue= "openApiUser") String userid,
+                                  @RequestParam(value="value", required=false, defaultValue= "Simple.0") String value) {
         ESightResponseObject responseObject = new ESightResponseObject();
+        
+        userid=user;
+        value=pass;
 
         logger.info("user/password is {}/{}",userid,value);
 

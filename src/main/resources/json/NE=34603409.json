@@ -583,25 +583,33 @@
           "netWorkCardName": "NIC1",
           "macAdress": "2C-9D-1E-F1-B3-B3",
           "moId": "69194",
-          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC1"
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC1",
+          "portName":"Port1",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "2C-9D-1E-F1-B3-B4",
           "moId": "69226",
-          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC2"
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC2",
+          "portName":"Port2",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC3",
           "macAdress": "2C-9D-1E-F1-B3-B5",
           "moId": "69192",
-          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC3"
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC3",
+          "portName":"Port3",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC4",
           "macAdress": "2C-9D-1E-F1-B3-B6",
           "moId": "69222",
-          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC4"
+          "uuid": "RackServer333motherboardRH2288H V3-172.100.10.51networkNIC4",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [

@@ -599,25 +599,33 @@
           "netWorkCardName": "NIC1",
           "macAdress": "9C-37-F4-93-50-70",
           "moId": "44553",
-          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC1"
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC1",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC2",
           "macAdress": "9C-37-F4-93-50-71",
           "moId": "44532",
-          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC2"
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC2",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC3",
           "macAdress": "9C-37-F4-93-50-72",
           "moId": "44551",
-          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC3"
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC3",
+          "portName":"Port4",
+          "linkStatus":"Up"
         },
         {
           "netWorkCardName": "NIC4",
           "macAdress": "9C-37-F4-93-50-73",
           "moId": "44531",
-          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC4"
+          "uuid": "RackServer2102310YQE10E2288901motherboardRH2288 V3-172.100.10.11networkNIC4",
+          "portName":"Port4",
+          "linkStatus":"Up"
         }
       ],
       "PCIE": [
