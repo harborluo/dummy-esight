@@ -15,7 +15,7 @@ public class RaidCardController extends BaseController {
 
 	private static final Logger logger = LoggerFactory.getLogger(RaidCardController.class);
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard", produces="application/json")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -29,7 +29,7 @@ public class RaidCardController extends BaseController {
     }
 	
 	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId}", produces="application/json")
+	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard/{raidId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
     		@PathVariable(value="raidId", required=false) String raidId,
