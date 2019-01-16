@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/d04492e0-1ec2-4725-9ec4-c01e067ba41b",
+    "@odata.type": "#NodePoolService.v1_2_0.NetworkAdapterInfo",
+    "CardManufacturer": "Huawei",
+    "CardModel": "2*100G IB Port HCA Mezzanine Card",
+    "CardName": "MZ620",
+    "DeviceID": "d04492e0-1ec2-4725-9ec4-c01e067ba41b",
+    "DeviceLocator": "MEZZ2",
+    "DriverName": "",
+    "DriverVersion": "",
+    "Id": "mainboardMEZZ2",
+    "Manufacturer": "Mellanox",
+    "Model": "CX4",
+    "Name": "mainboardMEZZ2",
+    "NetworkPort": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/d04492e0-1ec2-4725-9ec4-c01e067ba41b/NetworkPort",
+        "PortNum": 2
+    },
+    "Position": "mainboard"
+}

@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/fea66688-5254-499b-baf4-27a033ec7eab",
+    "@odata.type": "#NodePoolService.v1_2_0.NetworkAdapterInfo",
+    "CardManufacturer": "Huawei",
+    "CardModel": "2*10GE Port CNA Mezzanine Card,PCIE 2.0 X8",
+    "CardName": "MZ520",
+    "DeviceID": "fea66688-5254-499b-baf4-27a033ec7eab",
+    "DeviceLocator": "MEZZ3",
+    "DriverName": "",
+    "DriverVersion": "",
+    "Id": "mainboardMEZZ3",
+    "Manufacturer": "Cavium",
+    "Model": "BCM57810S",
+    "Name": "mainboardMEZZ3",
+    "NetworkPort": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/fea66688-5254-499b-baf4-27a033ec7eab/NetworkPort",
+        "PortNum": 2
+    },
+    "Position": "mainboard"
+}

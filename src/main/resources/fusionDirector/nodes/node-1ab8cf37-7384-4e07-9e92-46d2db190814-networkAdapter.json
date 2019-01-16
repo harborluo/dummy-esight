@@ -1,0 +1,103 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter",
+    "@odata.type": "#NodePoolService.v1_2_0.NetworkAdapterList",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/370f2fba-4b3b-405a-ab84-9dad879111bb",
+            "DeviceID": "370f2fba-4b3b-405a-ab84-9dad879111bb",
+            "Id": "mainboardLOM",
+            "Name": "mainboardLOM",
+            "Manufacturer": "Intel",
+            "Model": "X722",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "LOM",
+            "CardName": "LOM",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*10GE",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 2,
+                "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/370f2fba-4b3b-405a-ab84-9dad879111bb/NetworkPort"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/f5241c52-75de-44ef-805e-c2e272a7bdf7",
+            "DeviceID": "f5241c52-75de-44ef-805e-c2e272a7bdf7",
+            "Id": "mainboardMEZZ1",
+            "Name": "mainboardMEZZ1",
+            "Manufacturer": "Broadcom",
+            "Model": "XE201",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "MEZZ1",
+            "CardName": "MZ220",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*16G FC Port Mezzanine Card",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 2,
+                "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/f5241c52-75de-44ef-805e-c2e272a7bdf7/NetworkPort"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/d04492e0-1ec2-4725-9ec4-c01e067ba41b",
+            "DeviceID": "d04492e0-1ec2-4725-9ec4-c01e067ba41b",
+            "Id": "mainboardMEZZ2",
+            "Name": "mainboardMEZZ2",
+            "Manufacturer": "Mellanox",
+            "Model": "CX4",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "MEZZ2",
+            "CardName": "MZ620",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*100G IB Port HCA Mezzanine Card",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 2,
+                "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/d04492e0-1ec2-4725-9ec4-c01e067ba41b/NetworkPort"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/fea66688-5254-499b-baf4-27a033ec7eab",
+            "DeviceID": "fea66688-5254-499b-baf4-27a033ec7eab",
+            "Id": "mainboardMEZZ3",
+            "Name": "mainboardMEZZ3",
+            "Manufacturer": "Cavium",
+            "Model": "BCM57810S",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "MEZZ3",
+            "CardName": "MZ520",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*10GE Port CNA Mezzanine Card,PCIE 2.0 X8",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 2,
+                "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/fea66688-5254-499b-baf4-27a033ec7eab/NetworkPort"
+            }
+        },
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/bdf837fa-db04-48ff-a3be-391aefa0b2a8",
+            "DeviceID": "bdf837fa-db04-48ff-a3be-391aefa0b2a8",
+            "Id": "mainboardMEZZ4",
+            "Name": "mainboardMEZZ4",
+            "Manufacturer": "Mellanox",
+            "Model": "CX4",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "MEZZ4",
+            "CardName": "MZ620",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*100G IB Port HCA Mezzanine Card",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 2,
+                "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/bdf837fa-db04-48ff-a3be-391aefa0b2a8/NetworkPort"
+            }
+        }
+    ],
+    "Members@odata.count": 5
+}
