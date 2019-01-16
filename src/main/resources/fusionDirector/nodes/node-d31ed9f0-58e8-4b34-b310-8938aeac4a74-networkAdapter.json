@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/NetworkAdapter",
+    "@odata.type": "#NodePoolService.v1_2_0.NetworkAdapterList",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/NetworkAdapter/1b144e96-5c8e-4875-b21b-40798f2aabae",
+            "DeviceID": "1b144e96-5c8e-4875-b21b-40798f2aabae",
+            "Id": "mainboardLOM",
+            "Name": "mainboardLOM",
+            "Manufacturer": "Intel",
+            "Model": "X722",
+            "DriverName": "",
+            "DriverVersion": "",
+            "DeviceLocator": "LOM",
+            "CardName": "LOM",
+            "CardManufacturer": "Huawei",
+            "CardModel": "2*10GE+2*GE",
+            "Position": "mainboard",
+            "NetworkPort": {
+                "PortNum": 4,
+                "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/NetworkAdapter/1b144e96-5c8e-4875-b21b-40798f2aabae/NetworkPort"
+            }
+        }
+    ],
+    "Members@odata.count": 1
+}
