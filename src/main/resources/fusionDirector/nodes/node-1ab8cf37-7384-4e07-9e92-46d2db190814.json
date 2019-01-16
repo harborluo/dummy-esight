@@ -1,0 +1,119 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814",
+    "@odata.type": "#NodePoolService.v1_2_0.NodeInfo",
+    "Alias": "",
+    "AssetTag": "",
+    "BIOS": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Bios"
+    },
+    "BMC": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Manager"
+    },
+    "BiosVersion": "0.95",
+    "Catalogue": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Catalogue"
+    },
+    "DeviceID": "1ab8cf37-7384-4e07-9e92-46d2db190814",
+    "FPGA": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/FPGA"
+    },
+    "FPGASummary": {
+        "Count": 0
+    },
+    "Firmware": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Firmware"
+    },
+    "GPU": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/GPU"
+    },
+    "GPUSummary": {
+        "Count": 0
+    },
+    "Group": null,
+    "GroupID": null,
+    "IPv4Address": {
+        "Address": "112.93.129.120",
+        "AddressOrigin": "",
+        "GateWay": "",
+        "SubnetMask": ""
+    },
+    "Id": "Blade5",
+    "IndicatorLED": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/IndicatorLED"
+    },
+    "Link": {
+        "Chassis": {
+            "@odata.id": "",
+            "SerialNumber": ""
+        }
+    },
+    "Manufacturer": "Huawei",
+    "Memory": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Memory"
+    },
+    "MemorySummary": {
+        "TotalSystemMemoryGiB": 32
+    },
+    "Model": "CH242 V5",
+    "Name": "Computer System",
+    "NetworkAdapter": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter"
+    },
+    "NetworkAdapterSummary": {
+        "Count": 5
+    },
+    "NetworkInterface": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkInterface"
+    },
+    "OSSummary": {
+        "Image": "",
+        "KernelVersion": "",
+        "OSVersion": ""
+    },
+    "PCIe": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/PCIe"
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Power"
+    },
+    "PowerState": "On",
+    "Processor": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Processor"
+    },
+    "ProcessorSummary": [
+        {
+            "Count": 4,
+            "Type": "Intel(R) Xeon(R) Gold 5115 CPU @ 2.40GHz"
+        }
+    ],
+    "Profile": {
+        "Id": "e386a390-f2a3-4e38-ada4-bcd9ec4dd6e6",
+        "Name": "132",
+        "State": "Binding"
+    },
+    "ProfileModel": {
+        "Id": "6e800fda-6e0a-4ab2-b7b4-a50380982c94",
+        "Name": "CH242 V5-SAS3508(RU450C-M 2GB)-MEZZ1(MZ220)-MEZZ3(MZ520)-LOM(MAC)"
+    },
+    "ScopeURIs": [],
+    "SerialNumber": "210305774210J7000006",
+    "ServerState": "OnLine",
+    "Slot": "",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Storage"
+    },
+    "StorageSummary": {
+        "Count": 1,
+        "TotalSystemStorageGiB": 1112
+    },
+    "Tag": "",
+    "Thermal": {
+        "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Thermal"
+    },
+    "UUID": "9DF94E9F-60FA-A642-E811-938B6AF01081"
+}

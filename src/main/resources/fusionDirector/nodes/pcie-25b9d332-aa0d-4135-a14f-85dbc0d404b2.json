@@ -1,0 +1,29 @@
+{
+  "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+  "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/PCIe/25b9d332-aa0d-4135-a14f-85dbc0d404b2",
+  "@odata.type": "#NodePoolService.v1_2_0.PCIeInfo",
+  "Description": "FPGA Card With OpenCL Shell",
+  "DeviceID": "25b9d332-aa0d-4135-a14f-85dbc0d404b2",
+  "FirmwareVersion": "string",
+  "Id": "PCIeCard8",
+  "Manufacturer": "Huawei",
+  "Model": "",
+  "ModelType": "FPGA",
+  "Name": "PCIeCard8",
+  "Oem": {
+    "Huawei": {
+      "DeviceLocator": "PCIe Card 8",
+      "FunctionType": "PCIe Card 8",
+      "Position": "GpuBoard1",
+      "Power": 38
+    }
+  },
+  "PCIeFunction": {
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/PCIe/25b9d332-aa0d-4135-a14f-85dbc0d404b2/Function"
+  },
+  "SerialNumber": 38,
+  "Status": {
+    "Health": "OK",
+    "State": "Enabled"
+  }
+}

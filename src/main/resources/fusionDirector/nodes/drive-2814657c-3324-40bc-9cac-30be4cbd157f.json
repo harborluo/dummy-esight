@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/2814657c-3324-40bc-9cac-30be4cbd157f",
+    "@odata.type": "#NodePoolService.v1_2_0.DriveInfo",
+    "CapableSpeedGbs": 0,
+    "CapacityGiB": 0,
+    "DeviceID": "2814657c-3324-40bc-9cac-30be4cbd157f",
+    "Id": "HDDPlaneDisk1",
+    "IndicatorLED": "Off",
+    "Manufacturer": "",
+    "MediaType": "",
+    "Model": "",
+    "Name": "Disk1",
+    "Oem": {
+        "Huawei": {
+            "FirmwareStatus": "",
+            "SASAddress": [],
+            "TemperatureCelsius": 0
+        },
+        "SASSmartInformation": {
+            "SequenceNumberOfLastPredFailEvent": 0
+        }
+    },
+    "Protocol": "SATA",
+    "Revision": "",
+    "SerialNumber": "",
+    "Status": {
+        "Health": "OK",
+        "State": ""
+    }
+}

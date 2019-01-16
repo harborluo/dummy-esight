@@ -1,0 +1,19 @@
+{
+    "error": {
+        "@Message.ExtendedInfo": [
+            {
+                "@odata.type": "#MessageRegistry.1.0.0.MessageRegistry",
+                "Message": "The resource at the URI ${RESOURCE_PATH} was not found.",
+                "MessageArgs": [
+                    "${RESOURCE_PATH}"
+                ],
+                "MessageId": "Base.1.0.ResourceMissingAtURI",
+                "RelateProperties": null,
+                "Resolution": "Place a valid resource at thr URI or correct the URI and resubmit the request.",
+                "Severity": "Critical"
+            }
+        ],
+        "code": "Base.1.0.GeneralError",
+        "message": "A general error has occurred. See ExtendedInfo for more information."
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive",
+    "@odata.type": "#NodePoolService.v1_2_0.DriveList",
+    "Members": [
+        {
+            "Id": "HDDPlaneDisk0",
+            "Name": "Disk0",
+            "DeviceID": "3666b186-68a3-4c55-aebe-c712d528bfb7",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/3666b186-68a3-4c55-aebe-c712d528bfb7"
+        },
+        {
+            "Id": "HDDPlaneDisk1",
+            "Name": "Disk1",
+            "DeviceID": "2814657c-3324-40bc-9cac-30be4cbd157f",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/2814657c-3324-40bc-9cac-30be4cbd157f"
+        },
+        {
+            "Id": "HDDPlaneDisk2",
+            "Name": "Disk2",
+            "DeviceID": "0f1967c6-8eeb-4d62-ba52-a7eba10ba821",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/0f1967c6-8eeb-4d62-ba52-a7eba10ba821"
+        },
+        {
+            "Id": "HDDPlaneDisk3",
+            "Name": "Disk3",
+            "DeviceID": "654f1eb1-b9d5-4892-ad8b-a20b2846de10",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/654f1eb1-b9d5-4892-ad8b-a20b2846de10"
+        },
+        {
+            "Id": "HDDPlaneDisk4",
+            "Name": "Disk4",
+            "DeviceID": "467a701f-3c10-4cb2-9ee5-0665e7426385",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/467a701f-3c10-4cb2-9ee5-0665e7426385"
+        },
+        {
+            "Id": "HDDPlaneDisk5",
+            "Name": "Disk5",
+            "DeviceID": "8d885a0b-07c4-46f5-9bff-e911bcdcd693",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/8d885a0b-07c4-46f5-9bff-e911bcdcd693"
+        },
+        {
+            "Id": "HDDPlaneDisk6",
+            "Name": "Disk6",
+            "DeviceID": "4cd3c30e-0cb2-41de-af0b-9ce56362077b",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/4cd3c30e-0cb2-41de-af0b-9ce56362077b"
+        },
+        {
+            "Id": "HDDPlaneDisk7",
+            "Name": "Disk7",
+            "DeviceID": "77262e28-0262-4568-80e7-636e8e04c19c",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/77262e28-0262-4568-80e7-636e8e04c19c"
+        },
+        {
+            "Id": "HDDPlaneDisk40",
+            "Name": "Disk40",
+            "DeviceID": "3ce3b3a6-e8f6-4694-aae1-8e97aa44e5f3",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/3ce3b3a6-e8f6-4694-aae1-8e97aa44e5f3"
+        },
+        {
+            "Id": "HDDPlaneDisk41",
+            "Name": "Disk41",
+            "DeviceID": "779d957c-7325-43b1-a255-a4615bded2ef",
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/Drive/779d957c-7325-43b1-a255-a4615bded2ef"
+        }
+    ],
+    "Members@odata.count": 10
+}

@@ -1,0 +1,80 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes",
+    "@odata.type": "#NodePoolService.v1_2_0.NodeList",
+    "Members": [
+        {
+            "DeviceID": "1ab8cf37-7384-4e07-9e92-46d2db190814",
+            "SerialNumber": "210305774210J7000006",
+            "UUID": "9DF94E9F-60FA-A642-E811-938B6AF01081",
+            "Name": "Computer System",
+            "Model": "CH242 V5",
+            "Group": null,
+            "PowerState": "On",
+            "IPv4Address": {
+                "Address": "112.93.129.120"
+            },
+            "ProcessorSummary": {
+                "Count": 4
+            },
+            "StorageSummary": {
+                "TotalSystemStorageGiB": 1112,
+                "Count": 0
+            },
+            "MemorySummary": {
+                "TotalSystemMemoryGiB": 32
+            },
+            "Profile": {
+                "Id": "e386a390-f2a3-4e38-ada4-bcd9ec4dd6e6",
+                "Name": "132",
+                "State": "Binding"
+            },
+            "Status": {
+                "Health": "Warning",
+                "State": "Enabled"
+            },
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814",
+            "Alias": "",
+            "Tag": "",
+            "ServerState": "OnLine",
+            "ScopeURIs": []
+        },
+        {
+            "DeviceID": "d31ed9f0-58e8-4b34-b310-8938aeac4a74",
+            "SerialNumber": "2102311TYBN0J3000293",
+            "UUID": "877AA970-58F9-8432-E811-80345C184638",
+            "Name": "Computer System",
+            "Model": "2288H V5",
+            "Group": null,
+            "PowerState": "On",
+            "IPv4Address": {
+                "Address": "112.93.129.9"
+            },
+            "ProcessorSummary": {
+                "Count": 2
+            },
+            "StorageSummary": {
+                "TotalSystemStorageGiB": 0,
+                "Count": 0
+            },
+            "MemorySummary": {
+                "TotalSystemMemoryGiB": 128
+            },
+            "Profile": {
+                "Id": "",
+                "Name": "",
+                "State": "Unbinding"
+            },
+            "Status": {
+                "Health": "Critical",
+                "State": "Enabled"
+            },
+            "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74",
+            "Alias": "",
+            "Tag": "",
+            "ServerState": "OnLine",
+            "ScopeURIs": []
+        }
+    ],
+    "Members@odata.count": 2
+}

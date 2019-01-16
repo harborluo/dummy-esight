@@ -1,5 +1,6 @@
 server:
-  port: 32102
+#  port: 32102
+  port: 8443
   context-path: /
   ssl:
     key-store: classpath:keystore.p12
@@ -10,3 +11,7 @@ esight:
   account:
     user: openApiUser
     pass: Simple.0
+fusionDirector:
+  account:
+    user: openApiUser
+    pass: Simple.0    

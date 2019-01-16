@@ -1,0 +1,48 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/fbfc870d-3ea4-471d-a4c1-9a113b93c6db",
+    "@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
+    "DeviceID": "fbfc870d-3ea4-471d-a4c1-9a113b93c6db",
+    "Id": "RAIDStorage1",
+    "Name": "RAIDStorage1",
+    "StorageControllers": [
+        {
+            "Description": "RAID Controller",
+            "FirmwareVersion": "",
+            "Manufacturer": "",
+            "MemberId": "1",
+            "Model": "9361-8i",
+            "Name": "PCIe Card 5 (RAID) Controller",
+            "Oem": {
+                "Huawei": {
+                    "CapacitanceStatus": {
+                        "Health": "",
+                        "State": ""
+                    },
+                    "ConfigurationVersion": "",
+                    "MemorySizeMiB": 0,
+                    "SASAddress": "",
+                    "SupportedRAIDLevels": [
+                        "RAID0",
+                        "RAID1",
+                        "RAID5",
+                        "RAID6",
+                        "RAID10",
+                        "RAID50",
+                        "RAID60"
+                    ]
+                }
+            },
+            "SpeedGbps": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedDeviceProtocols": []
+        }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Volume": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/fbfc870d-3ea4-471d-a4c1-9a113b93c6db/Volume"
+    }
+}

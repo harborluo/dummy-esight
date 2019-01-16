@@ -1,0 +1,40 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/98d6c1a0-e0c3-494d-82ef-e1ca69d268bd",
+    "@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
+    "DeviceID": "98d6c1a0-e0c3-494d-82ef-e1ca69d268bd",
+    "Id": "RAIDStorage0",
+    "Name": "RAIDStorage0",
+    "StorageControllers": [
+        {
+            "Description": "RAID Controller",
+            "FirmwareVersion": "",
+            "Manufacturer": "",
+            "MemberId": "0",
+            "Model": "",
+            "Name": "RAID Card1 Controller",
+            "Oem": {
+                "Huawei": {
+                    "CapacitanceStatus": {
+                        "Health": "",
+                        "State": ""
+                    },
+                    "ConfigurationVersion": "",
+                    "MemorySizeMiB": 0,
+                    "SASAddress": "",
+                    "SupportedRAIDLevels": []
+                }
+            },
+            "SpeedGbps": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedDeviceProtocols": []
+        }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Volume": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/98d6c1a0-e0c3-494d-82ef-e1ca69d268bd/Volume"
+    }
+}

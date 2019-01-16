@@ -1,0 +1,120 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Proccessor",
+    "@odata.type": "#NodePoolService.v1_2_0.Processer",
+    "Members": [
+        {
+            "DeviceID": "c8b7cc03-6ced-4001-b952-1a24f0820280",
+            "Name": "CPU1",
+            "Id": "1",
+            "ProcessorArchitecture": "x86",
+            "InstructionSet": "x86-64",
+            "Manufacturer": "Intel(R) Corporation",
+            "Model": "Intel(R) Xeon(R) Gold 5115 CPU @ 2.40GHz",
+            "MaxSpeedMHz": 4000,
+            "Socket": 0,
+            "TotalCores": 10,
+            "TotalThreads": 20,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "L1CacheKiB": 640,
+                    "L2CacheKiB": 10240,
+                    "L3CacheKiB": 14080,
+                    "Position": "mainboard",
+                    "Temperature": 42,
+                    "FrequencyMHz": 2400,
+                    "PartNumber": "41020675"
+                }
+            }
+        },
+        {
+            "DeviceID": "1c296d11-7ae3-484f-921d-3f430a1e2352",
+            "Name": "CPU2",
+            "Id": "2",
+            "ProcessorArchitecture": "x86",
+            "InstructionSet": "x86-64",
+            "Manufacturer": "Intel(R) Corporation",
+            "Model": "Intel(R) Xeon(R) Gold 5115 CPU @ 2.40GHz",
+            "MaxSpeedMHz": 4000,
+            "Socket": 1,
+            "TotalCores": 10,
+            "TotalThreads": 20,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "L1CacheKiB": 640,
+                    "L2CacheKiB": 10240,
+                    "L3CacheKiB": 14080,
+                    "Position": "mainboard",
+                    "Temperature": 38,
+                    "FrequencyMHz": 2400,
+                    "PartNumber": "41020675"
+                }
+            }
+        },
+        {
+            "DeviceID": "301b2758-9999-4c3f-b055-4a4c3f1c23aa",
+            "Name": "CPU3",
+            "Id": "3",
+            "ProcessorArchitecture": "x86",
+            "InstructionSet": "x86-64",
+            "Manufacturer": "Intel(R) Corporation",
+            "Model": "Intel(R) Xeon(R) Gold 5115 CPU @ 2.40GHz",
+            "MaxSpeedMHz": 4000,
+            "Socket": 2,
+            "TotalCores": 10,
+            "TotalThreads": 20,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "L1CacheKiB": 640,
+                    "L2CacheKiB": 10240,
+                    "L3CacheKiB": 14080,
+                    "Position": "mainboard",
+                    "Temperature": 40,
+                    "FrequencyMHz": 2400,
+                    "PartNumber": "41020675"
+                }
+            }
+        },
+        {
+            "DeviceID": "bada5611-03e0-4ebf-8807-40b2852388d7",
+            "Name": "CPU4",
+            "Id": "4",
+            "ProcessorArchitecture": "x86",
+            "InstructionSet": "x86-64",
+            "Manufacturer": "Intel(R) Corporation",
+            "Model": "Intel(R) Xeon(R) Gold 5115 CPU @ 2.40GHz",
+            "MaxSpeedMHz": 4000,
+            "Socket": 3,
+            "TotalCores": 10,
+            "TotalThreads": 20,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "L1CacheKiB": 640,
+                    "L2CacheKiB": 10240,
+                    "L3CacheKiB": 14080,
+                    "Position": "mainboard",
+                    "Temperature": 40,
+                    "FrequencyMHz": 2400,
+                    "PartNumber": "41020675"
+                }
+            }
+        }
+    ],
+    "Members@odata.count": 4
+}

@@ -1,0 +1,200 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Memory",
+    "@odata.type": "#NodePoolService.v1_2_0.Memory",
+    "Members": [
+        {
+            "DeviceID": "8438c496-0f71-47df-ab8e-befc2f38cc0f",
+            "Name": "mainboardDIMM010",
+            "Id": "mainboardDIMM010",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D78A1",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "1ad12344-4cb7-4c7a-abf0-b53e4e42c8a2",
+            "Name": "mainboardDIMM030",
+            "Id": "mainboardDIMM030",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D79A4",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "01b2c6e4-17c5-46cd-8c2a-eb750b2206e7",
+            "Name": "mainboardDIMM000",
+            "Id": "mainboardDIMM000",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D7864",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "627d50fd-4627-4993-9d12-df407b7fef42",
+            "Name": "mainboardDIMM040",
+            "Id": "mainboardDIMM040",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D51A9",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "e005e6ab-33f9-498a-8fe2-20327855ae6b",
+            "Name": "mainboardDIMM100",
+            "Id": "mainboardDIMM100",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D5D33",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "d6552ae8-5484-4a9b-bd1c-02f5d834d777",
+            "Name": "mainboardDIMM110",
+            "Id": "mainboardDIMM110",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D5D6E",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "5beed33d-6f3f-4e67-b981-c2cf2f6dda6c",
+            "Name": "mainboardDIMM130",
+            "Id": "mainboardDIMM130",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D5A61",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        },
+        {
+            "DeviceID": "05f257b1-1ac0-40af-91a8-7c55ea92c513",
+            "Name": "mainboardDIMM140",
+            "Id": "mainboardDIMM140",
+            "CapacityGiB": 16,
+            "Manufacturer": "Micron",
+            "OperatingSpeedMhz": 2666,
+            "SerialNumber": "1B7D5E0A",
+            "PartNumber": "",
+            "MemoryDeviceType": "DDR4",
+            "DataWidthBits": 72,
+            "Slot": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Huawei": {
+                    "Technology": "Synchronous| Registered (Buffered)",
+                    "Position": "mainboard",
+                    "MinVoltageMillivolt": 1200
+                }
+            }
+        }
+    ],
+    "Members@odata.count": 8
+}

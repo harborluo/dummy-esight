@@ -1,0 +1,34 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Storage/Drive/7f3e4d65-ad8a-4a95-a825-bae62bb6cbbc",
+    "@odata.type": "#NodePoolService.v1_2_0.DriveInfo",
+    "CapableSpeedGbs": 12,
+    "CapacityGiB": 278,
+    "DeviceID": "7f3e4d65-ad8a-4a95-a825-bae62bb6cbbc",
+    "Id": "HDDPlaneDisk6",
+    "IndicatorLED": "Off",
+    "Manufacturer": "TOSHIBA",
+    "MediaType": "HDD",
+    "Model": "AL14SEB030N",
+    "Name": "Disk6",
+    "Oem": {
+        "Huawei": {
+            "FirmwareStatus": "Foreign",
+            "SASAddress": [
+                "50000398b8698b76",
+                "0000000000000000"
+            ],
+            "TemperatureCelsius": 29
+        },
+        "SASSmartInformation": {
+            "SequenceNumberOfLastPredFailEvent": 0
+        }
+    },
+    "Protocol": "SAS",
+    "Revision": "0807",
+    "SerialNumber": "68N0A044F4WD",
+    "Status": {
+        "Health": "Warning",
+        "State": "Disabled"
+    }
+}
