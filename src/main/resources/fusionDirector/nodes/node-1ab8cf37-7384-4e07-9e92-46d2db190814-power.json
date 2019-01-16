@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Power",
+    "@odata.type": "#NodePoolService.v1_2_0.PowerInfo",
+    "Id": "Power",
+    "Name": "Power",
+    "PowerSupplies": 
+    [
+        {
+            "MemberId": "0",
+            "Name": "PS1",
+            "Status": 
+            {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+
+            "PowerSupplyType": "ACorDC",
+            "PowerCapacityWatts": 750,
+            "Model": "HUAWE 750W PLATINUM PS",
+            "FirmwareVersion": "DC: 107  PFC: b000",
+            "SerialNumber": "L745T50061CUZ",
+            "PartNumber": "02131042",
+            "Manufacturer": "HUAWE",
+            "Oem": 
+            {
+                "Huawei": 
+                {
+                    "Protocol": "PSMI",
+                    "DeviceLocator": "PS1",
+                    "Position": "chassis",
+                    "ActiveStandby": "Active"
+                }
+            }
+        }
+    ]
+}

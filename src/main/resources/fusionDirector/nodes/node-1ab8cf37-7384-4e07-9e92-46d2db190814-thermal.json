@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Thermal",
+    "@odata.type": "#NodePoolService.v1_2_0.ThermalInfo",
+    "Fans": 
+    [
+        {
+            "MemberId": "0",
+            "Name": "Fan Module1 Front",
+            "Reading": 25,
+            "Status": 
+            {
+                "Health": "OK",
+                "State": "StandbyOffline"
+            },
+
+            "ReadingUnits": "RPM",
+            "PartNumber": "02311AFU"
+        }
+    ],
+
+    "Id": "Thermal",
+    "Name": "Thermal"
+}
