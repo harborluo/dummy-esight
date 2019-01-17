@@ -1,6 +1,6 @@
 server:
-#  port: 32102
-  port: 8443
+  port: 32102
+#  port: 8443
   context-path: /
   ssl:
     key-store: classpath:keystore.p12
