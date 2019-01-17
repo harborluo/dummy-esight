@@ -33,8 +33,8 @@ public class GroupController extends BaseController {
     String getDetail(@PathVariable(value="groupId", required=false) String groupId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/NodeGroups/{groupId} with with param {} {}", groupId);
-        logger.info("Basic auto string {}", basicAuthString);
+		logger.info("call /redfish/v1/rich/NodeGroups/{groupId} with param {} ", groupId);
+//        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("group/group-"+groupId+".json");
 	}

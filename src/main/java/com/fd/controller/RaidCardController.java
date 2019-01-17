@@ -23,7 +23,7 @@ public class RaidCardController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
         logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("nodes/node-"+nodeId+"-raidCard.json");
     }
@@ -36,7 +36,7 @@ public class RaidCardController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
 		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with with param {} {}", nodeid, raidId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/raidCard-"+raidId+".json");
 	}

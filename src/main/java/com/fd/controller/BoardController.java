@@ -6,11 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.esight.controller.ServerDeviceController;
 
 @RestController
 public class BoardController extends BaseController {
@@ -26,7 +23,7 @@ public class BoardController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
         logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId}/Board with param {}", nodeId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("switch-nodes/switch-node-"+nodeId+"-board.json");
     }
@@ -38,7 +35,7 @@ public class BoardController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
 		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with with param {} {}", nodeid, boardId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("switch-nodes/board-"+boardId+".json");
 	}

@@ -20,7 +20,7 @@ public class PowerController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
         logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Processor with param {}", nodeId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("nodes/node-"+nodeId+"-power.json");
     }

@@ -23,7 +23,7 @@ public class DriveController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
         logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("nodes/node-"+nodeId+"-drive.json");
     }
@@ -36,7 +36,7 @@ public class DriveController extends BaseController {
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
 		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with with param {} {}", nodeid, driveId);
-        logger.info("Basic auto string {}", basicAuthString);
+//        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/drive-"+driveId+".json");
 	}
