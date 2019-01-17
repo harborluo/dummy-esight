@@ -1,0 +1,24 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/NodeGroups",
+    "@odata.type": "#NodePoolService.v1_2_0.GroupList",
+    "Groups": [
+        {
+            "ID": 1,
+            "Name": "CH242 V5",
+            "Description": "",
+            "Type": "ModelSpecification",
+            "Enabled": false,
+            "@odata.id": "/redfish/v1/rich/NodeGroups/1"
+        },
+        {
+            "ID": 2,
+            "Name": "2288H V5",
+            "Description": "",
+            "Type": "ModelSpecification",
+            "Enabled": false,
+            "@odata.id": "/redfish/v1/rich/NodeGroups/2"
+        }
+    ],
+    "Members@odata.count": 2
+}

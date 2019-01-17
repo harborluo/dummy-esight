@@ -1,0 +1,71 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/NodeGroups/1",
+    "@odata.type": "#NodePoolService.v1_2_0.NodeGroupInfo",
+    "Description": "",
+    "Enabled": false,
+    "ID": 1,
+    "Members": 
+    [
+        {
+            "@odata.id": "/redfish/v1/rich/Nodes/43b89183-175b-4566-94d1-2b2fbc826e8d",
+            "DeviceID": "43b89183-175b-4566-94d1-2b2fbc826e8d",
+            "UUID": "1F18B900-C4FF-881E-E711-19D6AEC4BD6E",
+            "Name": "Computer System",
+            "Model": "G560",
+            "SerialNumber": "2102311TYB10HB000130",
+            "Alias": "",
+            "Tag": "",
+            "Group": 
+            [
+                "string"
+            ],
+
+            "IPv4Address": 
+            {
+                "Address": "17.17.202.199"
+            },
+
+            "Status": 
+            {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+
+            "PowerState": "On",
+            "ServerState": "Governed",
+            "Profile": 
+            {
+                "State": "Active",
+                "Id": "5b13e054-d8ab-4620-a5d4-f1e4b2b31dda",
+                "Name": "MyProfile"
+            },
+
+            "ProcessorSummary": 
+            {
+                "Count": 2
+            },
+
+            "MemorySummary": 
+            {
+                "TotalSystemMemoryGiB": 64
+            },
+
+            "StorageSummary": 
+            {
+                "Count": 8,
+                "TotalSystemStorageGiB": 1114
+            }
+        }
+    ],
+
+    "Members@odata.count": 0,
+    "Name": "CH242 V5",
+    "Properties": 
+    {
+        "Use": "",
+        "Rules": null
+    },
+
+    "Type": "ModelSpecification"
+}
