@@ -19,7 +19,7 @@ public class ThermalController extends BaseController {
     String list(@PathVariable(value="nodeId", required=true) String nodeId ,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 
-        logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Processor with param {}", nodeId);
+        logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Thermal with param {}", nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
         return readJson("nodes/node-"+nodeId+"-thermal.json");
