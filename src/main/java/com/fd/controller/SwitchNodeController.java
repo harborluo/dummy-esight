@@ -34,7 +34,7 @@ public class SwitchNodeController extends BaseController {
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with with param {}", nodeid);
+		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("switch-nodes/switch-node-"+nodeid+".json");

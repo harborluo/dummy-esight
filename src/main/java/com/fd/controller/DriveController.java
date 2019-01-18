@@ -35,7 +35,7 @@ public class DriveController extends BaseController {
     		@PathVariable(value="driveId", required=false) String driveId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with with param {} {}", nodeid, driveId);
+		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with param {} {}", nodeid, driveId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/drive-"+driveId+".json");

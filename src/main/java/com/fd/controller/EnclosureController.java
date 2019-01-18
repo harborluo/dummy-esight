@@ -34,7 +34,7 @@ public class EnclosureController extends BaseController {
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Enclosures/{nodeId} with with param {}", nodeid);
+		logger.info("call /redfish/v1/rich/Enclosures/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("enclosure/enclosure-"+nodeid+".json");

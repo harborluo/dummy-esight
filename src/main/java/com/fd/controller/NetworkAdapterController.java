@@ -35,7 +35,7 @@ public class NetworkAdapterController extends BaseController {
     		@PathVariable(value="networkAdapterId", required=false) String networkAdapterId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId} with with param {} {}", nodeid, networkAdapterId);
+		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId} with param {} {}", nodeid, networkAdapterId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/networkAdapter-"+networkAdapterId+".json");

@@ -34,7 +34,7 @@ public class BoardController extends BaseController {
     		@PathVariable(value="boardId", required=false) String boardId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with with param {} {}", nodeid, boardId);
+		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId}/Board/{boardId} with param {} {}", nodeid, boardId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("switch-nodes/board-"+boardId+".json");

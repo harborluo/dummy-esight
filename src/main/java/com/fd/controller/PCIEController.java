@@ -36,7 +36,7 @@ public class PCIEController extends BaseController {
     		@PathVariable(value="pcieId", required=false) String pcieId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
 		
-		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with with param {} {}", nodeid, pcieId);
+		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with param {} {}", nodeid, pcieId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
 		return readJson("nodes/pcie-"+pcieId+".json");
