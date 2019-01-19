@@ -1,0 +1,603 @@
+{
+  "Name": "E9000",
+  "Type": "E9000",
+  "CreatedAt": "2018-12-27T21:49:52+08:00",
+  "UpdatedAt": "2018-12-27T21:54:02+08:00",
+  "Description": "",
+  "Hostname": "172.180.10.31",
+  "Port": 443,
+  "Protocol": "https",
+  "ChassisID": "934506",
+  "ChassisType": "Other",
+  "SerialNumber": "EEM0fdFo7x2cS7WHGy4Gs1WpgW5FGJQ4",
+  "PartNumber": "8gCTa3r4lSuyFtJqVKPy39",
+  "BoardFru": {
+    "PartNumber": "03021RMJ",
+    "SerialNumber": "kjFa6bUZ7D4844ZdHhb97YUw01FlHy",
+    "ManufacturingDate": "2014/06/29 Sun 23:00:00",
+    "Manufacturer": "Huawei",
+    "ProductName": "IT11BKPA"
+  },
+  "UIDState": "Off",
+  "State": "Ready",
+  "StateReason": "AutoChange",
+  "Health": "Critical",
+  "LCDVersion": "(J7)00",
+  "EnclosureProfileUsageState": "Inconsistent",
+  "EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/65c991fc-fc04-45b3-a6eb-d6b5112ea8e1",
+  "EnclosureSetting": {
+    "PSUSetting": {
+      "Mode": null,
+      "EnableSleep": false
+    },
+    "PowerCapping": {
+      "Enable": true,
+      "LimitInWatts": 2660,
+      "PowerLimitMode": "Manual",
+      "PowerLimitThreshold": 70,
+      "MinimumValue": 878,
+      "RecommendMinimumValue": 1736,
+      "MaximumValue": 5000,
+      "PowerLimitActivated": false,
+      "ServerPowerLimit": []
+    },
+    "FanSetting": {
+      "FanSpeedAdjustmentMode": "Automatic",
+      "FanSmartCoolingMode": "EnergySaving"
+    },
+    "ManagementNetworkSetting": {
+      "Mode": "Manual",
+      "BMCIPPoolURL": null,
+      "ServiceIPPoolURL": "/redfish/v1/rich/IDPoolService/IPv4Pools/01e79de7-8278-4c50-acd4-869c37148860"
+    }
+  },
+  "EnclosureHardwareCapabilityURL": "/redfish/v1/rich/EnclosureHardwareCapabilities/E9000",
+  "Slot": {
+    "ServerSlot": [
+      {
+        "Index": 1,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 2,
+        "State": "Enabled",
+        "ProductName": "CH242 V5",
+        "PhysicalUUID": "08070920-2017-A9FE-B211-D21D042E9B34",
+        "SerialNumber": "210305613210FC012425",
+        "Height": 2,
+        "Width": 2,
+        "ResourceURL": "/redfish/v1/rich/Nodes/ba95c6c2-9a5b-40a7-9bdd-4d7207005497"
+      },
+      {
+        "Index": 3,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 4,
+        "State": "Enabled",
+        "ProductName": "CH121 V5",
+        "PhysicalUUID": "B1D285C6-2C97-A14D-E811-938B641011AD",
+        "SerialNumber": "210305769910J7000941",
+        "Height": 2,
+        "Width": 1,
+        "ResourceURL": "/redfish/v1/rich/Nodes/eb58c7bd-b6aa-4673-b486-629f148f1071"
+      },
+      {
+        "Index": 5,
+        "State": "Enabled",
+        "ProductName": "CH242 V5",
+        "PhysicalUUID": "28765644-2233-B82D-B211-D21D52A67F2F",
+        "SerialNumber": "210305774210J700000i",
+        "Height": 2,
+        "Width": 2,
+        "ResourceURL": "/redfish/v1/rich/Nodes/1e4c6903-4952-44ef-929b-cc67b4409b39"
+      },
+      {
+        "Index": 6,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 7,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 8,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 9,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 10,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 11,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 12,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 13,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 14,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 15,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 16,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 17,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 18,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 19,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 20,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 21,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 22,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 23,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 24,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 25,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 26,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 27,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 28,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 29,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 30,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 31,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 32,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      }
+    ],
+    "SwitchSlot": [
+      {
+        "Index": 1,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      },
+      {
+        "Index": 2,
+        "State": "Enabled",
+        "ProductName": "CX920",
+        "PhysicalUUID": "26A70746-1DD2-11B2-8D09-001823E5F68B",
+        "SerialNumber": "210305723610H2000106",
+        "ResourceURL": "/redfish/v1/rich/SwitchNodes/1b48a49b-cc61-4c14-afe7-4750fae3deb7"
+      },
+      {
+        "Index": 3,
+        "State": "Enabled",
+        "ProductName": "CX318",
+        "PhysicalUUID": "33DA49AA-1DD2-11B2-B58C-001823E5F68B",
+        "SerialNumber": "",
+        "ResourceURL": "/redfish/v1/rich/SwitchNodes/a043617a-fa8e-4cc8-9b00-13b69ae4a01f"
+      },
+      {
+        "Index": 4,
+        "State": "Absent",
+        "ProductName": "",
+        "PhysicalUUID": "",
+        "SerialNumber": "",
+        "ResourceURL": ""
+      }
+    ],
+    "ManagerSlot": [
+      {
+        "Index": 1,
+        "Name": "HMM1",
+        "State": "StandbySpare",
+        "ProductName": "MM920",
+        "SerialNumber": "",
+        "PhysicalUUID": "B4F2ACA6-C4B8-82B9-B211-D21D8856E632",
+        "FirmwareVersion": "3.29",
+        "CPLDVersion": "0.04",
+        "Health": "OK",
+        "StaticIPv4Address": {
+          "Address": "172.180.10.32",
+          "SubnetMask": "255.255.0.0",
+          "Gateway": "172.180.0.1",
+          "AddressOrigin": "Static"
+        },
+        "ApplianceIPv4Address": {
+          "Address": "172.180.2.200",
+          "SubnetMask": "255.255.0.0",
+          "Gateway": "172.180.0.1",
+          "AddressOrigin": "Static"
+        },
+        "ApplianceFirmwareVersion": "3.16",
+        "ApplianceBIOSVersion": "1.02",
+        "AppliancePowerState": "Off"
+      },
+      {
+        "Index": 2,
+        "Name": "HMM2",
+        "State": "Enabled",
+        "ProductName": "MM920",
+        "SerialNumber": "",
+        "PhysicalUUID": "B4F2ACC4-C4B8-BB6A-B211-D21DECA8BA2F",
+        "FirmwareVersion": "3.29",
+        "CPLDVersion": "0.04",
+        "Health": "OK",
+        "StaticIPv4Address": {
+          "Address": "172.180.10.30",
+          "SubnetMask": "255.255.0.0",
+          "Gateway": "172.180.0.1",
+          "AddressOrigin": "Static"
+        },
+        "FloatIPv4Address": {
+          "Address": "172.180.10.31",
+          "SubnetMask": "255.255.0.0",
+          "Gateway": "172.180.0.1",
+          "AddressOrigin": "Static"
+        },
+        "ApplianceIPv4Address": {
+          "Address": "172.180.3.148",
+          "SubnetMask": "255.255.0.0",
+          "Gateway": "172.180.0.1",
+          "AddressOrigin": "Static"
+        },
+        "ApplianceFirmwareVersion": "3.16",
+        "ApplianceBIOSVersion": "1.02",
+        "AppliancePowerState": "Off"
+      }
+    ],
+    "FanSlot": [
+      {
+        "Index": 1,
+        "Name": "Fan1",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 2,
+        "Name": "Fan2",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 3,
+        "Name": "Fan3",
+        "State": "Enabled",
+        "PcbVersion": "A",
+        "SoftwareVersion": "205",
+        "Health": "OK"
+      },
+      {
+        "Index": 4,
+        "Name": "Fan4",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 5,
+        "Name": "Fan5",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 6,
+        "Name": "Fan6",
+        "State": "Enabled",
+        "PcbVersion": "A",
+        "SoftwareVersion": "205",
+        "Health": "OK"
+      },
+      {
+        "Index": 7,
+        "Name": "Fan7",
+        "State": "Absent",
+        "PcbVersion": "",
+        "SoftwareVersion": "",
+        "Health": ""
+      },
+      {
+        "Index": 8,
+        "Name": "Fan8",
+        "State": "Enabled",
+        "PcbVersion": "A",
+        "SoftwareVersion": "205",
+        "Health": "OK"
+      },
+      {
+        "Index": 9,
+        "Name": "Fan9",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 10,
+        "Name": "Fan10",
+        "State": "Absent",
+        "PcbVersion": "",
+        "SoftwareVersion": "",
+        "Health": ""
+      },
+      {
+        "Index": 11,
+        "Name": "Fan11",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 12,
+        "Name": "Fan12",
+        "State": "Enabled",
+        "PcbVersion": "A",
+        "SoftwareVersion": "205",
+        "Health": "OK"
+      },
+      {
+        "Index": 13,
+        "Name": "Fan13",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      },
+      {
+        "Index": 14,
+        "Name": "Fan14",
+        "State": "Enabled",
+        "PcbVersion": "D",
+        "SoftwareVersion": "200",
+        "Health": "OK"
+      }
+    ],
+    "PowerSlot": [
+      {
+        "Index": 1,
+        "Name": "PS1",
+        "State": "Enabled",
+        "PowerSupplyType": "DC",
+        "FirmwareVersion": "105",
+        "HardwareVersion": "B",
+        "SleepStatus": "",
+        "Health": "OK",
+        "SerialNumber": "2102310LHNLUH3000848",
+        "PowerCapacityWatts": "2500"
+      },
+      {
+        "Index": 2,
+        "Name": "PS2",
+        "State": "Enabled",
+        "PowerSupplyType": "DC",
+        "FirmwareVersion": "105",
+        "HardwareVersion": "B",
+        "SleepStatus": "",
+        "Health": "OK",
+        "SerialNumber": "2102310LHNLUGC000243",
+        "PowerCapacityWatts": "2500"
+      },
+      {
+        "Index": 3,
+        "Name": "PS3",
+        "State": "Enabled",
+        "PowerSupplyType": "Unknown",
+        "FirmwareVersion": "101",
+        "HardwareVersion": "B",
+        "SleepStatus": "",
+        "Health": "Critical",
+        "SerialNumber": "2102311BWED0F4000035",
+        "PowerCapacityWatts": "3000"
+      },
+      {
+        "Index": 4,
+        "Name": "PS4",
+        "State": "Enabled",
+        "PowerSupplyType": "ACorDC",
+        "FirmwareVersion": "105",
+        "HardwareVersion": "B",
+        "SleepStatus": "",
+        "Health": "Critical",
+        "SerialNumber": "2102310LKLD0D7000083",
+        "PowerCapacityWatts": "3000"
+      },
+      {
+        "Index": 5,
+        "Name": "PS5",
+        "State": "Enabled",
+        "PowerSupplyType": "ACorDC",
+        "FirmwareVersion": "107",
+        "HardwareVersion": "B",
+        "SleepStatus": "",
+        "Health": "Critical",
+        "SerialNumber": "2102310LKLD0E9000513",
+        "PowerCapacityWatts": "1200"
+      },
+      {
+        "Index": 6,
+        "Name": "PS6",
+        "State": "Absent",
+        "PowerSupplyType": "",
+        "FirmwareVersion": "",
+        "HardwareVersion": "",
+        "SleepStatus": "",
+        "Health": "",
+        "SerialNumber": "",
+        "PowerCapacityWatts": ""
+      }
+    ]
+  }
+}
