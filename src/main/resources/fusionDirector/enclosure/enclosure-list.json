@@ -5,7 +5,7 @@
   "Skip": 0,
   "Members": [
     {
-      "@odata.id": "/redfish/v1/rich/Enclosure/01234567-1111-1111-1111-0123456789ab",
+      "@odata.id": "/redfish/v1/rich/Enclosures/01234567-1111-1111-1111-0123456789ab",
       "Name": "My Enclosure",
       "Type": "E9000",
       "State": "Ready",
