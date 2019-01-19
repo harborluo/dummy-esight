@@ -13,6 +13,21 @@
       "Health": "OK",
       "EnclosureProfileUsageState": "Consistent",
       "EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab"
+    },
+     {
+      "@odata.id": "/redfish/v1/rich/Enclosures/0242f28b-6471-5ae6-a274-9330a8221b34",
+      "Name": "E9000",
+      "Type": "E9000",
+      "State": "Ready",
+      "StateReason": "AutoChange",
+      "Health": "Critical",
+      "EnclosureProfileUsageState": "Inconsistent",
+      "EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/65c991fc-fc04-45b3-a6eb-d6b5112ea8e1",
+      "InsertedManagerCnt": 2,
+      "InsertedServerCnt": 3,
+      "InsertedFanCnt": 12,
+      "InsertedPowerCnt": 5,
+      "InsertedSwitchCnt": 2
     }
   ]
 }
