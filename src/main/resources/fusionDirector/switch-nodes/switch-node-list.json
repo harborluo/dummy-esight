@@ -9,7 +9,7 @@
       "@odata.id": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0",
       "DeviceID": "22465bab-32c2-4ef0-b6c7-9492bce1f4f0",
       "UUID": "370284F8-1DD2-11B2-BC7C-001823E5F68B",
-      "Name": "Computer System",
+      "Name": "Computer System (switch node)",
       "Model": "CX920",
       "SerialNumber": "",
       "IPv4Address": {

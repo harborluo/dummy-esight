@@ -56,7 +56,7 @@
         "TotalSystemMemoryGiB": 128
     },
     "Model": "2288H V5",
-    "Name": "Computer System",
+    "Name": "Computer System (2288H V5)",
     "NetworkAdapter": {
         "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/NetworkAdapter"
     },

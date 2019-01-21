@@ -56,7 +56,7 @@
         "TotalSystemMemoryGiB": 32
     },
     "Model": "CH242 V5",
-    "Name": "Computer System",
+    "Name": "Computer System (CH242 V5)",
     "NetworkAdapter": {
         "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter"
     },
