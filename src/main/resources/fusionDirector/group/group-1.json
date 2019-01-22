@@ -8,8 +8,8 @@
     "Members": 
     [
         {
-            "@odata.id": "/redfish/v1/rich/Nodes/43b89183-175b-4566-94d1-2b2fbc826e8d",
-            "DeviceID": "43b89183-175b-4566-94d1-2b2fbc826e8d",
+            "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814",
+            "DeviceID": "1ab8cf37-7384-4e07-9e92-46d2db190814",
             "UUID": "1F18B900-C4FF-881E-E711-19D6AEC4BD6E",
             "Name": "Computer System",
             "Model": "G560",

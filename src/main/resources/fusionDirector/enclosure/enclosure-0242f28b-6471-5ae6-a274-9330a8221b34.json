@@ -70,7 +70,7 @@
         "SerialNumber": "210305613210FC012425",
         "Height": 2,
         "Width": 2,
-        "ResourceURL": "/redfish/v1/rich/Nodes/ba95c6c2-9a5b-40a7-9bdd-4d7207005497"
+        "ResourceURL": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814"
       },
       {
         "Index": 3,
@@ -332,7 +332,7 @@
         "ProductName": "CX920",
         "PhysicalUUID": "26A70746-1DD2-11B2-8D09-001823E5F68B",
         "SerialNumber": "210305723610H2000106",
-        "ResourceURL": "/redfish/v1/rich/SwitchNodes/1b48a49b-cc61-4c14-afe7-4750fae3deb7"
+        "ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
       },
       {
         "Index": 3,
