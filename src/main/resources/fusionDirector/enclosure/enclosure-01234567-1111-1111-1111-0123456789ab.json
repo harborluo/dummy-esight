@@ -45,7 +45,7 @@
                 "ProductName": "CX915",
                 "SerialNumber": "12345678",
                 "PhysicalUUID": "1111-2222-3333-4444",
-                "ResourceURL": "/redfish/v1/rich/Nodes/01234567-1111-1111-1111-0123456789ab"
+                "ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
             }
         ],
 

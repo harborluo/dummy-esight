@@ -332,7 +332,7 @@
         "ProductName": "CX920",
         "PhysicalUUID": "26A70746-1DD2-11B2-8D09-001823E5F68B",
         "SerialNumber": "210305723610H2000106",
-        "ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
+        "ResourceURL": ""
       },
       {
         "Index": 3,
