@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,10 +16,13 @@ public abstract class BaseController {
 	@Autowired
 	private ResourceLoader resourceLoader;
 	
+	@Value("${fusionDirector.json-dir}")
+	private String jsonDir;
+	
 	public String readJson(String fileName){
 		final StringBuilder out = new StringBuilder();
 		try {
-			InputStream inputStream  = resourceLoader.getResource("classpath:fusionDirector/" + fileName).getInputStream();
+			InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();
 			final int bufferSize = 1024;
 			final char[] buffer = new char[bufferSize];
 			

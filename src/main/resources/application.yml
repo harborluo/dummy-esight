@@ -15,3 +15,5 @@ fusionDirector:
   account:
     user: openApiUser
     pass: Simple.0    
+#  json-dir: classpath:fusionDirector/  
+  json-dir: file:fusionDirector/

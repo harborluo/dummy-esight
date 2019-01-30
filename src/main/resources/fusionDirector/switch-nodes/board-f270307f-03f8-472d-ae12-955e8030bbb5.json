@@ -14,6 +14,6 @@
   "BoardId": "0x001c",
   "Status": {
     "State": "Enabled",
-    "Health": "OK"
+    "Health": "Warning"
   }
 }
