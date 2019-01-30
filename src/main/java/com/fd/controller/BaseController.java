@@ -37,7 +37,7 @@ public abstract class BaseController {
 			
 			
 		}catch(IOException o){
-			out.append("file not found!");
+			out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
 		}
 		return out.toString();
 	}
