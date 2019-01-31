@@ -26,7 +26,7 @@ public class SwitchNodeController extends BaseController {
         logger.info("call /redfish/v1/rich/SwitchNodes $skip = {}, $top = {}", start, size);
         logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("switch-nodes/switch-node-list.json");
+        return readJson("switch-nodes/switch-node-list-"+start+".json", true);
     }
 	
 	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/SwitchNodes/{nodeId}", produces="application/json")
@@ -37,7 +37,7 @@ public class SwitchNodeController extends BaseController {
 		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("switch-nodes/switch-node-"+nodeid+".json");
+		return readJson("switch-nodes/switch-node-"+nodeid+".json", false);
 	}
 		
 }

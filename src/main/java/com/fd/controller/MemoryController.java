@@ -22,6 +22,6 @@ public class MemoryController extends BaseController {
         logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Memory with param {}", nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("nodes/node-"+nodeId+"-memory.json");
+        return readJson("nodes/node-"+nodeId+"-memory.json", false);
     }
 }

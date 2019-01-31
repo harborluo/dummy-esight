@@ -25,7 +25,7 @@ public class NetworkAdapterController extends BaseController {
         logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/NetworkAdapter with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("nodes/node-"+nodeId+"-networkAdapter.json");
+        return readJson("nodes/node-"+nodeId+"-networkAdapter.json", false);
     }
 	
 	
@@ -38,7 +38,7 @@ public class NetworkAdapterController extends BaseController {
 		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId} with param {} {}", nodeid, networkAdapterId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/networkAdapter-"+networkAdapterId+".json");
+		return readJson("nodes/networkAdapter-"+networkAdapterId+".json", false);
 	}
 	
 }

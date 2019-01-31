@@ -19,7 +19,7 @@ public abstract class BaseController {
 	@Value("${fusionDirector.json-dir}")
 	private String jsonDir;
 	
-	public String readJson(String fileName){
+	public String readJson(String fileName, boolean showEmptyPage){
 		final StringBuilder out = new StringBuilder();
 		try {
 			InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();
@@ -37,7 +37,11 @@ public abstract class BaseController {
 			
 			
 		}catch(IOException o){
-			out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
+		    if(showEmptyPage==false){
+			  out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
+		    }else{
+		        return readJson("empty-list.json", false);
+		    }
 		}
 		return out.toString();
 	}

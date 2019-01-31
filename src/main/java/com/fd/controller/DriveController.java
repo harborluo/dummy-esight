@@ -25,7 +25,7 @@ public class DriveController extends BaseController {
         logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("nodes/node-"+nodeId+"-drive.json");
+        return readJson("nodes/node-"+nodeId+"-drive.json", false);
     }
 	
 	
@@ -38,7 +38,7 @@ public class DriveController extends BaseController {
 		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with param {} {}", nodeid, driveId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/drive-"+driveId+".json");
+		return readJson("nodes/drive-"+driveId+".json", false);
 	}
 	
 }

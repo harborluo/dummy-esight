@@ -25,7 +25,7 @@ public class GroupController extends BaseController {
         logger.info("call /redfish/v1/rich/NodeGroups with param {}", type);
         logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("group/group_list.json");
+        return readJson("group/group_list.json", false);
     }
 	
 	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/NodeGroups/{groupId}", produces="application/json")
@@ -36,7 +36,7 @@ public class GroupController extends BaseController {
 		logger.info("call /redfish/v1/rich/NodeGroups/{groupId} with param {} ", groupId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("group/group-"+groupId+".json");
+		return readJson("group/group-"+groupId+".json", false);
 	}
 		
 }

@@ -25,7 +25,7 @@ public class BoardController extends BaseController {
         logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId}/Board with param {}", nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("switch-nodes/switch-node-"+nodeId+"-board.json");
+        return readJson("switch-nodes/switch-node-"+nodeId+"-board.json", true);
     }
 	
 	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/SwitchNodes/{nodeId}/Board/{boardId}", produces="application/json")
@@ -37,7 +37,7 @@ public class BoardController extends BaseController {
 		logger.info("call /redfish/v1/rich/SwitchNodes/{nodeId}/Board/{boardId} with param {} {}", nodeid, boardId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("switch-nodes/board-"+boardId+".json");
+		return readJson("switch-nodes/board-"+boardId+".json", false);
 	}
 		
 }

@@ -24,7 +24,7 @@ public class EnclosureController extends BaseController {
         logger.info("call /redfish/v1/rich/Enclosures $skip = {}, $top = {}", start, size);
         logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("enclosure/enclosure-list.json");
+        return readJson("enclosure/enclosure-list-"+start+".json", true);
     }
 	
 	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Enclosures/{nodeId}", produces="application/json")
@@ -35,7 +35,7 @@ public class EnclosureController extends BaseController {
 		logger.info("call /redfish/v1/rich/Enclosures/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("enclosure/enclosure-"+nodeid+".json");
+		return readJson("enclosure/enclosure-"+nodeid+".json", false);
 	}
 		
 }

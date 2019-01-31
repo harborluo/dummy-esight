@@ -25,7 +25,7 @@ public class RaidCardController extends BaseController {
         logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard with $skip = {}, $top = {}, nodeId = {}", start, size, nodeId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-        return readJson("nodes/node-"+nodeId+"-raidCard.json");
+        return readJson("nodes/node-"+nodeId+"-raidCard.json", false);
     }
 	
 	
@@ -38,7 +38,7 @@ public class RaidCardController extends BaseController {
 		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with param {} {}", nodeid, raidId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/raidCard-"+raidId+".json");
+		return readJson("nodes/raidCard-"+raidId+".json", false);
 	}
 	
 }
