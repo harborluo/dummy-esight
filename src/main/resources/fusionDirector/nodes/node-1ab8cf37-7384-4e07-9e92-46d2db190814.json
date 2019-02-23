@@ -111,7 +111,7 @@
         "Count": 1,
         "TotalSystemStorageGiB": 1112
     },
-    "Tag": "",
+    "Tag": "tag2",
     "Thermal": {
         "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/Thermal"
     },
