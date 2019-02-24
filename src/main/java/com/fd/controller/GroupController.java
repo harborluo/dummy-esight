@@ -14,10 +14,10 @@ import com.esight.controller.ServerDeviceController;
 
 @RestController
 public class GroupController extends BaseController {
-	
-	private static final Logger logger = LoggerFactory.getLogger(GroupController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/NodeGroups", produces="application/json")
+    
+    private static final Logger logger = LoggerFactory.getLogger(GroupController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/NodeGroups", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="Type", required=false, defaultValue="") String type,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
@@ -27,16 +27,16 @@ public class GroupController extends BaseController {
 
         return readJson("group/group_list.json", false);
     }
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/NodeGroups/{groupId}", produces="application/json")
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/NodeGroups/{groupId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="groupId", required=false) String groupId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/NodeGroups/{groupId} with param {} ", groupId);
+        
+        logger.info("call /redfish/v1/rich/NodeGroups/{groupId} with param {} ", groupId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("group/group-"+groupId+".json", false);
-	}
-		
+        return readJson("group/group-"+groupId+".json", false);
+    }
+        
 }

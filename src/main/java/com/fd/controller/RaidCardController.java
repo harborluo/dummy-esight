@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RaidCardController extends BaseController {
 
-	private static final Logger logger = LoggerFactory.getLogger(RaidCardController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard", produces="application/json")
+    private static final Logger logger = LoggerFactory.getLogger(RaidCardController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -27,18 +27,18 @@ public class RaidCardController extends BaseController {
 
         return readJson("nodes/node-"+nodeId+"-raidCard.json", false);
     }
-	
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard/{raidId}", produces="application/json")
+    
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/RaidCard/{raidId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
-    		@PathVariable(value="raidId", required=false) String raidId,
+            @PathVariable(value="raidId", required=false) String raidId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with param {} {}", nodeid, raidId);
+        
+        logger.info("call /redfish/v1/rich/Nodes/{{nodeId}}/Storage/RaidCard/{raidId} with param {} {}", nodeid, raidId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/raidCard-"+raidId+".json", false);
-	}
-	
+        return readJson("nodes/raidCard-"+raidId+".json", false);
+    }
+    
 }

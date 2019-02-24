@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class NetworkAdapterController extends BaseController {
 
-	private static final Logger logger = LoggerFactory.getLogger(NetworkAdapterController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter", produces="application/json")
+    private static final Logger logger = LoggerFactory.getLogger(NetworkAdapterController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -27,18 +27,18 @@ public class NetworkAdapterController extends BaseController {
 
         return readJson("nodes/node-"+nodeId+"-networkAdapter.json", false);
     }
-	
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId}", produces="application/json")
+    
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
-    		@PathVariable(value="networkAdapterId", required=false) String networkAdapterId,
+            @PathVariable(value="networkAdapterId", required=false) String networkAdapterId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId} with param {} {}", nodeid, networkAdapterId);
+        
+        logger.info("call /redfish/v1/rich/Nodes/{nodeId}/NetworkAdapter/{networkAdapterId} with param {} {}", nodeid, networkAdapterId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/networkAdapter-"+networkAdapterId+".json", false);
-	}
-	
+        return readJson("nodes/networkAdapter-"+networkAdapterId+".json", false);
+    }
+    
 }

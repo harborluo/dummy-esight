@@ -1,0 +1,45 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Catalogue",
+    "@odata.type": "#NodePoolService.v1_2_0.NodeInfo",
+    "Memory": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Memory",
+        "Count": 8,
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Power": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Power",
+        "Count": 2,
+        "Status": {
+            "Health": "Critical",
+            "State": "Enabled"
+        }
+    },
+    "Processor": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Proccessor",
+        "Count": 2,
+        "Status": {
+            "Health": "Warning",
+            "State": "Enabled"
+        }
+    },
+    "Storage": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage",
+        "Count": 12,
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        }
+    },
+    "Thermal": {
+        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Thermal",
+        "Count": 4,
+        "Status": {
+            "Health": "OK",
+            "State": "Enabled"
+        }
+    }
+}

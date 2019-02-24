@@ -14,10 +14,10 @@ import com.esight.controller.ServerDeviceController;
 
 @RestController
 public class NodeController extends BaseController {
-	
-	private static final Logger logger = LoggerFactory.getLogger(NodeController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes", produces="application/json")
+    
+    private static final Logger logger = LoggerFactory.getLogger(NodeController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -28,17 +28,17 @@ public class NodeController extends BaseController {
 
         return readJson("nodes/node-list-"+start+".json", true);
     }
-	
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}", produces="application/json")
+    
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}", produces="application/json")
     public @ResponseBody
     String getNodeDetail(@PathVariable(value="nodeId", required=false) String nodeid,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/Nodes/{nodeId} with param {}", nodeid);
+        
+        logger.info("call /redfish/v1/rich/Nodes/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/node-"+nodeid+".json", false);
-	}
-		
+        return readJson("nodes/node-"+nodeid+".json", false);
+    }
+        
 }

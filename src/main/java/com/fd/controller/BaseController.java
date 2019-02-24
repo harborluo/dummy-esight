@@ -12,37 +12,37 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public abstract class BaseController {
-	
-	@Autowired
-	private ResourceLoader resourceLoader;
-	
-	@Value("${fusionDirector.json-dir}")
-	private String jsonDir;
-	
-	public String readJson(String fileName, boolean showEmptyPage){
-		final StringBuilder out = new StringBuilder();
-		try {
-			InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();
-			final int bufferSize = 1024;
-			final char[] buffer = new char[bufferSize];
-			
-			Reader in = new InputStreamReader(inputStream, "UTF-8");
-			for (; ; ) {
-				int rsz = in.read(buffer, 0, buffer.length);
-				if (rsz < 0)
-					break;
-				out.append(buffer, 0, rsz);
-			}
-			return out.toString();
-			
-			
-		}catch(IOException o){
-		    if(showEmptyPage==false){
-			  out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
-		    }else{
-		        return readJson("empty-list.json", false);
-		    }
-		}
-		return out.toString();
-	}
+    
+    @Autowired
+    private ResourceLoader resourceLoader;
+    
+    @Value("${fusionDirector.json-dir}")
+    private String jsonDir;
+    
+    public String readJson(String fileName, boolean showEmptyPage){
+        final StringBuilder out = new StringBuilder();
+        try {
+            InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();
+            final int bufferSize = 1024;
+            final char[] buffer = new char[bufferSize];
+            
+            Reader in = new InputStreamReader(inputStream, "UTF-8");
+            for (; ; ) {
+                int rsz = in.read(buffer, 0, buffer.length);
+                if (rsz < 0)
+                    break;
+                out.append(buffer, 0, rsz);
+            }
+            return out.toString();
+            
+            
+        }catch(IOException o){
+            if(showEmptyPage==false){
+              out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
+            }else{
+                return readJson("empty-list.json", false);
+            }
+        }
+        return out.toString();
+    }
 }

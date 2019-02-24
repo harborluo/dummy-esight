@@ -11,7 +11,7 @@ public class ResponseServerDeviceDetailBean extends ESightResponseDataObject<Ser
 
     @Override
     public String toString() {
-//		return super.toString();
+//        return super.toString();
 
         try {
             ObjectWriter ow = new ObjectMapper().configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, false).writer();//.withDefaultPrettyPrinter()
@@ -22,7 +22,7 @@ public class ResponseServerDeviceDetailBean extends ESightResponseDataObject<Ser
         }
         return null;
     }
-	
-	
+    
+    
 
 }

@@ -5,125 +5,125 @@ package com.esight.controller.bean;
  */
 public class BoardBean  {
 
-	private String name;
+    private String name;
 
-	/**
-	 *   0：主板
-	 *  1：交换板
-	 * @return
-	 */
-	private String type;
+    /**
+     *   0：主板
+     *  1：交换板
+     * @return
+     */
+    private String type;
 
-	private String sn;
+    private String sn;
 
-	private String partNumber;
+    private String partNumber;
 
-	private String manufacture;
+    private String manufacture;
 
-	private String manuTime;
+    private String manuTime;
 
-	private String productSn;
+    private String productSn;
 
-	private int healthState;
+    private int healthState;
 
-	private String uuid;
+    private String uuid;
 
-	private String moId;
+    private String moId;
 
-	private String ipAddress;
+    private String ipAddress;
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getType() {
-		return type;
-	}
+    public String getType() {
+        return type;
+    }
 
-	public void setType(String type) {
-		this.type = type;
-	}
+    public void setType(String type) {
+        this.type = type;
+    }
 
-	public String getSn() {
-		return sn;
-	}
+    public String getSn() {
+        return sn;
+    }
 
-	public void setSn(String sn) {
-		this.sn = sn;
-	}
+    public void setSn(String sn) {
+        this.sn = sn;
+    }
 
-	public String getPartNumber() {
-		return partNumber;
-	}
+    public String getPartNumber() {
+        return partNumber;
+    }
 
-	public void setPartNumber(String partNumber) {
-		this.partNumber = partNumber;
-	}
+    public void setPartNumber(String partNumber) {
+        this.partNumber = partNumber;
+    }
 
-	public String getManufacture() {
-		return manufacture;
-	}
+    public String getManufacture() {
+        return manufacture;
+    }
 
-	public void setManufacture(String manufacture) {
-		this.manufacture = manufacture;
-	}
+    public void setManufacture(String manufacture) {
+        this.manufacture = manufacture;
+    }
 
-	public String getManuTime() {
-		return manuTime;
-	}
+    public String getManuTime() {
+        return manuTime;
+    }
 
-	public void setManuTime(String manuTime) {
-		this.manuTime = manuTime;
-	}
+    public void setManuTime(String manuTime) {
+        this.manuTime = manuTime;
+    }
 
-	public String getProductSn() {
-		return productSn;
-	}
+    public String getProductSn() {
+        return productSn;
+    }
 
-	public void setProductSn(String productSn) {
-		this.productSn = productSn;
-	}
+    public void setProductSn(String productSn) {
+        this.productSn = productSn;
+    }
 
-	/**
-	   0   ：正常
-	  -1   ：离线
-	  -2   ：未知
+    /**
+       0   ：正常
+      -1   ：离线
+      -2   ：未知
 
-	 * @return
-	 */
-	public int getHealthState() {
-		return healthState;
-	}
+     * @return
+     */
+    public int getHealthState() {
+        return healthState;
+    }
 
-	public void setHealthState(int healthState) {
-		this.healthState = healthState;
-	}
+    public void setHealthState(int healthState) {
+        this.healthState = healthState;
+    }
 
-	public String getUuid() {
-		return uuid;
-	}
+    public String getUuid() {
+        return uuid;
+    }
 
-	public void setUuid(String uuid) {
-		this.uuid = uuid;
-	}
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
 
-	public String getMoId() {
-		return moId;
-	}
+    public String getMoId() {
+        return moId;
+    }
 
-	public void setMoId(String moId) {
-		this.moId = moId;
-	}
+    public void setMoId(String moId) {
+        this.moId = moId;
+    }
 
-	public String getIpAddress() {
-		return ipAddress;
-	}
+    public String getIpAddress() {
+        return ipAddress;
+    }
 
-	public void setIpAddress(String ipAddress) {
-		this.ipAddress = ipAddress;
-	}
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
 }

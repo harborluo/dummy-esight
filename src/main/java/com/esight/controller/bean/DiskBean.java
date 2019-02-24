@@ -5,64 +5,64 @@ package com.esight.controller.bean;
 
 
 public class DiskBean  {
-	
-	private String name;
-	
-	private String location;
-	
-	private int healthState;
+    
+    private String name;
+    
+    private String location;
+    
+    private int healthState;
 
-	private String moId;
+    private String moId;
 
-	private String uuid;
+    private String uuid;
 
-	private int presentState=1;
+    private int presentState=1;
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getLocation() {
-		return location;
-	}
+    public String getLocation() {
+        return location;
+    }
 
-	public void setLocation(String location) {
-		this.location = location;
-	}
+    public void setLocation(String location) {
+        this.location = location;
+    }
 
-	public int getHealthState() {
-		return healthState;
-	}
+    public int getHealthState() {
+        return healthState;
+    }
 
-	public void setHealthState(int healthState) {
-		this.healthState = healthState;
-	}
+    public void setHealthState(int healthState) {
+        this.healthState = healthState;
+    }
 
-	public String getMoId() {
-		return moId;
-	}
+    public String getMoId() {
+        return moId;
+    }
 
-	public void setMoId(String moId) {
-		this.moId = moId;
-	}
+    public void setMoId(String moId) {
+        this.moId = moId;
+    }
 
-	public String getUuid() {
-		return uuid;
-	}
+    public String getUuid() {
+        return uuid;
+    }
 
-	public void setUuid(String uuid) {
-		this.uuid = uuid;
-	}
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
 
-	public int getPresentState() {
-		return presentState;
-	}
+    public int getPresentState() {
+        return presentState;
+    }
 
-	public void setPresentState(int presentState) {
-		this.presentState = presentState;
-	}
+    public void setPresentState(int presentState) {
+        this.presentState = presentState;
+    }
 }

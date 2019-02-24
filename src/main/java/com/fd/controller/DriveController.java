@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DriveController extends BaseController {
 
-	private static final Logger logger = LoggerFactory.getLogger(DriveController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive", produces="application/json")
+    private static final Logger logger = LoggerFactory.getLogger(DriveController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -27,18 +27,18 @@ public class DriveController extends BaseController {
 
         return readJson("nodes/node-"+nodeId+"-drive.json", false);
     }
-	
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId}", produces="application/json")
+    
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId}", produces="application/json")
     public @ResponseBody
     String getNodeDetail(@PathVariable(value="nodeId", required=false) String nodeid,
-    		@PathVariable(value="driveId", required=false) String driveId,
+            @PathVariable(value="driveId", required=false) String driveId,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with param {} {}", nodeid, driveId);
+        
+        logger.info("call /redfish/v1/rich/Nodes/{nodeId}/Storage/Drive/{driveId} with param {} {}", nodeid, driveId);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("nodes/drive-"+driveId+".json", false);
-	}
-	
+        return readJson("nodes/drive-"+driveId+".json", false);
+    }
+    
 }

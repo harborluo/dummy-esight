@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EnclosureController extends BaseController {
-	
-	private static final Logger logger = LoggerFactory.getLogger(EnclosureController.class);
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Enclosures", produces="application/json")
+    
+    private static final Logger logger = LoggerFactory.getLogger(EnclosureController.class);
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Enclosures", produces="application/json")
     public @ResponseBody
     String list(@RequestParam(value="$skip", required=false, defaultValue="0") int start,
                 @RequestParam(value="$top", required=false, defaultValue="1") int size,
@@ -26,16 +26,16 @@ public class EnclosureController extends BaseController {
 
         return readJson("enclosure/enclosure-list-"+start+".json", true);
     }
-	
-	@RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Enclosures/{nodeId}", produces="application/json")
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Enclosures/{nodeId}", produces="application/json")
     public @ResponseBody
     String getDetail(@PathVariable(value="nodeId", required=false) String nodeid,
                 @RequestHeader(value="Authorization", required=true) String basicAuthString) {
-		
-		logger.info("call /redfish/v1/rich/Enclosures/{nodeId} with param {}", nodeid);
+        
+        logger.info("call /redfish/v1/rich/Enclosures/{nodeId} with param {}", nodeid);
 //        logger.info("Basic auto string {}", basicAuthString);
 
-		return readJson("enclosure/enclosure-"+nodeid+".json", false);
-	}
-		
+        return readJson("enclosure/enclosure-"+nodeid+".json", false);
+    }
+        
 }
