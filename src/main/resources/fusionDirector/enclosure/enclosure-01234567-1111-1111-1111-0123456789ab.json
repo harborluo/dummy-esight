@@ -17,7 +17,7 @@
 	"PartNumber": "93021MFG",
 	"ChassisType": "IT1K20E9000",
 	"LCDVersion": "1.0",
-	"UIDState": "Off",
+	"UIDState": "Off", 
 	"EnclosureProfileUsageState": "Consistent",
 	"EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab",
 	"EnclosureHardwareCapabilityURL": "/redfish/v1/rich/EnclosureHardwareCapabilities/E9000",
