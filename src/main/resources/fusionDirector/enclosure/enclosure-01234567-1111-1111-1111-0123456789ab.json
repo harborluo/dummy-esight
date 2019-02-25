@@ -1,153 +1,157 @@
 {
-    "Id": "1",
-    "@odata.id": "/redfish/v1/rich/Enclosure/01234567-1111-1111-1111-0123456789ab",
-    "Name": "My Enclosure (enclosure)",
-    "Type": "E9000",
-    "CreatedAt": "2018-06-26 10:09:15.406668 +0800 CST",
-    "UpdatedAt": "2018-06-26 10:09:15.406668 +0800 CST",
-    "Description": "This is my E9000 enclosure.",
-    "Hostname": "192.168.100.100",
-    "Port": "443",
-    "Protocol": "https",
-    "State": "Ready",
-    "StateReason": "AutoChange",
-    "Health": "OK",
-    "ChassisID": "123456",
-    "SerialNumber": "210230102810H5000285",
-    "PartNumber": "93021MFG",
-    "ChassisType": "IT1K20E9000",
-    "LCDVersion": "1.0",
-    "UIDState": "Off",
-    "EnclosureProfileUsageState": "Consistent",
-    "EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab",
-    "EnclosureHardwareCapabilityURL": "/redfish/v1/rich/EnclosureHardwareCapabilities/E9000",
-    "Slot": 
-    {
-        "ServerSlot": 
-        [
-            {
-                "Index": 1,
-                "State": "Enabled",
-                "ProductName": "CH121 V5",
-                "SerialNumber": "12345678",
-                "PhysicalUUID": "1111-2222-3333-4444",
-                "Height": 1,
-                "Width": 1,
-                "ResourceURL": "/redfish/v1/rich/Nodes/01234567-1111-1111-1111-0123456789ab"
-            }
-        ],
+	"Id": "1",
+	"@odata.id": "/redfish/v1/rich/Enclosure/01234567-1111-1111-1111-0123456789ab",
+	"Name": "My Enclosure (enclosure)",
+	"Type": "E9000",
+	"CreatedAt": "2018-06-26 10:09:15.406668 +0800 CST",
+	"UpdatedAt": "2018-06-26 10:09:15.406668 +0800 CST",
+	"Description": "This is my E9000 enclosure.",
+	"Hostname": "192.168.100.100",
+	"Port": "443",
+	"Protocol": "https",
+	"State": "Ready",
+	"StateReason": "AutoChange",
+	"Health": "OK",
+	"ChassisID": "123456",
+	"SerialNumber": "210230102810H5000285",
+	"PartNumber": "93021MFG",
+	"ChassisType": "IT1K20E9000",
+	"LCDVersion": "1.0",
+	"UIDState": "Off",
+	"EnclosureProfileUsageState": "Consistent",
+	"EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab",
+	"EnclosureHardwareCapabilityURL": "/redfish/v1/rich/EnclosureHardwareCapabilities/E9000",
+	"Slot": 
+	{
+		"ServerSlot": 
+		[
+			{
+				"Index": 1,
+				"State": "Enabled",
+				"ProductName": "CH121 V5",
+				"SerialNumber": "12345678",
+				"PhysicalUUID": "1111-2222-3333-4444",
+				"Height": 1,
+				"Width": 1,
+				"ResourceURL": "/redfish/v1/rich/Nodes/01234567-1111-1111-1111-0123456789ab"
+			}
+		],
 
-        "SwitchSlot": 
-        [
-            {
-                "Index": 1,
-                "State": "Enabled",
-                "ProductName": "CX915",
-                "SerialNumber": "12345678",
-                "PhysicalUUID": "1111-2222-3333-4444",
-                "ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
-            }
-        ],
+		"SwitchSlot": 
+		[
+			{
+				"Index": 1,
+				"State": "Enabled",
+				"ProductName": "CX915",
+				"SerialNumber": "12345678",
+				"PhysicalUUID": "1111-2222-3333-4444",
+				"ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
+			}
+		],
 
-        "ManagerSlot": 
-        [
-            {
-                "Index": 1,
-                "State": "Enabled",
-                "Health": "OK",
-                "ProductName": "MM920",
-                "SerialNumber": "12345678",
-                "PhysicalUUID": "1111-2222-3333-4444",
-                "FirmwareVersion": "2.96",
-                "CPLDVersion": "1.0",
-                "StaticIPv4Address": 
-                {
-                    "Address": "192.168.10.10",
-                    "SubnetMask": "255.255.255.0",
-                    "Gateway": "192.168.10.1",
-                    "AddressOrigin": "Static"
-                },
+		"ManagerSlot": 
+		[
+			{
+				"Index": 1,
+				"Name": "manager 1",
+				"State": "Enabled",
+				"Health": "OK",
+				"ProductName": "MM920",
+				"SerialNumber": "12345678",
+				"PhysicalUUID": "1111-2222-3333-4444",
+				"FirmwareVersion": "2.96",
+				"CPLDVersion": "1.0",
+				"StaticIPv4Address": 
+				{
+					"Address": "192.168.10.10",
+					"SubnetMask": "255.255.255.0",
+					"Gateway": "192.168.10.1",
+					"AddressOrigin": "Static"
+				},
 
-                "FloatIPv4Address": 
-                {
-                    "Address": "192.168.10.10",
-                    "SubnetMask": "255.255.255.0",
-                    "Gateway": "192.168.10.1",
-                    "AddressOrigin": "Static"
-                },
+				"FloatIPv4Address": 
+				{
+					"Address": "192.168.10.10",
+					"SubnetMask": "255.255.255.0",
+					"Gateway": "192.168.10.1",
+					"AddressOrigin": "Static"
+				},
 
-                "ApplianceIPv4Address": 
-                {
-                    "Address": "192.168.10.10",
-                    "SubnetMask": "255.255.255.0",
-                    "Gateway": "192.168.10.1",
-                    "AddressOrigin": "Static"
-                },
+				"ApplianceIPv4Address": 
+				{
+					"Address": "192.168.10.10",
+					"SubnetMask": "255.255.255.0",
+					"Gateway": "192.168.10.1",
+					"AddressOrigin": "Static"
+				},
 
-                "ApplianceFirmwareVersion": "string",
-                "ApplianceBIOSVersion": "string"
-            }
-        ],
+				"ApplianceFirmwareVersion": "string",
+				"ApplianceBIOSVersion": "string"
+			}
+		],
 
-        "FanSlot": 
-        [
-            {
-                "Index": 1,
-                "State": "Enabled",
-                "Health": "OK",
-                "PcbVersion": "A",
-                "SoftwareVersion": "206"
-            }
-        ],
+		"FanSlot": 
+		[
+			{
+				"Index": 1,
+				"Name": "Fan1",
+				"State": "Enabled",
+				"PcbVersion": "D",
+				"SoftwareVersion": "200",
+				"Health": "OK"
+			}
+		],
 
-        "PowerSlot": 
-        [
-            {
-                "Index": 1,
-                "State": "Enabled",
-                "Health": "OK",
-                "PowerSupplyType": "ACoDC",
-                "SerialNumber": "1234",
-                "FirmwareVersion": "105",
-                "HardwareVersion": "A",
-                "SleepStatus": "Enabled"
-            }
-        ]
-    },
+		"PowerSlot": 
+		[
+			{
+				"Index": 1,
+				"Name": "PS1",
+				"State": "Enabled",
+				"PowerSupplyType": "DC",
+				"FirmwareVersion": "105",
+				"HardwareVersion": "B",
+				"SleepStatus": "",
+				"Health": "OK",
+				"SerialNumber": "54987987",
+				"PowerCapacityWatts": "2500"
+			}
+		]
+	},
 
-    "EnclosureSetting": 
-    {
-        "ManagementNetworkSetting": 
-        {
-            "Mode": "Pool",
-            "BMCIPPoolURL": "/redfish/v1/rich/IDPoolService/IPv4/01234567-1111-1111-1111-0123456789ab",
-            "ServiceIPPoolURL": "/redfish/v1/rich/IDPoolService/IPv4/01234567-2222-2222-2222-0123456789ab"
-        },
+	"EnclosureSetting": 
+	{
+		"ManagementNetworkSetting": 
+		{
+			"Mode": "Pool",
+			"BMCIPPoolURL": "/redfish/v1/rich/IDPoolService/IPv4/01234567-1111-1111-1111-0123456789ab",
+			"ServiceIPPoolURL": "/redfish/v1/rich/IDPoolService/IPv4/01234567-2222-2222-2222-0123456789ab"
+		},
 
-        "PSUSetting": 
-        {
-            "Mode": "N+N",
-            "EnableSleep": true
-        },
+		"PSUSetting": 
+		{
+			"Mode": "N+N",
+			"EnableSleep": true
+		},
 
-        "PowerCapping": 
-        {
-            "Enable": true,
-            "LimitInWatts": 5000,
-            "PowerLimitMode": "Equal",
-            "PowerLimitThreshold": 50,
-            "ServerPowerLimit": 
-            [
-                {
-                    "Slot": 1,
-                    "Value": 1000
-                }
-            ]
-        },
+		"PowerCapping": 
+		{
+			"Enable": true,
+			"LimitInWatts": 5000,
+			"PowerLimitMode": "Equal",
+			"PowerLimitThreshold": 50,
+			"ServerPowerLimit": 
+			[
+				{
+					"Slot": 1,
+					"Value": 1000
+				}
+			]
+		},
 
-        "FanSetting": 
-        {
-            "FanSmartCoolingMode": "LowNoise"
-        }
-    }
+		"FanSetting": 
+		{
+			"FanSmartCoolingMode": "LowNoise"
+		}
+	}
 }
