@@ -40,5 +40,16 @@ public class NodeController extends BaseController {
 
         return readJson("nodes/node-"+nodeid+".json", false);
     }
+    
+    @RequestMapping(method= RequestMethod.GET, path = "/redfish/v1/rich/Statistics/{nodeId}/RealTime", produces="application/json")
+    public @ResponseBody
+    String getStatic(@PathVariable(value="nodeId", required=false) String nodeid,
+                @RequestHeader(value="Authorization", required=true) String basicAuthString) {
+        
+        logger.info("call /redfish/v1/rich/Statistics/{nodeId}/RealTime with param {}", nodeid);
+//        logger.info("Basic auto string {}", basicAuthString);
+
+        return readJson("nodes/node-"+nodeid+"-statistics.json", false);
+    }
         
 }

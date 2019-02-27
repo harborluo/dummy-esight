@@ -1,0 +1,173 @@
+{
+    "OccurTime": 1551281758,
+    "Results": {
+        "CPUTemp": [
+            {
+                "MemberName": "CPU1 Core Rem",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU2 Core Rem",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU1 DTS",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU2 DTS",
+                "Value": null
+            },
+            {
+                "MemberName": "Cpu1 Margin",
+                "Value": null
+            },
+            {
+                "MemberName": "Cpu2 Margin",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU1 MEM Temp",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU2 MEM Temp",
+                "Value": null
+            },
+            {
+                "MemberName": "CPU1 VDDQ Temp",
+                "Value": 31
+            },
+            {
+                "MemberName": "CPU2 VDDQ Temp",
+                "Value": 33
+            },
+            {
+                "MemberName": "CPU1 VRD Temp",
+                "Value": 33
+            },
+            {
+                "MemberName": "CPU2 VRD Temp",
+                "Value": 34
+            }
+        ],
+        "CPUUsagePercent": [
+            {
+                "MemberName": "Total",
+                "Value": null
+            }
+        ],
+        "DiskTotalCapacityGB": null,
+        "DiskUsagePercent": null,
+        "DiskUsedCapacityGB": null,
+        "FanReading": [
+            {
+                "MemberName": "Fan Module1 Front",
+                "Value": 11400
+            },
+            {
+                "MemberName": "Fan Module2 Front",
+                "Value": 11400
+            },
+            {
+                "MemberName": "Fan Module3 Front",
+                "Value": 11520
+            },
+            {
+                "MemberName": "Fan Module4 Front",
+                "Value": 11520
+            }
+        ],
+        "FanSpeedLevelPercents": [
+            {
+                "MemberName": "Fan Module1 Front",
+                "Value": 76
+            },
+            {
+                "MemberName": "Fan Module2 Front",
+                "Value": 76
+            },
+            {
+                "MemberName": "Fan Module3 Front",
+                "Value": 76
+            },
+            {
+                "MemberName": "Fan Module4 Front",
+                "Value": 76
+            }
+        ],
+        "InletTemp": [
+            {
+                "MemberName": "Total",
+                "Value": 28
+            }
+        ],
+        "MemoryUsagePercent": [
+            {
+                "MemberName": "Total",
+                "Value": 0
+            }
+        ],
+        "PowerConsumedWatts": [
+            {
+                "MemberName": "System Power Control 1",
+                "Value": 318
+            }
+        ],
+        "PowerInputWatts": [
+            {
+                "MemberName": "PS1",
+                "Value": 318
+            },
+            {
+                "MemberName": "PS2",
+                "Value": 0
+            }
+        ],
+        "PowerOutputWatts": [
+            {
+                "MemberName": "PS1",
+                "Value": 303
+            },
+            {
+                "MemberName": "PS2",
+                "Value": 0
+            }
+        ],
+        "TemperatureReadingCelsius": [
+            {
+                "MemberName": "Outlet Temp",
+                "Value": 35
+            },
+            {
+                "MemberName": "PCH Temp",
+                "Value": 46
+            },
+            {
+                "MemberName": "Disks Temp",
+                "Value": null
+            },
+            {
+                "MemberName": "RAID Temp",
+                "Value": 36
+            },
+            {
+                "MemberName": "RearDisk1 Temp",
+                "Value": 30
+            },
+            {
+                "MemberName": "PS1 Inlet Temp",
+                "Value": 34
+            },
+            {
+                "MemberName": "PS2 Inlet Temp",
+                "Value": 32
+            },
+            {
+                "MemberName": "PCIe RAID5 Temp",
+                "Value": null
+            }
+        ]
+    },
+    "ServerID": "1ab8cf37-7384-4e07-9e92-46d2db190814"
+}

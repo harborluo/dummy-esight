@@ -1,0 +1,101 @@
+{
+    "OccurTime": 1551282074,
+    "Results": {
+        "CPUTemp": [
+            {
+                "MemberName": "CPU1 Core Rem",
+                "Value": 54
+            },
+            {
+                "MemberName": "CPU2 Core Rem",
+                "Value": 60
+            },
+            {
+                "MemberName": "CPU1 DTS",
+                "Value": -46
+            },
+            {
+                "MemberName": "CPU2 DTS",
+                "Value": -40
+            },
+            {
+                "MemberName": "CPU1 VDDQ Temp",
+                "Value": 39
+            },
+            {
+                "MemberName": "CPU2 VDDQ Temp",
+                "Value": 44
+            },
+            {
+                "MemberName": "CPU1 VRD Temp",
+                "Value": 41
+            },
+            {
+                "MemberName": "CPU2 VRD Temp",
+                "Value": 53
+            },
+            {
+                "MemberName": "CPU1 MEM Temp",
+                "Value": 38
+            },
+            {
+                "MemberName": "CPU2 MEM Temp",
+                "Value": 41
+            }
+        ],
+        "CPUUsagePercent": [
+            {
+                "MemberName": "Total",
+                "Value": 11
+            }
+        ],
+        "DiskTotalCapacityGB": null,
+        "DiskUsagePercent": null,
+        "DiskUsedCapacityGB": null,
+        "FanReading": null,
+        "FanSpeedLevelPercents": null,
+        "InletTemp": [
+            {
+                "MemberName": "Total",
+                "Value": 30
+            }
+        ],
+        "MemoryUsagePercent": [
+            {
+                "MemberName": "Total",
+                "Value": 0
+            }
+        ],
+        "PowerConsumedWatts": [
+            {
+                "MemberName": "System Power Control 1",
+                "Value": 184
+            }
+        ],
+        "PowerInputWatts": null,
+        "PowerOutputWatts": null,
+        "TemperatureReadingCelsius": [
+            {
+                "MemberName": "Outlet1 Temp",
+                "Value": 36
+            },
+            {
+                "MemberName": "Outlet2 Temp",
+                "Value": 45
+            },
+            {
+                "MemberName": "PCH Temp",
+                "Value": 34
+            },
+            {
+                "MemberName": "Mezz1 Temp",
+                "Value": 44
+            },
+            {
+                "MemberName": "Mezz2 Temp",
+                "Value": 44
+            }
+        ]
+    },
+    "ServerID": "d31ed9f0-58e8-4b34-b310-8938aeac4a74"
+}
