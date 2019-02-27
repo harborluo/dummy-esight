@@ -5,7 +5,7 @@
   "DeviceID": "22465bab-32c2-4ef0-b6c7-9492bce1f4f0",
   "UUID": "370284F8-1DD2-11B2-BC7C-001823E5F68B",
   "Id": "Swi4",
-  "Name": "9.9.201.15 (switch node)",
+  "Name": "mySwitchNode",
   "Model": "CX920",
   "Manufacturer": "Huawei",
   "SerialNumber": "",
