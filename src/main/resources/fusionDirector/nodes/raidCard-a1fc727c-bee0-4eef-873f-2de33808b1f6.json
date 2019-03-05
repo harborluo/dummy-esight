@@ -1,0 +1,40 @@
+{
+    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+    "@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/a1fc727c-bee0-4eef-873f-2de33808b1f6",
+    "@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
+    "DeviceID": "a1fc727c-bee0-4eef-873f-2de33808b1f6",
+    "Id": "SDStorage",
+    "Name": "SDStorage",
+    "StorageControllers": [
+        {
+            "Description": "SD Controller",
+            "FirmwareVersion": "1.3.2 build 166",
+            "Manufacturer": "Cypress",
+            "MemberId": "0",
+            "Model": "",
+            "Name": "SD Controller",
+            "Oem": {
+                "Huawei": {
+                    "CapacitanceStatus": {
+                        "Health": "",
+                        "State": ""
+                    },
+                    "ConfigurationVersion": "",
+                    "MemorySizeMiB": 0,
+                    "SASAddress": "",
+                    "SupportedRAIDLevels": null
+                }
+            },
+            "SpeedGbps": 0,
+            "Status": {
+                "Health": "OK",
+                "State": "Enabled"
+            },
+            "SupportedDeviceProtocols": null
+        }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Volume": {
+        "@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/a1fc727c-bee0-4eef-873f-2de33808b1f6/Volume"
+    }
+}
