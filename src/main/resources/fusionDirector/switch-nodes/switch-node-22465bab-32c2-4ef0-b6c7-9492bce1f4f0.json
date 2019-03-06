@@ -46,5 +46,8 @@
         }
       }
     }
+  },
+  "TrustedModules": {
+     "FirmwareVersion": "234.65.564"
   }
 }

@@ -17,5 +17,9 @@
         "@odata.id": "/redfish/v1/rich/Nodes/1ab8cf37-7384-4e07-9e92-46d2db190814/NetworkAdapter/bdf837fa-db04-48ff-a3be-391aefa0b2a8/NetworkPort",
         "PortNum": 2
     },
-    "Position": "mainboard"
+    "Position": "mainboard",
+    "Status": {
+        "Health": "Warning",
+        "State": "Enabled"
+    }
 }
