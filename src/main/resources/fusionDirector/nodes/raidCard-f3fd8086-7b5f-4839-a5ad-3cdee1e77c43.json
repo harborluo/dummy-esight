@@ -1,0 +1,61 @@
+{
+	"@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+	"@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/f3fd8086-7b5f-4839-a5ad-3cdee1e77c43",
+	"@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
+	"DeviceID": "f3fd8086-7b5f-4839-a5ad-3cdee1e77c43",
+	"Id": "RAIDStorage0",
+	"Name": "RAIDStorage0",
+	"StorageControllers": 
+	[
+		{
+			"Description": "RAID Controller",
+			"FirmwareVersion": "5.010.00-0839",
+			"Manufacturer": "",
+			"MemberId": "0",
+			"Model": "SAS3508",
+			"Name": "RAID Card1 Controller",
+			"Oem": 
+			{
+				"Huawei": 
+				{
+					"CapacitanceStatus": 
+					{
+						"Health": "",
+						"State": ""
+					},
+					"ConfigurationVersion": "4.1610.00-0149",
+					"MemorySizeMiB": 2048,
+					"SASAddress": "5505dac310072000",
+					"SupportedRAIDLevels": 
+					[
+						"RAID0",
+						"RAID1",
+						"RAID5",
+						"RAID6",
+						"RAID10",
+						"RAID50",
+						"RAID60"
+					]
+				}
+			},
+
+			"SpeedGbps": 12,
+			"Status": 
+			{
+				"Health": "OK",
+				"State": "Enabled"
+			},
+
+			"SupportedDeviceProtocols": 
+			[
+				"SAS"
+			]
+		}
+	],
+
+	"StorageControllers@odata.count": 1,
+	"Volume": 
+	{
+		"@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/f3fd8086-7b5f-4839-a5ad-3cdee1e77c43/Volume"
+	}
+}

@@ -14,6 +14,18 @@
             "Name": "RAIDStorage1",
             "DeviceID": "fbfc870d-3ea4-471d-a4c1-9a113b93c6db",
             "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/fbfc870d-3ea4-471d-a4c1-9a113b93c6db"
+        },
+        {
+            "Id": "SDStorage",
+            "Name": "SDStorage",
+            "DeviceID": "a1fc727c-bee0-4eef-873f-2de33808b1f6",
+            "@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/a1fc727c-bee0-4eef-873f-2de33808b1f6"
+        },
+        {
+            "Id": "RAIDStorage0",
+            "Name": "RAIDStorage0",
+            "DeviceID": "f3fd8086-7b5f-4839-a5ad-3cdee1e77c43",
+            "@odata.id": "/redfish/v1/rich/Nodes/8af57af0-3f09-4053-85ca-5acb0c177500/Storage/RaidCard/f3fd8086-7b5f-4839-a5ad-3cdee1e77c43"
         }
     ],
     "Members@odata.count": 2
