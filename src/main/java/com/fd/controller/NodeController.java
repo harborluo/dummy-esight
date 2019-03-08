@@ -25,8 +25,10 @@ public class NodeController extends BaseController {
 
         logger.info("call /redfish/v1/rich/Nodes with $skip = {}, $top = {}", start, size);
         logger.info("Basic auto string {}", basicAuthString);
+        
+        int pageIndex = start/size;
 
-        return readJson("nodes/node-list-"+start+".json", true);
+        return readJson("nodes/node-list-"+pageIndex+".json", true);
     }
     
     
