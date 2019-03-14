@@ -1,0 +1,187 @@
+{
+	"OccurTime": 1552391176,
+	"Results": 
+	{
+		"CPUTemp": 
+		[
+			{
+				"MemberName": "CPU1 Core Rem",
+				"Value": 41
+			},
+
+			{
+				"MemberName": "CPU2 Core Rem",
+				"Value": 42
+			},
+
+			{
+				"MemberName": "CPU3 Core Rem",
+				"Value": 39
+			},
+
+			{
+				"MemberName": "CPU4 Core Rem",
+				"Value": 38
+			},
+
+			{
+				"MemberName": "CPU1 DTS",
+				"Value": -40
+			},
+
+			{
+				"MemberName": "CPU2 DTS",
+				"Value": -39
+			},
+
+			{
+				"MemberName": "CPU3 DTS",
+				"Value": -42
+			},
+
+			{
+				"MemberName": "CPU4 DTS",
+				"Value": -43
+			},
+
+			{
+				"MemberName": "CPU1 VDDQ Temp",
+				"Value": 37
+			},
+
+			{
+				"MemberName": "CPU2 VDDQ Temp",
+				"Value": 36
+			},
+
+			{
+				"MemberName": "CPU3 VDDQ Temp",
+				"Value": 38
+			},
+
+			{
+				"MemberName": "CPU4 VDDQ Temp",
+				"Value": 35
+			},
+
+			{
+				"MemberName": "CPU1 VRD Temp",
+				"Value": 43
+			},
+
+			{
+				"MemberName": "CPU2 VRD Temp",
+				"Value": 42
+			},
+
+			{
+				"MemberName": "CPU3 VRD Temp",
+				"Value": 39
+			},
+
+			{
+				"MemberName": "CPU4 VRD Temp",
+				"Value": 39
+			},
+
+			{
+				"MemberName": "CPU1 MEM Temp",
+				"Value": 36
+			},
+
+			{
+				"MemberName": "CPU2 MEM Temp",
+				"Value": 38
+			},
+
+			{
+				"MemberName": "CPU3 MEM Temp",
+				"Value": 35
+			},
+
+			{
+				"MemberName": "CPU4 MEM Temp",
+				"Value": 33
+			},
+
+			{
+				"MemberName": "CPU1 JC Temp",
+				"Value": 45
+			},
+
+			{
+				"MemberName": "CPU2 JC Temp",
+				"Value": 45
+			},
+
+			{
+				"MemberName": "CPU3 JC Temp",
+				"Value": 45
+			},
+
+			{
+				"MemberName": "CPU4 JC Temp",
+				"Value": 38
+			}
+		],
+
+		"CPUUsagePercent": 
+		[
+			{
+				"MemberName": "Total",
+				"Value": null
+			}
+		],
+
+		"DiskTotalCapacityGB": null,
+		"DiskUsagePercent": null,
+		"DiskUsedCapacityGB": null,
+		"FanReading": null,
+		"FanSpeedLevelPercents": null,
+		"InletTemp": 
+		[
+			{
+				"MemberName": "Total",
+				"Value": 29
+			}
+		],
+
+		"MemoryUsagePercent": 
+		[
+			{
+				"MemberName": "Total",
+				"Value": null
+			}
+		],
+
+		"PowerConsumedWatts": 
+		[
+			{
+				"MemberName": "System Power Control 1",
+				"Value": 282
+			}
+		],
+
+		"PowerInputWatts": null,
+		"PowerOutputWatts": null,
+		"TemperatureReadingCelsius": 
+		[
+			{
+				"MemberName": "Outlet Temp",
+				"Value": 38
+			},
+
+			{
+				"MemberName": "PCH Temp",
+				"Value": 43
+			},
+
+			{
+				"MemberName": "Mezz1 Temp",
+				"Value": 37
+			}
+		]
+	},
+
+	"ServerID": "21ad8b78-b392-4f43-b109-c852c0b69415"
+}

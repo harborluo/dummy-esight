@@ -81,19 +81,19 @@
         "FanSpeedLevelPercents": [
             {
                 "MemberName": "Fan Module1 Front",
-                "Value": 76
+                "Value": 45
             },
             {
                 "MemberName": "Fan Module2 Front",
-                "Value": 76
+                "Value": 23
             },
             {
                 "MemberName": "Fan Module3 Front",
-                "Value": 76
+                "Value": 67
             },
             {
                 "MemberName": "Fan Module4 Front",
-                "Value": 76
+                "Value": 80
             }
         ],
         "InletTemp": [

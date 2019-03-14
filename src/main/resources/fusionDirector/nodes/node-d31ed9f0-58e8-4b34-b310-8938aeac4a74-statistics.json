@@ -53,7 +53,24 @@
         "DiskUsagePercent": null,
         "DiskUsedCapacityGB": null,
         "FanReading": null,
-        "FanSpeedLevelPercents": null,
+        "FanSpeedLevelPercents": [
+            {
+                "MemberName": "Fan Module1 Front",
+                "Value": 39
+            },
+            {
+                "MemberName": "Fan Module2 Front",
+                "Value": 35
+            },
+            {
+                "MemberName": "Fan Module3 Front",
+                "Value": 40
+            },
+            {
+                "MemberName": "Fan Module4 Front",
+                "Value": 47
+            }
+        ],
         "InletTemp": [
             {
                 "MemberName": "Total",
@@ -69,14 +86,22 @@
         "PowerConsumedWatts": [
             {
                 "MemberName": "System Power Control 1",
-                "Value": 184
+                "Value": 200
+            },
+            {
+                "MemberName": "System Power Control 2",
+                "Value": 230
+            },
+            {
+                "MemberName": "System Power Control 3",
+                "Value": 330
             }
         ],
         "PowerInputWatts": null,
         "PowerOutputWatts": null,
         "TemperatureReadingCelsius": [
             {
-                "MemberName": "Outlet1 Temp",
+                "MemberName": "Outlet Temp",
                 "Value": 36
             },
             {

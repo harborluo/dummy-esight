@@ -98,7 +98,7 @@
     },
     "ScopeURIs": [],
     "SerialNumber": "2102311TYBN0J3000293",
-    "ServerState": "OnLine",
+    "ServerState": "OffLine",
     "Slot": "",
     "Status": {
         "Health": "Critical",
@@ -111,7 +111,7 @@
         "Count": 2,
         "TotalSystemStorageGiB": 0
     },
-    "Tag": "tag1-harbor,,,,,,,,,",
+    "Tag": "tag1-again",
     "Thermal": {
         "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Thermal"
     },
