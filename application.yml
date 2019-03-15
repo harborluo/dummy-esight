@@ -1,0 +1,19 @@
+server:
+  port: 32102
+#  port: 8443
+  context-path: /
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: changeit
+    key-store-type: PKCS12
+    key-alias: tomcat
+esight:
+  account:
+    user: openApiUser
+    pass: Simple.0
+fusionDirector:
+  account:
+    user: openApiUser
+    pass: Simple.0    
+  json-dir: classpath:fusionDirector/  
+#  json-dir: file:D:/project/FusionDirector/mock-data/fusionDirector_172.171.200.43/
