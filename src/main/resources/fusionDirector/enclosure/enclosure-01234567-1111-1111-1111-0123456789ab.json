@@ -17,7 +17,7 @@
 	"PartNumber": "93021MFG",
 	"ChassisType": "IT1K20E9000",
 	"LCDVersion": "1.0",
-	"UIDState": "Off", 
+	"UIDState": "Off",
 	"EnclosureProfileUsageState": "Consistent",
 	"EnclosureProfileURL": "/redfish/v1/rich/EnclosureProfiles/01234567-1111-1111-1111-0123456789ab",
 	"EnclosureHardwareCapabilityURL": "/redfish/v1/rich/EnclosureHardwareCapabilities/E9000",
@@ -46,6 +46,32 @@
 				"SerialNumber": "12345678",
 				"PhysicalUUID": "1111-2222-3333-4444",
 				"ResourceURL": "/redfish/v1/rich/SwitchNodes/22465bab-32c2-4ef0-b6c7-9492bce1f4f0"
+			},
+			{
+				"Index": 2,
+				"State": "Enabled",
+				"ProductName": "CX920",
+				"PhysicalUUID": "26A70746-1DD2-11B2-8D09-001823E5F68B",
+				"SerialNumber": "210305723610H2000106",
+				"ResourceURL": ""
+			},
+
+			{
+				"Index": 3,
+				"State": "Enabled",
+				"ProductName": "CX318",
+				"PhysicalUUID": "33DA49AA-1DD2-11B2-B58C-001823E5F68B",
+				"SerialNumber": "",
+				"ResourceURL": ""
+			},
+
+			{
+				"Index": 4,
+				"State": "Absent",
+				"ProductName": "",
+				"PhysicalUUID": "",
+				"SerialNumber": "",
+				"ResourceURL": ""
 			}
 		],
 
