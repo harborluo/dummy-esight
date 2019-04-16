@@ -30,8 +30,8 @@
     "GPUSummary": {
         "Count": 0
     },
-    "Group": null,
-    "GroupID": null,
+    "Group": [],
+    "GroupID": [],
     "IPv4Address": {
         "Address": "112.93.129.9",
         "AddressOrigin": "",
