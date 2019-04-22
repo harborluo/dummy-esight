@@ -38,7 +38,7 @@ public abstract class BaseController {
             
         }catch(IOException o){
             if(showEmptyPage==false){
-              out.append("{error\":\"file '"+jsonDir + fileName+"' not found!\"}");
+              out.append("{\"error\":\"file "+jsonDir + fileName+" not found!\"}");
             }else{
                 return readJson("empty-list.json", false);
             }

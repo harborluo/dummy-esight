@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/rich/$metadata#NodePoolService.NodePoolService","@odata.id":"/redfish/v1/rich/Nodes/4fa19e71-2d6c-46a2-a45c-0473ddf30414/PCIe","@odata.type":"#NodePoolService.v1_2_0.PCIeList","Members":[],"Members@odata.count":0}

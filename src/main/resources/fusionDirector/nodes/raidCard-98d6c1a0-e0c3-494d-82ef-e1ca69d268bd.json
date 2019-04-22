@@ -1,40 +1,148 @@
 {
-    "@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
-    "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/98d6c1a0-e0c3-494d-82ef-e1ca69d268bd",
-    "@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
-    "DeviceID": "98d6c1a0-e0c3-494d-82ef-e1ca69d268bd",
-    "Id": "RAIDStorage0",
-    "Name": "RAIDStorage0",
-    "StorageControllers": [
-        {
-            "Description": "RAID Controller",
-            "FirmwareVersion": "",
-            "Manufacturer": "",
-            "MemberId": "0",
-            "Model": "",
-            "Name": "RAID Card1 Controller",
-            "Oem": {
-                "Huawei": {
-                    "CapacitanceStatus": {
-                        "Health": "",
-                        "State": ""
-                    },
-                    "ConfigurationVersion": "",
-                    "MemorySizeMiB": 0,
-                    "SASAddress": "",
-                    "SupportedRAIDLevels": []
-                }
-            },
-            "SpeedGbps": 0,
-            "Status": {
-                "Health": "OK",
-                "State": "Enabled"
-            },
-            "SupportedDeviceProtocols": []
-        }
-    ],
-    "StorageControllers@odata.count": 1,
-    "Volume": {
-        "@odata.id": "/redfish/v1/rich/Nodes/d31ed9f0-58e8-4b34-b310-8938aeac4a74/Storage/RaidCard/98d6c1a0-e0c3-494d-82ef-e1ca69d268bd/Volume"
-    }
+	"@odata.context": "/redfish/v1/rich/$metadata#NodePoolService.NodePoolService",
+	"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/RaidCard/7ec81d60-e436-422b-a7f4-906fdb7b5849",
+	"@odata.type": "#NodePoolService.v1_2_0.RaidCardInfo",
+	"DeviceID": "7ec81d60-e436-422b-a7f4-906fdb7b5849",
+	"Drive": 
+	[
+		{
+			"Id": "HDDPlaneDisk0",
+			"Name": "Disk0",
+			"DeviceID": "cf9d6ef6-6098-4df4-9025-3a58520816d7",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/cf9d6ef6-6098-4df4-9025-3a58520816d7",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk3",
+			"Name": "Disk3",
+			"DeviceID": "6a8f45ca-d4b7-46ef-b05e-d8dd1cd2bd60",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/6a8f45ca-d4b7-46ef-b05e-d8dd1cd2bd60",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk4",
+			"Name": "Disk4",
+			"DeviceID": "0f96d28f-ebac-4bed-b2c6-4b05eb70a6cf",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/0f96d28f-ebac-4bed-b2c6-4b05eb70a6cf",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk40",
+			"Name": "Disk40",
+			"DeviceID": "9a93ac48-1f93-449d-b1ad-62272caef436",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/9a93ac48-1f93-449d-b1ad-62272caef436",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk41",
+			"Name": "Disk41",
+			"DeviceID": "6df3462c-ece4-4776-97bd-afa47cba797d",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/6df3462c-ece4-4776-97bd-afa47cba797d",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk5",
+			"Name": "Disk5",
+			"DeviceID": "db2497dd-220d-495b-99c6-1458adf0d5e1",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/db2497dd-220d-495b-99c6-1458adf0d5e1",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk6",
+			"Name": "Disk6",
+			"DeviceID": "a1f43590-a747-4249-81ce-10bea7a8d4d5",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/a1f43590-a747-4249-81ce-10bea7a8d4d5",
+			"DirectDrive": false
+		},
+
+		{
+			"Id": "HDDPlaneDisk7",
+			"Name": "Disk7",
+			"DeviceID": "873f74aa-dcfc-464f-95a4-0248a92d87e0",
+			"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/Drive/873f74aa-dcfc-464f-95a4-0248a92d87e0",
+			"DirectDrive": false
+		}
+	],
+
+	"Drive@odata.count": 8,
+	"Id": "RAIDStorage0",
+	"Name": "RAIDStorage0",
+	"StorageControllers": 
+	[
+		{
+			"Description": "RAID Controller",
+			"FirmwareVersion": "5.030.00-1330",
+			"Manufacturer": "",
+			"MemberId": "0",
+			"Model": "SAS3508",
+			"Name": "RAID Card1 Controller",
+			"Oem": 
+			{
+				"Huawei": 
+				{
+					"CachePinnedState": false,
+					"CapacitanceName": null,
+					"CapacitanceStatus": 
+					{
+						"Health": null,
+						"State": "Absent"
+					},
+
+					"ConfigurationVersion": "5.0300.03-0043",
+					"CopyBackState": true,
+					"DriverInfo": 
+					{
+						"DriverName": null,
+						"DriverVersion": null
+					},
+
+					"JBODState": false,
+					"MaintainPDFailHistory": true,
+					"MaxStripeSizeBytes": 1048576,
+					"MemorySizeMiB": 2048,
+					"MinStripeSizeBytes": 65536,
+					"Mode": null,
+					"OOBSupport": true,
+					"SASAddress": "5b4432653921a000",
+					"SmarterCopyBackState": true,
+					"SupportedRAIDLevels": 
+					[
+						"RAID0",
+						"RAID1",
+						"RAID5",
+						"RAID6",
+						"RAID10",
+						"RAID50",
+						"RAID60"
+					],
+
+					"Type": ""
+				}
+			},
+
+			"SpeedGbps": 12,
+			"Status": 
+			{
+				"Health": "OK",
+				"State": "Enabled"
+			},
+
+			"SupportedDeviceProtocols": 
+			[
+				"SAS"
+			]
+		}
+	],
+
+	"StorageControllers@odata.count": 1,
+	"Volume": 
+	{
+		"@odata.id": "/redfish/v1/rich/Nodes/b3f90e98-0394-4eb8-8572-eae0c57ae3ec/Storage/RaidCard/7ec81d60-e436-422b-a7f4-906fdb7b5849/Volume"
+	}
 }

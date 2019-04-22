@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/rich/$metadata#NodePoolService.NodePoolService","@odata.id":"/redfish/v1/rich/SwitchNodes","@odata.type":"#NodePoolService.v1_2_0.SwitchList","Members":[],"Members@odata.count":5}

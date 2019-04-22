@@ -99,6 +99,7 @@
     "ScopeURIs": [],
     "SerialNumber": "2102311TYBN0J3000293",
     "ServerState": "OffLine",
+    "State": "Unmanaged",
     "Slot": "",
     "Status": {
         "Health": "Critical",

@@ -1,0 +1,1 @@
+{"@odata.context":"/redfish/v1/rich/$metadata#NodePoolService.NodePoolService","@odata.id":"/redfish/v1/rich/NodeGroups/2","@odata.type":"#NodePoolService.v1_2_0.NodeGroupInfo","Description":"","Enabled":false,"ID":2,"IsPrivate":false,"Members":[],"Members@odata.count":0,"Name":"RH2288H V3","Properties":{"Use":"","Rules":null},"Type":"ModelSpecification"}
