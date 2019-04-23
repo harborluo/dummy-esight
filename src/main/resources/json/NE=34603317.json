@@ -301,7 +301,9 @@
           "moId": "47504",
           "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module4"
         }
-      ]
+      ],
+      "fanOverHealth": "0",
+      "pemHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."

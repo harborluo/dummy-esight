@@ -510,7 +510,9 @@
       ],
       "PCIE": [
 
-      ]
+      ],
+      "fanOverHealth": "0",
+      "pemHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."
