@@ -11,6 +11,7 @@ esight:
   account:
     user: openApiUser
     pass: Simple.0
+  json-dir: classpath:json/
 fusionDirector:
   account:
     user: openApiUser

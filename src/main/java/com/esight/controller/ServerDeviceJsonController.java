@@ -5,6 +5,7 @@ import com.esight.controller.bean.ResponseServerDeviceListBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -49,10 +50,13 @@ public class ServerDeviceJsonController {
         return readJson(dn+".json");
     }
 
+    @Value("${esight.json-dir}")
+    private String jsonDir;
+
     private String readJson(String fileName){
         final StringBuilder out = new StringBuilder();
         try {
-            InputStream inputStream  = resourceLoader.getResource("classpath:json/" + fileName).getInputStream();
+            InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();
             final int bufferSize = 1024;
             final char[] buffer = new char[bufferSize];
 
@@ -64,7 +68,6 @@ public class ServerDeviceJsonController {
                 out.append(buffer, 0, rsz);
             }
             return out.toString();
-
 
         }catch(IOException o){
             out.append("file not found!");
