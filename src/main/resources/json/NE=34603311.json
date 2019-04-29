@@ -535,7 +535,7 @@
         }
       ],
       "fanOverHealth": "0",
-      "pemHealth": "0"
+      "pemOverHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."

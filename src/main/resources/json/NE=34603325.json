@@ -389,7 +389,7 @@
       ],
       "Mezz": [
         {
-          "name": "",
+          "name": "mezz0",
           "mezzHealthStatus": -3,
           "presentState": 1,
           "mezzInfo": "2*10G Port CNA Mezzanine Card",
@@ -399,7 +399,7 @@
           "uuid": "ChassisServer2102300742N0E3000156motherboardblade6mezz0MZ510MEZZ1"
         },
         {
-          "name": "",
+          "name": "mezz1",
           "mezzHealthStatus": -1,
           "presentState": 0,
           "mezzInfo": "UNKNOW",
@@ -420,7 +420,7 @@
         }
       ],
       "fanOverHealth": "0",
-      "pemHealth": "0"
+      "pemOverHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."

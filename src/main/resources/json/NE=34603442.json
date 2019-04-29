@@ -452,7 +452,7 @@
       ],
       "Mezz": [
         {
-          "name": "",
+          "name": "MZ512",
           "mezzHealthStatus": -3,
           "presentState": 1,
           "mezzInfo": "4*10G Port CNA Mezzanine Card",
@@ -462,7 +462,7 @@
           "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz0MZ512MEZZ1"
         },
         {
-          "name": "",
+          "name": "mezz2",
           "mezzHealthStatus": -1,
           "presentState": 0,
           "mezzInfo": "UNKNOW",
@@ -472,7 +472,7 @@
           "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz2UNKNOWUNKNOW"
         },
         {
-          "name": "",
+          "name": "mezz1",
           "mezzHealthStatus": -1,
           "presentState": 0,
           "mezzInfo": "UNKNOW",
@@ -482,7 +482,7 @@
           "uuid": "ChassisServer2102300742N0E3000156motherboardblade5mezz1UNKNOWUNKNOW"
         },
         {
-          "name": "",
+          "name": "mezz3",
           "mezzHealthStatus": -1,
           "presentState": 0,
           "mezzInfo": "UNKNOW",
@@ -496,7 +496,7 @@
 
       ],
       "fanOverHealth": "0",
-      "pemHealth": "0"
+      "pemOverHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."
