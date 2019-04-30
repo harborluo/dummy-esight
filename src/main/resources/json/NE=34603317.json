@@ -302,8 +302,8 @@
           "uuid": "ChassisServerSSN-192.168.112.145chassisSwitchswitch module4"
         }
       ],
-      "fanOverHealth": "0",
-      "pemOverHealth": "0"
+      "fanOverallHealth": "0",
+      "psuOverallHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."

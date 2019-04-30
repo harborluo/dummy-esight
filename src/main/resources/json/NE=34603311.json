@@ -534,8 +534,8 @@
           "uuid": "RackServer2102311NQP10H2000002motherboardRH2288 V3-172.100.15.21pciecardSLOT5"
         }
       ],
-      "fanOverHealth": "0",
-      "pemOverHealth": "0"
+      "fanOverallHealth": "0",
+      "psuOverallHealth": "0"
     }
   ],
   "description": "Succeeded in querying server details."
