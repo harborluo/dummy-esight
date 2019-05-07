@@ -11,12 +11,14 @@ esight:
   account:
     user: openApiUser
     pass: Simple.0
-  json-dir: classpath:json/
+#  json-dir: classpath:json/
+  json-dir: file:D:/mock-server/esight-json/  
 fusionDirector:
   account:
     user: openApiUser
     pass: Simple.0    
-  json-dir: classpath:fusionDirector/  
+#  json-dir: classpath:fusionDirector/  
+  json-dir: file:D:/mock-server/FusionDirector/
 #  json-dir: file:D:/project/FusionDirector/mock-data/fusionDirector_172.171.200.43/
 #  json-dir: file:D:/project/FusionDirector/mock-data/2019.03.12/fusionDirector_172.171.205.119/
 #  json-dir: file:D:/project/FusionDirector/mock-data/2019.03.12/fusionDirector_172.171.207.5/

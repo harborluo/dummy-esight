@@ -54,6 +54,9 @@ public class ServerDeviceJsonController {
     private String jsonDir;
 
     private String readJson(String fileName){
+
+        logger.info("json dir is {}, file name is {}", jsonDir, fileName);
+
         final StringBuilder out = new StringBuilder();
         try {
             InputStream inputStream  = resourceLoader.getResource(jsonDir + fileName).getInputStream();

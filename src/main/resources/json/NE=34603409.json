@@ -612,6 +612,36 @@
           "linkStatus":"Up"
         }
       ],
+	  "NetCard": [
+                {
+                    "moId": "1412",
+                    "uuid": "RackServerID20190425BMC10010motherboard2288H V5-172.171.100.10netCard0LOM",
+                    "deviceName": "mainboardLOM",
+                    "cardName": "LOM",
+                    "cardManufacturer": "Huawei",
+                    "cardModel": "2*10GE+2*GE",
+                    "chipManufacturer": "Intel",
+                    "chipModel": "X722",
+                    "firmwarePkgVersion": "",
+                    "driverName": "",
+                    "driverVersion": "",
+					"healthState": 0
+                },
+                {
+                    "moId": "1411",
+                    "uuid": "RackServerID20190425BMC10010motherboard2288H V5-172.171.100.10netCard1SM252",
+                    "deviceName": "mainboardNIC1",
+                    "cardName": "SM252",
+                    "cardManufacturer": "Huawei",
+                    "cardModel": "1*56GE",
+                    "chipManufacturer": "Mellanox",
+                    "chipModel": "CX3",
+                    "firmwarePkgVersion": "",
+                    "driverName": "",
+                    "driverVersion": "",
+					"healthState": 0
+                }
+            ],
       "PCIE": [
 
       ],
