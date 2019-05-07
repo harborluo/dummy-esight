@@ -11,7 +11,7 @@ esight:
   account:
     user: openApiUser
     pass: Simple.0
-  json-dir: classpath:json/
+  json-dir: file:D:/mock-server/esight-json/
 fusionDirector:
   account:
     user: openApiUser
